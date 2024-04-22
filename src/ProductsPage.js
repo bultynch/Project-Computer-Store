@@ -1,3 +1,4 @@
+import { BrowserRouter as Router, Route, Link, Routes } from 'react-router-dom';
 import React from 'react';
 import NavBar from './Components/NavBar';
 
