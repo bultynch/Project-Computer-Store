@@ -1,31 +1,23 @@
 import React from 'react';
 
-const Producto = ({nombre, precio, onAddToCart}) => {
+const Producto = ({nombre, precio, imagen, onAddToCart}) => {
   return (
-    <div className="inline-block              
-                    bg-white rounded
-                    overflow-hidden
-                    shadow-md
-                    hover:
-                    pb-2
-                    w-48">
+    <div className="m-20 flex items-center bg-white rounded overflow-hidden shadow-lg">
 
-      <div className="w-48 h-64 bg-gray-400 rounded-t"></div>
+      <img src='https://m.media-amazon.com/images/I/71stHfUBHXL._AC_SX355_.jpg' alt='ASUS GeForce RTX 4080 16GB GDDR6X ROG STRIX OC' className="m-2 w-40 h-40"></img>
 
-      <div className="block m-1 font-assitant text-xl w-full">{nombre}</div>
+      <div className='px-2 h-40 flex flex-col justify-between'>
 
+        <h1 className="flex justify-start text-2xl">{nombre}</h1>
 
-      <p className="m-1 text-black text-base">${precio}</p>
+        <h2 className='text-xl text-blue-900'><strong>$ {precio}</strong></h2>
+  
+        <button onClick={onAddToCart} className="py-2 px-2 w-48 bg-gray-800 hover:bg-gray-600 text-white font-bold focus:outline-none focus:shadow-outline rounded">Agregar al carrito</button>
 
-      <div className='flex flex-center justify-center'>
-        <button
-          onClick={onAddToCart}
-          className="bg-gray-800 hover:bg-gray-600 text-white font-bold p-2 focus:outline-none focus:shadow-outline rounded">Agregar al carrito
-        </button>
-      </div>    
+      </div>
+  
     </div>
   );
 };
-
 
 export default Producto;

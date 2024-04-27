@@ -6,6 +6,9 @@ import ServicesMain from './Components/ServicesMain';
 import Sponsors from './Components/Sponsors';
 import Contact from './Components/Contact';
 import ProductsPage from './ProductsPage';
+import Product from './Components/Product';
+import SignUpPage from './SignUpPage';
+import LogInPage from './LogInPage';
 
 function App() {
   return (
@@ -22,13 +25,18 @@ function App() {
           
           <Contact />
           
-          <Link to="/products">Ver Productos</Link>
+          <Link to='/products'>Ver Productos</Link>
           <Routes>
-            <Route path="/products" element={<ProductsPage />} />
+            <Route path='/products' element={<ProductsPage />} />
           </Routes>
           
+          <Product nombre='Placa de video ASUS GeForce RTX 4080 16GB GDDR6X ROG STRIX OC' precio='1.800.000'/>
 
         </div>
+
+        <SignUpPage />
+
+        <LogInPage />
 
       </div>
       
