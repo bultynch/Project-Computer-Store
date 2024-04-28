@@ -11,7 +11,7 @@ function LogInPage() {
 
         <input type='text' value='Email' className='px-1 my-2 w-full h-11 flex items-start justify-center text-sm text-gray-400 border-b-2'/>
 
-        <input type='text' value='Contraeña' className='px-1 my-2 w-full h-11 flex items-start justify-center text-sm text-gray-400 border-b-2'/>
+        <input type='text' value='Contraseña' className='px-1 my-2 w-full h-11 flex items-start justify-center text-sm text-gray-400 border-b-2'/>
 
         <button className='mt-10 w-full h-16 flex items-center justify-center bg-blue-600 text-white text-xl hover:bg-blue-400'>Iniciar sesión</button>
 
