@@ -52,7 +52,7 @@ function App() {
         
         <ProductCategory title='Procesadores'>
           <p>- AMD</p>
-          <p>- Nvidia</p>
+          <p>- Intel</p>
         </ProductCategory>
       </div>
       
