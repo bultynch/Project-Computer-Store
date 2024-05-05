@@ -2,7 +2,7 @@ import React from 'react';
 
 const Producto = ({nombre, precio, imagen, onAddToCart}) => {
   return (
-    <div className="m-20 p-4 flex items-center bg-white rounded overflow-hidden shadow-lg">
+    <div className="p-4 flex items-center bg-white rounded overflow-hidden shadow-lg">
 
       <img src='https://m.media-amazon.com/images/I/71stHfUBHXL._AC_SX355_.jpg' alt='ASUS GeForce RTX 4080 16GB GDDR6X ROG STRIX OC' className="m-2 w-40 h-40"></img>
 

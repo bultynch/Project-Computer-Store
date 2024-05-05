@@ -1,16 +1,16 @@
 import { BrowserRouter as Router, Route, Link, Routes } from 'react-router-dom';
 import './App.css';
-import BuildPcMain from './Components/BuildPcMain';
-import NavBar from './Components/NavBar';
-import ServicesMain from './Components/ServicesMain';
-import Sponsors from './Components/Sponsors';
-import Contact from './Components/Contact';
-import ProductsPage from './ProductsPage';
-import Product from './Components/Product';
-import SignUpPage from './SignUpPage';
-import LogInPage from './LogInPage';
-import HelpPage from './HelpPage'
-import SponsorsPage from './SponsorsPage'
+import ProductsPage from './Pages/ProductsPage';
+import SignUpPage from './Pages/SignUpPage';
+import LogInPage from './Pages/LogInPage';
+import HelpPage from './Pages/HelpPage'
+import SponsorsPage from './Pages/SponsorsPage'
+import NavBar from './Components/NavBar'
+import BuildPcMain from './Components/BuildPcMain'
+import ServicesMain from './Components/ServicesMain'
+import Sponsors from './Components/Sponsors'
+import Contact from './Components/Contact'
+import Product from './Components/Product'
 import ProductCategory from './Components/ProductCategory'
 
 function App() {

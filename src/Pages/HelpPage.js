@@ -2,7 +2,7 @@ import React from 'react'
 
 function HelpPage() {
   return (
-    <div>HelpPage</div>
+    <div className='bg-red-600 w-full h-full'></div>
   )
 }
 
