@@ -9,7 +9,11 @@ function ProductsPage() {
       <NavBar />
 
       <div className='m-10 flex items-start justify-center'>
-        <ProductCategory />
+        <ProductCategory title='Procesadores'>
+          <p>- AMD</p>
+          <p>- Intel</p>
+        </ProductCategory>
+        
         <Product nombre='Placa de video ASUS GeForce RTX 4080 16GB GDDR6X ROG STRIX OC' precio='1.800.000'/>
       </div>
 
