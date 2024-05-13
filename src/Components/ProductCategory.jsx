@@ -1,11 +1,11 @@
 import React, { useState } from 'react';
-import { IoIosArrowDown, IoIosArrowUp } from "react-icons/io";
+import { IoIosArrowDown } from "react-icons/io";
 
 const Dropdown = ({ title, children }) => {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <div className=" flex flex-col justify-center">
+    <div className="flex flex-col justify-center">
 
       <div className="flex flex-col">
 
@@ -17,7 +17,7 @@ const Dropdown = ({ title, children }) => {
 
         </button>
 
-        <div className={`overflow-hidden transition-max-height duration-300 bg-gray-100 ${isOpen ? 'max-h-96' : 'max-h-0'}`}>
+        <div className={`overflow-hidden transition-max-height duration-150 bg-gray-100 ${isOpen ? 'max-h-96' : 'max-h-0'}`}>
 
           <div className="p-2">
             {children}

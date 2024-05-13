@@ -1,12 +1,16 @@
 import React from 'react'
 import Producto from '../Components/Product'
-import ProductCategory from '../Components/ProductCategory'
+import NavBar from '../Components/NavBar'
 
 function BuildPcPage() {
   return (
     <div>
-        <ProductCategory />
+      
+      <NavBar />
+
+      <div className='mt-20 mx-40'>
         <Producto nombre="Placa de video RTX 4080" precio="800.000"/>
+      </div>
 
     </div>
   )

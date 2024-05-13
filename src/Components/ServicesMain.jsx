@@ -1,6 +1,5 @@
 import React from 'react';
 
-
 function servicios() {
   return (
     <div className='pt-6 pb-9 px-40'>
