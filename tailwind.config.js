@@ -30,5 +30,7 @@ module.exports = {
       'orbitron': ['Orbitron', 'sans-serif'],
     },
   },
-  plugins: [],
+  plugins: [
+    require('daisyui'),
+  ],
 }

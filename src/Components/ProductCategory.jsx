@@ -5,7 +5,7 @@ const Dropdown = ({ title, children }) => {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <div className="flex flex-col justify-center">
+    <div className="w-80 flex flex-col justify-center">
 
       <div className="flex flex-col">
 

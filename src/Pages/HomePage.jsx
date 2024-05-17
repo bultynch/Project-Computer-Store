@@ -4,20 +4,26 @@ import BuildPcMain from '../Components/BuildPcMain'
 import ServicesMain from '../Components/ServicesMain'
 import Sponsors from '../Components/Sponsors'
 import Contact from '../Components/Contact'
+import Footer from '../Components/Footer'
+import CarouselProducts from '../Components/CarouselProducts'
 
 function HomePage() {
   return (
-    <div className='mt-16 flex flex-col justify-center'>
+    <div className='flex flex-col justify-center'>
 
-        <NavBar />
+      <NavBar />
 
-        <BuildPcMain />
+      <BuildPcMain />
 
-        <Sponsors />
+      <Sponsors />
 
-        <ServicesMain />
+      <ServicesMain />
 
-        <Contact />
+      <Contact />
+
+      <CarouselProducts />
+
+      <Footer />
         
     </div>
   )

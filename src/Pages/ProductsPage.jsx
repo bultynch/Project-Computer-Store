@@ -1,18 +1,18 @@
 import React from 'react';
 import NavBar from '../Components/NavBar';
-import Product from '../Components/Product';
+import Product from '../Components/ProductCard';
 import ProductCategory from '../Components/ProductCategory'
+import Footer from '../Components/Footer'
+import ProductCard2 from '../Components/ProductCard2';
 
 function ProductsPage() {
   return (
-    <div>
+    <div className=''>
       <NavBar />
 
       <div className='mt-20 mx-40 flex items-center justify-between'>
 
-  
-
-        <div className=''>
+        <div className='mr-5'>
           <ProductCategory title='Categorías'>
             <p>- AMD</p>
             <p>- Intel</p>
@@ -30,8 +30,11 @@ function ProductsPage() {
 
       </div>
 
-    </div>
+      <ProductCard2 />
 
+      <Footer />
+
+    </div>
   )
 }
 
