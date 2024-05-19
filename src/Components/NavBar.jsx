@@ -27,7 +27,7 @@ function NavigationBar() {
 
 
       <div className="navbar-center">
-        <Link to='/main' className="btn btn-ghost text-xl">PC Store</Link>
+        <Link to='/' className="btn btn-ghost text-xl">PC Store</Link>
       </div>
 
 
@@ -37,11 +37,11 @@ function NavigationBar() {
           <IoSearch className='w-5 h-5' />
         </button>
 
-        <button className="btn btn-ghost btn-circle">
+        <Link to='/login' className="btn btn-ghost btn-circle">
           <div className="indicator">
             <MdOutlinePersonOutline className='w-6 h-6'/>  
           </div>
-        </button>
+        </Link>
 
         <label className="swap swap-rotate">
           <input type="checkbox" className="theme-controller" value="synthwave" />

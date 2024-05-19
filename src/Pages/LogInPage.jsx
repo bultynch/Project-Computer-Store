@@ -8,7 +8,7 @@ function LogInPage() {
   return (
     <div className='flex flex-col justify-center'>
 
-      <Link to="/main" className='inline-block'>
+      <Link to="/" className='inline-block'>
         <FaArrowLeft className='m-5 w-8 h-8 text-gray-700'/>
       </Link>
 

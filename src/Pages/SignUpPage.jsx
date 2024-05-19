@@ -8,7 +8,7 @@ function SignUpPage() {
   return (
     <div className='flex flex-col justify-center'>
 
-      <Link to="/main">
+      <Link to="/">
         <FaArrowLeft className='m-5 w-8 h-8 text-gray-700'/>
       </Link>
 

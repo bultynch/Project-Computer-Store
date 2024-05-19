@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom'
 
 function BuildPcMain() {
   return (
-    <div className='flex items-center justify-start bg-cover bg-no-repeat bg-opacity-90 w-full h-176' style={{backgroundImage: `url(${process.env.PUBLIC_URL + '/bg-console.jpg'})`}}>
+    <div className='flex items-center justify-start bg-cover bg-no-repeat bg-opacity-90 w-full h-192' style={{backgroundImage: `url(${process.env.PUBLIC_URL + '/bg-nintendo2.jpg'})`}}>
       <div className='mb-20 ml-40 flex flex-col'>
         <h1 className='text-white text-7xl font-montserrat'>Armá Tu PC Ahora</h1>
         <p className='text-white py-2 text-xl font-montserrat'>Encontrá los últimos componentes al mejor precio.</p>

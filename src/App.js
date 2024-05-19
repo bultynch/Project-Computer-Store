@@ -11,10 +11,8 @@ import BuildPcPage from './Pages/BuildPcPage'
 function App() {
   return (
     <Router>
-
-      
       <Routes>
-        <Route path="/main" element={<HomePage />} />
+        <Route path="/" element={<HomePage />} />
         <Route path="/products" element={<ProductsPage />} />
         <Route path="/help" element={<HelpPage />} />
         <Route path="/sponsors" element={<SponsorsPage />} />
