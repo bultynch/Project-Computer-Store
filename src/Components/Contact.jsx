@@ -47,18 +47,18 @@ function Contacto() {
   };
 
   return (
-    <div className='px-12 py-20 flex items-center justify-between bg-violet-50 '>
+    <div className='px-4 md:px-12 py-20 flex flex-col md:flex-row items-center justify-between bg-violet-50'>
 
-      <div className='flex flex-col justify-center '>
-        <h1 className='mb-4 text-3xl'><strong>Contactanos.</strong></h1>
+      <div className='mb-8 md:mb-0 md:mr-8 flex flex-col justify-center'>
+        <h1 className='mb-4 text-3xl md:text-4xl'><strong>Contactanos.</strong></h1>
         <p className='text-xl text-gray-500'>Envianos un mail y nos pondremos en contacto a la brevedad.</p>
       </div>
 
-      <form onSubmit={handleSubmit} className='flex flex-col justify-center'>
+      <form onSubmit={handleSubmit} className='w-full max-w-lg flex flex-col justify-center'>
 
-        <div className='pb-2 flex flex-col'> 
+        <div className='pb-2 flex flex-col'>
           <h1 className='text-md text-gray-500'>Nombre</h1>
-          <input type="text" name="nombre" value={formData.nombre} onChange={handleChange} className='w-128 h-8 p-2 rounded-lg outline-none'/>
+          <input type="text" name="nombre" value={formData.nombre} onChange={handleChange} className='w-full h-8 p-2 rounded-lg outline-none'/>
         </div>
 
         <div className='pb-2 flex flex-col'>
