@@ -3,6 +3,7 @@ import React from 'react';
 function Sponsors() {
   return (
     <div className='mx-12 carousel carousel-center'>
+      
       <div className='carousel-item mx-10'>
         <img src='https://1000logos.net/wp-content/uploads/2017/03/Lenovo-Logo-1.png' alt='lenovo-logo' className='w-80 h-48' />
       </div> 

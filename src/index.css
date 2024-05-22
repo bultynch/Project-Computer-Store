@@ -1,3 +1,19 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/* En tu archivo CSS principal donde importas los estilos de Slick Carousel */
+@import "slick-carousel/slick/slick.css";
+@import "slick-carousel/slick/slick-theme.css";
+
+.slick-slide {
+  padding: 0 5px; /* Reduce el padding para disminuir el espacio entre slides */
+}
+
+.slick-list {
+  margin: 0 -5px; /* Compensa el padding de los slides */
+}
+
+.slick-prev:before, .slick-next:before {
+  color: white; /* Ajusta el color según el fondo */
+}
