@@ -4,7 +4,8 @@ function Servicios() {
   return (
     <div className='pt-6 pb-9 px-4 md:px-12'>
 
-      <h1 className='flex items-center justify-start pb-6 text-3xl md:text-5xl'><strong>Nuestros servicios</strong></h1>     
+      <h1 className='flex items-center justify-start pb-6 text-3xl md:text-5xl'><strong>Nuestros servicios</strong></h1>    
+      <div className="divider"></div> 
 
       <div className='flex flex-wrap justify-between'>
 

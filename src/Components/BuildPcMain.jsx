@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom'
 
 function BuildPcMain() {
   return (
-    <div className='flex items-center justify-start bg-cover bg-no-repeat bg-opacity-90 w-full h-128 sm:h-144' style={{backgroundImage: `url(${process.env.PUBLIC_URL + '/bg-nintendo2.jpg'})`}}>
+    <div className='w-full h-96 flex items-center justify-start bg-cover bg-no-repeat bg-opacity-90 font-bold sm:h-160' style={{backgroundImage: `url(${process.env.PUBLIC_URL + '/bg-nintendo2.jpg'})`}}>
 
       <div className='mb-20 mx-4 sm:mx-10 md:mx-20 lg:mx-40 flex flex-col'>
 
