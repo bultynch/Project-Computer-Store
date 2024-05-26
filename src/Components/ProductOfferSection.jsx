@@ -17,29 +17,28 @@ function ProductOfferSection() {
 
   return (
     <div className='px-10 h-96 bg-violet-50'>
-
-        <div>
-          <h2 className="text-xl my-4">Ofertas semanales</h2>
-          <div className="divider"></div>
-        </div>
-
-        <div>
-
-          <Slider {...settings}>
-            {productData.map((d) => (
- 
-            <ProductCard2 nombre={d.nombre} precio={d.precio} imagen= {d.imagen} />
-
-            ))}
-          </Slider>
-
-        </div>
-
+      <div>
+        <h2 className="text-xl my-4">Ofertas semanales</h2>
+        <div className="divider"></div>
+      </div>
+      <div>
+        <Slider {...settings}>
+          {productData.procesador.map((producto, index) => (
+            <ProductCard2
+              key={index}
+              nombre={producto.nombre}
+              precio={producto.precio}
+              imagen={producto.imagen}
+            />
+          ))}
+        </Slider>
+      </div>
     </div>
   );
-
-
 }
+
+export default ProductOfferSection;
+
 
 const productData = {
   procesador: [
@@ -119,5 +118,5 @@ const productData = {
     ],
 };
 
-export default ProductOfferSection;
+
 

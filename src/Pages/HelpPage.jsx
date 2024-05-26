@@ -27,10 +27,16 @@ function HelpPage() {
 
           <div className='my-5 flex items-center justify-between'>
 
-            <div className='relative p-6 w-72 h-32 flex items-center justify-start bg-gray-300 rounded-md'>
-              <div className="absolute w-20 h-20 flex items-center justify-start bg-white rounded-full z-10" style={{ top: '50%', left: '30%', transform: 'translate(-50%, -50%)' }} />
-              <IoMdMail className="absolute w-10 h-10 text-black z-20" style={{ top: '50%', left: '30%', transform: 'translate(-50%, -50%)' }} />
-              <h1 className='text-end'>hola</h1>
+            <div className='my-5 flex items-center justify-between'>
+              <div className='relative p-6 w-72 h-32 flex items-center bg-gray-300 rounded-md'>
+                <div className="absolute w-20 h-20 flex items-center justify-center bg-white rounded-full z-10" />
+                <IoMdMail className="absolute m-5 w-10 h-10 text-blue z-20" />
+
+                <div className='flex flex-col items-end justify-center w-full h-full pl-24'>
+                  <h1 className='text-end'>hola</h1>
+                  <h2 className='text-end'>correo</h2>
+                </div>
+              </div>
             </div>
 
             <div className='w-72 h-32 bg-gray-300 rounded-md'>

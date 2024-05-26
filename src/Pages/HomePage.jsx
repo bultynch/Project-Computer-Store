@@ -18,7 +18,7 @@ function HomePage() {
 
       <Sponsors />
 
-      <ProductOfferSection />
+      
 
       <ServicesMain />
 
