@@ -2,7 +2,7 @@ import React from 'react'
 
 function Especifications() {
   return (
-    <div className='bg-blue-400'>
+    <div className='bg-blue-400 h-160'>
 
         <div>
                 s

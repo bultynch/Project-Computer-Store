@@ -10,7 +10,7 @@ function ProductIndividualPage() {
       <NavBar />
 
       <div className='mx-40'>
-        <ProductCard3/>
+        <ProductCard3 nombre='Placa de video ASUS GeForce RTX 4080 16GB GDDR6X ROG STRIX OC' precio='1.800.000'/>
       </div>
 
       <div className='mx-40 pt-20'>

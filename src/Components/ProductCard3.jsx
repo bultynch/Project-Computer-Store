@@ -3,7 +3,7 @@ import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
-function ProductCard3() {
+const ProductCard3 = ({ nombre, precio, imagen, onAddToCart }) => {
 
     const settings = {
         dots: true,
@@ -15,32 +15,34 @@ function ProductCard3() {
       };
 
   return (
-    <div className='h-144 flex items-center justify-center bg-red-500'>
+    <div className='h-144 flex items-center justify-center rounded-2xl shadow-lg'>
     
-        <div className='p-5 w-full h-full flex flex-col justify-start bg-yellow-400'>
-            <img src='/bg-nintendo2.jpg' alt='prod-pic' className='w-full h-3/4  border border-black'/>
+        <div className='p-5 w-full h-full flex flex-col justify-start  rounded-l-2xl shadow-lg'>
+            <img src='/bg-nintendo2.jpg' alt='prod-pic' className='mb-5 w-full h-3/4 border border-black'/>
+
             <div className='w-full h-1/4 border border-black'>
-                <Slider { ...settings}>
-                    <div className='w-24 h-24'>
-                        <img src='/bg-22.jpg' alt='asd' className='w-full h-full object-contain'/>
-                    </div>
-                    <div className='w-24 h-24'>
-                        <img src='/bg-22.jpg' alt='asd' className='w-full h-full object-contain'/>
-                    </div>
-                    <div className='w-24 h-24'>
-                        <img src='/bg-22.jpg' alt='asd' className='w-full h-full object-contain'/>
-                    </div>
-                    <div className='w-24 h-24'>
-                        <img src='/bg-22.jpg' alt='asd' className='w-full h-full object-contain'/>
-                    </div>
-                </Slider>
+                
             </div>
         </div>
 
-        <div className='p-5 w-full h-full flex flex-col justify-between bg-pink-200'>
-            <div className='py-10 border border-black'>seccion 1</div>
-            <div className='py-10  border border-black'>seccion 2</div>
-            <div className='py-10 border border-black'>seccion 3</div>
+        <div className='p-5 w-full h-full flex flex-col justify-between  rounded-r-2xl shadow-lg'>
+            <div className='border border-black'>
+                <h1 className='text-3xl font-normal'>{nombre}</h1>
+            </div>
+
+            <div className="divider"></div>
+
+            <div className='border border-black'>
+                <h1 className='mb-2 text-blue text-5xl font-semibold'>$ {precio}</h1>
+                <h1 className='ml-2'>12 cuotas sin interes de {precio/12}</h1>
+            </div>
+
+            <div className="divider"></div>
+
+            <div className='border border-black'>
+                <button className='p-7 m-5 mr-2 bg-blue-950 text-white rounded-lg hover:bg-blue-800'>Comprar</button>
+                <button className='p-7 m-5 ml-2 bg-gray-100 rounded-lg font-semibold hover:bg-gray-200'>Agregar al acarrito</button>
+            </div>
         </div>
     
     </div>
