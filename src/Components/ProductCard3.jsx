@@ -17,8 +17,8 @@ const ProductCard3 = ({ nombre, precio, imagen, onAddToCart }) => {
   return (
     <div className='h-144 flex items-center justify-center rounded-2xl shadow-lg'>
     
-        <div className='p-5 w-full h-full flex flex-col justify-start  rounded-l-2xl shadow-lg'>
-            <img src='/bg-nintendo2.jpg' alt='prod-pic' className='mb-5 w-full h-3/4 border border-black'/>
+        <div className='p-5 w-[1200px] h-full flex flex-col justify-start  rounded-l-2xl shadow-lg'>
+            <img src='https://imagenes.compragamer.com/productos/compragamer_Imganen_general_33401_Placa_de_Video_XFX_Radeon_RX_6650_XT_8GB_GDDR6_Speedster_SWFT_210_589f396b-grn.jpg' alt='prod-pic' className='mb-5 w-full h-3/4 border border-black'/>
 
             <div className='w-full h-1/4 border border-black'>
                 
