@@ -4,7 +4,9 @@ import Footer from '../Components/Footer';
 import { IoMdMail } from "react-icons/io";
 import { FaWhatsapp } from "react-icons/fa";
 import { FiPhone } from "react-icons/fi";
-
+import { FaLocationDot, FaTruck } from "react-icons/fa6";
+import {Accordion, AccordionItem} from "@nextui-org/accordion";
+import Contacto from '../Components/Contact'
 
 
 
@@ -14,76 +16,244 @@ function HelpPage() {
       
       <NavBar />
 
-      <div className='p-10 flex flex-col justify-center bg-gray-50'>
+      <div className='px-40 py-10 flex flex-col justify-center bg-gray-50'>
 
         <div className='flex flex-col justify-start'>
-          <h1 className='mb-2 text-2xl font-bold'>Centro de ayuda</h1>
+          <h1 className='mb-2 text-3xl font-bold'>Centro de ayuda</h1>
           <p className='text-md font-normal'>Encontrá la información que necesitás para comprar online, métodos de pago, garantías, envíos, seguimiento de compras y más.</p>
         </div>
 
         <div className='my-10 flex flex-col justify-center'>
 
-          <h2 className='text-md font-medium text-start'>Contactate con nosotros mediante:</h2>
+          <h2 className='text-lg font-medium text-start'>Contactate con nosotros mediante:</h2>
 
           <div className='my-5 flex items-center justify-between'>
 
             <div className='my-5 flex items-center justify-between'>
-              <div className='relative p-6 w-72 h-32 flex items-center bg-gray-300 rounded-md'>
-                <div className="absolute w-20 h-20 flex items-center justify-center bg-white rounded-full z-10" />
+              <div className='relative p-10 w-96 h-44 flex items-center rounded-lg shadow-lg'>
+                <div className="absolute w-20 h-20 flex items-center justify-center bg-gray-200 rounded-full z-10" />
                 <IoMdMail className="absolute m-5 w-10 h-10 text-blue z-20" />
 
-                <div className='flex flex-col items-end justify-center w-full h-full pl-24'>
-                  <h1 className='text-end'>hola</h1>
-                  <h2 className='text-end'>correo</h2>
+                <div className='flex flex-col items-start justify-center w-full h-full pl-24'>
+                  <h1 className='text-start text-lg font-semibold'>Correo electrónico:</h1>
+                  <h2 className='text-start'>consultas@pcstore.com</h2>
                 </div>
+
               </div>
             </div>
 
-            <div className='w-72 h-32 bg-gray-300 rounded-md'>
-              <FaWhatsapp />
+            <div className='my-5 flex items-center justify-between'>
+              <div className='relative p-10 w-96 h-44 flex items-center rounded-lg shadow-lg'>
+                <div className="absolute w-20 h-20 flex items-center justify-center bg-gray-200 rounded-full z-10" />
+                <FaWhatsapp className="absolute m-5 w-10 h-10 text-blue z-20" />
+
+                <div className='flex flex-col items-start justify-center w-full h-full pl-24'>
+                  <h1 className='text-start text-lg font-semibold'>WhatsApp:</h1>
+                  <h2 className='text-start'>+54 9 2050-9358</h2>
+                </div>
+
+              </div>
             </div>
-            <div className='w-72 h-32 bg-gray-300 rounded-md'>
-              <FiPhone />
+
+            <div className='my-5 flex items-center justify-between'>
+              <div className='relative p-10 w-96 h-44 flex items-center rounded-lg shadow-lg'>
+                <div className="absolute w-20 h-20 flex items-center justify-center bg-gray-200 rounded-full z-10" />
+                <FiPhone className="absolute m-5 w-10 h-10 text-blue z-20" />
+
+                <div className='flex flex-col items-start justify-center w-full h-full pl-24'>
+                  <h1 className='text-start text-lg font-semibold'>Teléfono:</h1>
+                  <h2 className='text-start'>0810-444-4530</h2>
+                </div>
+
+              </div>
             </div>
 
           </div>
 
-          <h2 className='text-md font-medium text-start'>Recibí, retirá o seguí tu compra:</h2>
-          <div className='mt-5 flex items-center justify-start'>
-            <div className='mr-3 w-72 h-32 bg-gray-300 rounded-md'></div>
-            <div className='ml-44 w-72 h-32 bg-gray-300 rounded-md'>2</div>
+          <h2 className='text-lg font-medium text-start'>Recibí, retirá o seguí tu compra:</h2>
+          
+          <div className='my-5 flex items-center justify-between'>
+
+            <div className='my-5 mx-48 flex items-center justify-between'>
+              <div className='relative p-8 w-96 h-44 flex items-center rounded-lg shadow-lg'>
+                <div className="absolute w-20 h-20 flex items-center justify-center bg-gray-200 rounded-full z-10" />
+                <FaLocationDot className="absolute m-5 w-10 h-10 text-blue z-20" />
+
+                <div className='flex flex-col items-start justify-center w-full h-full pl-24'>
+                <h1 className='text-start text-lg font-semibold'>Recibí o retirá tu compra.</h1>
+
+                </div>
+
+              </div>
+            </div>
+
+            <div className='my-5 flex mx-48 items-center justify-between'>
+              <div className='relative p-8 w-96 h-44 flex items-center rounded-lg shadow-lg'>
+                <div className="absolute w-20 h-20 flex items-center justify-center bg-gray-200 rounded-full z-10" />
+                <FaTruck className="absolute m-5 w-10 h-10 text-blue z-20" />
+
+                <div className='flex flex-col items-start justify-center w-full h-full pl-24'>
+                  <h1 className='text-start text-lg font-semibold'>Seguimiento de envios.</h1>
+                </div>
+
+              </div>
+            </div>
+
           </div>
 
         </div>
 
-        <div className='flex flex-col justify-start'>
+        <div className='my-10 flex flex-col justify-start'>
 
-          <h2 className='mb-5 text-md font-medium text-start'>Horarios de atención:</h2>
+          <h2 className='mb-5 py-5 pr-5 pl-2 text-xl font-semibold text-start bg-gray-100'>Horarios de atención:</h2>
 
-          <div className='flex items-center justify-between'>
+          <div className='p-1 flex items-center justify-between'>
 
             <div className='flex flex-col justify-center'>
-              <h1 className='mb-2 text-md'>TEL. / WhatsApp / Mail</h1>
+              <h1 className='mb-2 text-lg font-semibold'>TEL. / WhatsApp / Mail</h1>
               <h1 className='text-md'>Lunes a viernes de 8 a 18hs</h1>
             </div>
 
             <div className='flex flex-col justify-center'>
-              <h1 className='mb-2 text-md'>Pickup Point Buenos Aires</h1>
+              <h1 className='mb-2 text-lg font-semibold'>Pickup Point Buenos Aires</h1>
               <h1 className='text-md'>Lunes a Viernes de 10 a 17h</h1>
             </div>
 
             <div className='flex flex-col justify-center'>
-              <h1 className='mb-2 text-md'>Pickup Point Córdoba</h1>
+              <h1 className='mb-2 text-lg font-semibold'>Pickup Point Córdoba</h1>
               <h1 className='text-md'>Lunes a Viernes de 10 a 18h.</h1>
             </div>
 
           </div>
 
-          
-
-
         </div>
+
+
+        <div className='my-10 felx flex-col justify-center'>
+          <h2 className='mb-5 py-5 pr-5 pl-2 text-xl font-semibold text-start bg-gray-100'>Pregunas frecuentes</h2>
+          <div>
+            <Accordion className=''>
+              <AccordionItem key="1" aria-label="Accordion 1" title="Presupuestos-Cómo comprar-Formas de Pago" className=''>
+
+                <Accordion className=''>
+                  <AccordionItem key="1.1" aria-label="sub-accordion-1" title="- ¿Cómo hago para comprar?" className='font-medium'>
+                    <h1>Podés comprar únicamente desde nuestra web www.pcstore.com.ar. Si no sabés como hacerlo te invitamos a ver este tutorial:</h1>
+                  </AccordionItem>
+                </Accordion>
+
+                <Accordion className=''>
+                  <AccordionItem key="1.2" aria-label="sub-accordion-1.2" title="- ¿Cuáles son las formas de pago disponible?" className='font-medium'>
+                    <h1 className='font-medium'>Plan cuota simple:</h1>
+                    <p className='mb-2'>Solo válido para tarjetas de crédito emitidas por entidades bancarias.</p>
+                    <h1 className='font-medium'>Mercado Pago:</h1>
+                    <p className='mb-2'>Aboná en cuotas a través de Mercado Pago. Para calcular cuotas con diferentes tarjetas:</p>
+                    <h1 className='font-medium'>Transferencia Bancaria:</h1>
+                    <p className='mb-2'>Una vez que confirmes tu compra te enviaremos los datos necesarios para realizar la transferencia. Deberás enviar el comprobante de la misma a nuestro Whatsapp. Esta forma de pago puede tener una demora de hasta 48 hs hábiles para verse acreditada e imputada a su pedido.</p>
+                  </AccordionItem>
+                </Accordion>
+
+                <Accordion className=''>
+                  <AccordionItem key="1.3" aria-label="sub-accordion-1.3" title="- ¿Debo enviar el comprobante de pago de mi compra?" className='font-medium'>
+                    <h1>Sí, en el caso de que hayas abonado con una solicitud de dinero de Mercado Pago o transferencia bancaria.
+                    Debés enviar el comprobante a nuestro Whatsapp  con tu número de pedido. Recordá que tenés 48hs para enviarlo, independientemente de los plazos que informe Mercado pago.
+                    Los pedidos que no se registren abonados dentro de este plazo se eliminan.</h1>
+                  </AccordionItem>
+                </Accordion>
+
+                <Accordion className=''>
+                  <AccordionItem key="1.4" aria-label="sub-accordion-1.4" title="- Necesito presupuesto para armar una PC" className='font-medium'>
+                    <h1>Si buscas armar una PC, podemos ayudarte creando un presupuesto ajustado a tu necesidad y gustos. Te recordamos que el precio puede variar sin previo aviso.
+
+                    Si ya sabes con qué productos querés armar tu PC, no es necesario solicitar un presupuesto. Podés chequear precios y stock en nuestra web, recordá que todos los productos que tenemos disponibles se encuentran allí.
+
+                    Si no encontrás lo que buscabas, consultanos para ofrecerte otras opciones disponibles.
+
+                    Para solicitar una PC armada deberás utilizar nuestro configurador de PC y seleccionar los componentes deseados</h1>
+                  </AccordionItem>
+                </Accordion>
+
+              </AccordionItem>
+
+              <AccordionItem key="2" aria-label="Accordion 2" title="Envíos" className=''>
+
+                <Accordion className=''>
+                  <AccordionItem key="2.1" aria-label="sub-accordion-2" title="- ¿Cuál es el costo de envío?" className='font-medium'>
+                    <h1>Para conocer el costo del envío deberás hacer click en "RECIBÍ TU PRODUCTO" y luego ingresar tu código postal. Podrás observar el costo aproximado del envío a tu domicilio o podrás conocer los puntos de retiro más cercanos.</h1>
+                  </AccordionItem>
+                </Accordion>
+
+                <Accordion className=''>
+                  <AccordionItem key="2.2" aria-label="sub-accordion-2.2" title="- ¿Puedo elegir en qué horario recibir mi producto?" className='font-medium'>
+                    <h1>Los pedidos se despachan vía Andreani una vez acreditado el pago. La demora posterior dependerá del servicio de correo. Por lo regular, el intervalo es de 3 a 10 dias hábiles.</h1>
+                  </AccordionItem>
+                </Accordion>
+
+                <Accordion className=''>
+                  <AccordionItem key="2.3" aria-label="sub-accordion-2.3" title="- ¿Puedo hacer varios pedidos por separado y recibirlos juntos en el mismo envío?" className='font-medium'>
+                    <h1>Lamentablemente no, ya que, cada pedido se procesa por separado y en el orden en el que ingresan. Por esto no podemos asegurarte de que los pedidos puedan llegar juntos o el mismo día.</h1>
+                  </AccordionItem>
+                </Accordion>
+
+                <Accordion className=''>
+                  <AccordionItem key="2.4" aria-label="sub-accordion-2.4" title="- ¿Puedo retirar mi compra personalmente?" className='font-medium'>
+                    <h1>Si! Podrás retirar personalmente en nuestros pickups points: Buenos Aires: Lunes a Viernes de 10 a 17h. Córdoba: Lunes a Viernes de 10 a 18h. Más info en: https://www.pcstore.com/info</h1>
+                  </AccordionItem>
+                </Accordion>
+
+              </AccordionItem>
+
+              <AccordionItem key="3" aria-label="Accordion 3" title="Garantías-Cambios-Devoluciones">
+
+                <Accordion className=''>
+                  <AccordionItem key="3.1" aria-label="sub-accordion-3" title="- Garantías, cambios y devoluciones" className='font-medium'>
+                  </AccordionItem>
+                </Accordion>
+
+                <Accordion className=''>
+                  <AccordionItem key="3.2" aria-label="sub-accordion-3.2" title="- Si devuelvo o rechazo un producto ¿Cuándo realizan la devolución de lo abonado?" className='font-medium'>
+                    <h1>El dinero que abonaste por tu compra será reintegrado una vez que el producto haya vuelto a Venex y se compruebe que esté en las mismas condiciones en las que fue enviado, sin excepciones.</h1>
+                  </AccordionItem>
+                </Accordion>
+
+                <Accordion className=''>
+                  <AccordionItem key="3.3" aria-label="sub-accordion-3.3" title="- ¿Cómo gestionar una garantía, cambio o devolución?" className='font-medium'>
+                  </AccordionItem>
+                </Accordion>
+
+              </AccordionItem>
+
+              <AccordionItem key="4" aria-label="Accordion 4" title="Varios">
+
+                <Accordion className=''>
+                  <AccordionItem key="4.1" aria-label="sub-accordion-4" title="- Intento comprar pero la página presenta errores" className='font-medium'>
+                    <h1>Primero te recomendamos abrir la página desde un navegador diferente. En segunda instancia, verificá con tu tarjeta de crédito la autorización de la operación o que tengas fondos disponibles para realizar la compra.
+
+                    Recordá que también podés solicitar tu pedido a nuestro Whatsapp  o por teléfono al 0810-555-8892.</h1>
+                  </AccordionItem>
+                </Accordion>
+
+              </AccordionItem>
+
+              <AccordionItem key="5" aria-label="Accordion 5" title="Plazos">
+                
+                <Accordion className=''>
+                  <AccordionItem key="5.1" aria-label="sub-accordion-5" title="- ¿Cómo hago para comprar?" className='font-medium'>
+                  </AccordionItem>
+                </Accordion>
+
+              </AccordionItem>
+            </Accordion>
+          </div>
+        </div>
+
       </div>
+
+      <div className='px-40 bg-violet-50'>
+        <h2 className='py-10 px-2 text-xl font-semibold text-start'>¿No encontraste la respuesta a tu consulta?</h2>
+
+        <Contacto />
+      </div>
+
 
       <Footer />
 
