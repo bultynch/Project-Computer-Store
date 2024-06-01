@@ -6,14 +6,14 @@ import HomePage from './HomePage';
 
 function SignUpPage() {
   return (
-    <div className='flex flex-col justify-center min-h-screen p-4'>
+    <div className='flex flex-col justify-center min-h-screen p-4 bg-gray-50'>
 
       <Link to="/" className='inline-block self-start'>
         <FaArrowLeft className='m-4 w-6 h-6 text-gray-700 hover:text-black'/>
       </Link>
 
       <div className='flex items-center justify-center flex-1'>
-        <div className='p-6 w-full max-w-sm flex flex-col justify-center rounded-2xl shadow-lg'>
+        <div className='p-6 w-full max-w-sm flex flex-col justify-center rounded-2xl shadow-lg bg-white'>
 
           <h1 className='flex items-center justify-center text-xl'>Registro de usuario</h1>
 
@@ -36,7 +36,7 @@ function SignUpPage() {
             <input type='text' placeholder='Número de teléfono' className='px-1 w-full h-11 text-gray-400 border-b-2 outline-none'/>
           </div>
 
-          <button className='my-8 w-full h-16 flex items-center justify-center bg-blue-600 text-white text-xl hover:bg-blue-400 rounded-2xl'>Crear cuenta</button>
+          <button className='my-6 w-full h-16 flex items-center justify-center bg-blue-600 text-white text-xl hover:bg-blue-400 rounded-2xl'>Crear cuenta</button>
 
           <Link to="/login" className='flex items-center justify-center text-blue-400 hover:text-blue-300 underline'>Ya tengo una cuenta</Link>
 
