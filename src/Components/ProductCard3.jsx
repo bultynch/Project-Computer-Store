@@ -26,7 +26,7 @@ const ProductCard3 = ({ nombre, precio, onAddToCart }) => {
       <div className='w-full md:w-1/2 p-4 flex flex-col justify-start'>
         <img src={images.main} alt='prod-pic' className='mb-5 w-full h-auto border border-black' />
 
-        <div className='w-full h-32 border border-black flex items-center'>
+        <div className='w-full h-32 border border-black flex items-center justify-center'>
           <Slider {...settings}>
             <div>
               <img src={images['main']} alt='prod-pic-1' className='w-full h-28 object-contain' />

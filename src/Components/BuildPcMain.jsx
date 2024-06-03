@@ -7,7 +7,7 @@ function BuildPcMain() {
       
       <div className='absolute inset-0 bg-black opacity-40'></div>
 
-      <div className='relative mb-20 mx-4 sm:mx-10 md:mx-20 lg:mx-40 flex flex-col'>
+      <div className='mb-20 mx-4 flex flex-col relative sm:mx-10 md:mx-20 lg:mx-40'>
 
         <h1 className='text-white text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-montserrat'>Armá Tu PC Ahora</h1>
         <p className='text-white text-base sm:text-lg md:text-xl font-montserrat'>Encontrá los últimos componentes al mejor precio.</p>
