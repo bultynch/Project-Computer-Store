@@ -9,6 +9,7 @@ const ProductCard2 = ({ nombre, precio, imagen, onAddToCart }) => {
     'img-4': 'https://imagenes.compragamer.com/productos/compragamer_Imganen_general_33404_Placa_de_Video_XFX_Radeon_RX_6650_XT_8GB_GDDR6_Speedster_SWFT_210_e3e7dde9-grn.jpg',
   };
   
+  
   return (
     <Link to='/productIndividualPage' className="m-20 p-4 inline-block bg-base-100 shadow-lg rounded-2xl  text-center ">
 

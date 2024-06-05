@@ -8,6 +8,7 @@ import HelpPage from './Pages/HelpPage'
 import SponsorsPage from './Pages/SponsorsPage'
 import BuildPcPage from './Pages/BuildPcPage'
 import ProductIndividualPage from './Pages/ProductIndividualPage';
+import CartPage from './Pages/CartPage'
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
         <Route path="/signup" element={<SignUpPage />} />
         <Route path='/buildPc' element={<BuildPcPage />}/>
         <Route path='/ProductIndividualPage' element={<ProductIndividualPage />} />
+        <Route path='/carrito' element={<CartPage />}/>
       </Routes>
     </Router>
   );
