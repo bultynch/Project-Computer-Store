@@ -9,6 +9,8 @@ import SponsorsPage from './Pages/SponsorsPage'
 import BuildPcPage from './Pages/BuildPcPage'
 import ProductIndividualPage from './Pages/ProductIndividualPage';
 import CartPage from './Pages/CartPage'
+import BuildPcPageProcessor2 from './Pages/BuildPcPageProcessor2';
+import BuildPcPageProcessor21 from './Pages/BuildPcPageProcessor21';
 
 function App() {
   return (
@@ -20,9 +22,11 @@ function App() {
         <Route path="/sponsors" element={<SponsorsPage />} />
         <Route path="/login" element={<LogInPage />} />
         <Route path="/signup" element={<SignUpPage />} />
-        <Route path='/buildPc' element={<BuildPcPage />}/>
         <Route path='/ProductIndividualPage' element={<ProductIndividualPage />} />
         <Route path='/carrito' element={<CartPage />}/>
+        <Route path='/buildPc' element={<BuildPcPage />}/>
+        <Route path='/processor2' element={<BuildPcPageProcessor2 />}/>
+        <Route path='/processor21' element={<BuildPcPageProcessor21 />}/>
       </Routes>
     </Router>
   );

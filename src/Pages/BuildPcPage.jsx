@@ -1,9 +1,9 @@
 import React from 'react'
-import Producto from '../Components/ProductCard'
+import { Link } from 'react-router-dom'
 import NavBar from '../Components/NavBar'
 import Footer from '../Components/Footer'
-import BuildPcSelection from '../Components/BuildPcSelection'
-import UseStateProactice from '../Components/UseStateProactice'
+import 'animate.css'
+
 
 function BuildPcPage() {
 
@@ -14,33 +14,31 @@ function BuildPcPage() {
   };
 
   return (
-    <div>
-      
+    <div className="flex flex-col min-h-screen">
+
       <NavBar />
 
-      <div className='my-20 mx-40 flex items-center justify-between'>
+      <div className="flex flex-grow items-center justify-center">
 
-        <BuildPcSelection />
+        <div className='border border-black'>
 
-        <div className=''>
+          <h1 className='my-5 text-center font-normal text-2xl'>Selecciona la marca de tu procesador:</h1>
+          
+          <div className='flex items-center justify-center'>
 
-          <div className='my-10'>
-            <Producto nombre="Placa de Video XFX Radeon RX 6650 XT 8GB" precio={800000} imagen={images['1']}/>
+            <Link to='/processor2'>
+              <img src="https://www.venex.com.ar/images/configurador_pc/amd.png" alt="amd-logo" className='m-5 '/>
+            </Link>
+
+            <Link to='/processor21'>
+              <img src="https://www.venex.com.ar/images/configurador_pc/intel.png" alt="intel-logo" className='m-5'/>
+            </Link>
+
           </div>
 
-          <div className='my-10'>
-            <Producto nombre='Procesador AMD Ryzen 7 5800x' precio={250000} imagen={images['2']}/>
-          </div>
-
-          <div className='my-10'>
-            <Producto nombre='Placa de Video ASUS GeForce RTX 4060 8GB' precio={500000} imagen={images['3']}/>
-          </div>
-
-        </div>        
+        </div>
 
       </div>
-
-      <UseStateProactice />
 
       <Footer />
 
@@ -49,3 +47,5 @@ function BuildPcPage() {
 }
 
 export default BuildPcPage
+
+
