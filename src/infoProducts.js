@@ -12,7 +12,26 @@ const infoProducts = {
         },
 
         {
+            id: 1.2, 
+            nombre: 'Procesador AMD Ryzen 5 5600x',
+            precio: '230.000',
+            imagenes: [
+                'https://imagenes.compragamer.com/productos/compragamer_Imganen_general_22254_Procesador_AMD_Ryzen_5_5600X_4.6GHz_Turbo_AM4___Wraith_Stealth_Cooler_f737ec9f-grn.jpg',
+                'https://imagenes.compragamer.com/productos/compragamer_Imganen_general_22255_Procesador_AMD_Ryzen_5_5600X_4.6GHz_Turbo_AM4___Wraith_Stealth_Cooler_8d566297-grn.jpg',
+            ]
+        },
+
+        {
             id: 2,
+            nombre: 'Procesador Intel Core i3 14100',
+            precio: '195.600',
+            imagenes: [
+                'https://imagenes.compragamer.com/productos/compragamer_Imganen_general_38619_Procesador_Intel_Core_i3_14100_4.7GHz_Turbo_Socket_1700_Raptor_Lake_10f60e03-grn.jpg',
+            ]
+        },
+
+        {
+            id: 2.2,
             nombre: 'Procesador Intel Core i5 14400F',
             precio: '304.600',
             imagenes: [

@@ -15,23 +15,26 @@ function BuildPcPage() {
 
   return (
     <div className="flex flex-col min-h-screen">
-
-      <NavBar />
+      
+      <div className='shadow-sm'>
+        <NavBar />
+      </div>
+      
 
       <div className="flex flex-grow items-center justify-center">
 
-        <div className='border border-black'>
+        <div className='p-5 rounded-2xl shadow-md'>
 
           <h1 className='my-5 text-center font-normal text-2xl'>Selecciona la marca de tu procesador:</h1>
           
           <div className='flex items-center justify-center'>
 
             <Link to='/processor2'>
-              <img src="https://www.venex.com.ar/images/configurador_pc/amd.png" alt="amd-logo" className='m-5 '/>
+              <img src="https://www.venex.com.ar/images/configurador_pc/amd.png" alt="amd-logo" className='m-5 hover:bg-black hover:opacity-80 rounded-xl'/>
             </Link>
 
             <Link to='/processor21'>
-              <img src="https://www.venex.com.ar/images/configurador_pc/intel.png" alt="intel-logo" className='m-5'/>
+              <img src="https://www.venex.com.ar/images/configurador_pc/intel.png" alt="intel-logo" className='m-5 hover:bg-black hover:opacity-80 rounded-xl'/>
             </Link>
 
           </div>

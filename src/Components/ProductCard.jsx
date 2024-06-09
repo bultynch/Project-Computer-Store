@@ -6,7 +6,7 @@ import CartPage from '../Pages/CartPage.jsx'
 
 const ProductCard = ({nombre, precio, imagen, onAddToCart}) => {
   return (
-    <Link to="/productIndividualPage" className="p-4 w-176 flex items-center rounded overflow-hidden shadow-lg">
+    <Link to="/productIndividualPage" className="p-4 w-176 flex items-center rounded-lg overflow-hidden shadow-md">
 
       <img src={imagen} alt='pimage' className="m-2 w-40 h-40"></img>
 
@@ -16,7 +16,7 @@ const ProductCard = ({nombre, precio, imagen, onAddToCart}) => {
 
         <h2 className='text-xl text-blue-900 font-medium'>${precio}</h2>
   
-        <Link to="/carrito" onClick={onAddToCart} className="p-4 block bg-gray-100 rounded-lg font-semibold hover:bg-gray-200 text-center md:text-center">Agregar al carrito</Link>
+        <Link to="/carrito" onClick={onAddToCart} className="p-4 w-60 bg-gray-100 rounded-lg text-center font-semibold hover:bg-gray-200 md:text-center">Agregar al carrito</Link>
 
       </div>
 
