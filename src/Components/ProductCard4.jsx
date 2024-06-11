@@ -1,29 +1,31 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
-const ProductCard4 = ({nombre, precio, imagen}) => {
+const ProductCard4 = ({ nombre, precio, imagen }) => {
   return (
-    <Link to="/productIndividualPage" className="p-4 w-176 flex items-center rounded-lg overflow-hidden shadow-sm">
+    <div className="p-4 w-176 flex items-center rounded-lg overflow-hidden shadow-sm bg-white">
 
-      <img src={imagen} alt='pimage' className="m-2 w-40 h-40"></img>
+      <Link to="/productIndividualPage" className="m-2 w-40 h-40 flex-shrink-0">
+        <img src={imagen} alt='pimage' className="w-full h-full object-cover rounded-md" />
+      </Link>
+      
+      <div className='px-2 h-40 flex flex-col justify-between flex-grow'>
 
-      <div className='px-2 h-40 flex flex-col justify-between'>
-
-        <h1 className="flex justify-start text-2xl">{nombre}</h1>
-
+        <h1 className="text-2xl font-semibold text-gray-900">{nombre}</h1>
         <h2 className='text-xl text-blue-900 font-medium'>${precio}</h2>
-
-        <div className='flex items-center justify-center'>
-            <Link to="/ProductIndividualPage" className="mr-2 p-4 w-56 bg-gray-100 rounded-lg text-center font-semibold hover:bg-gray-200 md:text-center">Seleccionar</Link>
-            <Link to="/ProductIndividualPage" className="ml-2 p-4 w-56 bg-gray-100 rounded-lg text-center font-semibold hover:bg-gray-200 md:text-center">Ver producto</Link>
-        </div>
-  
         
+        <div className='flex items-center space-x-4'>
+
+          <Link to="/productIndividualPage" className="p-2 bg-gray-100 rounded-lg text-center font-semibold hover:bg-gray-200 w-full">Seleccionar</Link>
+          <Link to="/productIndividualPage" className="p-2 bg-gray-100 rounded-lg text-center font-semibold hover:bg-gray-200 w-full">Ver producto</Link>
+
+        </div>
 
       </div>
-  
-    </Link>
+      
+    </div>
   );
 };
 
 export default ProductCard4;
+

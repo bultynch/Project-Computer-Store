@@ -9,7 +9,7 @@ function Servicios() {
 
       <div className='flex flex-wrap justify-between'>
 
-        <div className='h-128 w-full sm:w-60 md:w-96 flex flex-col justify-end rounded-2xl bg-imagen-servicio-1 bg-cover bg-no-repeat hover:scale-105 transition-transform'>
+        <div className='h-128 w-full sm:w-60 md:w-96 flex flex-col justify-end rounded-2xl bg-imagen-servicio-1 bg-cover bg-no-repeat hover:scale-105 sm:hover:scale-100 transition-transform'>
           <div className='h-52 p-6 bg-[#00000080] rounded-b-2xl'>
             <h1 className='flex items-center justify-center p-2 text-lg text-white'>Instalación de Windows</h1>
             <p className='p-2 text-center text-sm text-white'>Ofrecemos una configuración rápida y efectiva para su sistema, asegurando un uso óptimo en poco tiempo.</p>
