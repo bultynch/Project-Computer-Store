@@ -149,7 +149,7 @@ function HelpPage() {
                   <AccordionItem key="2.1" aria-label="sub-accordion-2" title="- ¿Cuál es el costo de envío?" className='font-medium'>
                     <h1>Para conocer el costo del envío deberás hacer click en "RECIBÍ TU PRODUCTO" y luego ingresar tu código postal. Podrás observar el costo aproximado del envío a tu domicilio o podrás conocer los puntos de retiro más cercanos.</h1>
                   </AccordionItem>
-                </Accordion>
+                </Accordion> 
                 <Accordion>
                   <AccordionItem key="2.2" aria-label="sub-accordion-2.2" title="- ¿Puedo elegir en qué horario recibir mi producto?" className='font-medium'>
                     <h1>Los pedidos se despachan vía Andreani una vez acreditado el pago. La demora posterior dependerá del servicio de correo. Por lo regular, el intervalo es de 3 a 10 dias hábiles.</h1>

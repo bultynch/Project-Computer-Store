@@ -9,8 +9,10 @@ import SponsorsPage from './Pages/SponsorsPage'
 import BuildPcPage from './Pages/BuildPcPage'
 import ProductIndividualPage from './Pages/ProductIndividualPage';
 import CartPage from './Pages/CartPage'
+import BuildPcPageProcessor1 from './Pages/BuildPcPageProcessor1';
 import BuildPcPageProcessor2 from './Pages/BuildPcPageProcessor2';
-import BuildPcPageProcessor21 from './Pages/BuildPcPageProcessor21';
+import BuildPcPageMother1 from './Pages/BuildPcPageMother1';
+import BuildPcPageMother2 from './Pages/BuildPcPageMother2';
 
 function App() {
   return (
@@ -25,8 +27,11 @@ function App() {
         <Route path='/ProductIndividualPage' element={<ProductIndividualPage />} />
         <Route path='/carrito' element={<CartPage />}/>
         <Route path='/buildPc' element={<BuildPcPage />}/>
-        <Route path='/processor2' element={<BuildPcPageProcessor2 />}/>
-        <Route path='/processor21' element={<BuildPcPageProcessor21 />}/>
+        <Route path='/processor1' element={<BuildPcPageProcessor1 />} />
+        <Route path='/processor2' element={<BuildPcPageProcessor2 />} />
+        <Route path='/mother1' element={<BuildPcPageMother1 />} />
+        <Route path='/mother2' element={<BuildPcPageMother2 />} />
+
       </Routes>
     </Router>
   );

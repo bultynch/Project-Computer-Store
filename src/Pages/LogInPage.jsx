@@ -1,7 +1,6 @@
 import React from 'react';
-import { BrowserRouter as Router, Route, Link, Routes } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 import { FaArrowLeft } from "react-icons/fa6";
-import SignUpPage from './SignUpPage';
 
 function LogInPage() {
   return (
@@ -25,12 +24,10 @@ function LogInPage() {
 
           <h1 className='flex items-center justify-center text-md'>No tienes cuenta?<Link to="/signup" className='ml-1 flex items-center justify-center text-blue-400 underline'>Crear cuenta</Link></h1>
 
-          <Routes>
-            <Route path="/signup" element={<SignUpPage />} />
-          </Routes>
+
 
         </div>
-      </div>
+      </div> 
     </div>    
   )
 }

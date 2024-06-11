@@ -1,13 +1,12 @@
 import React from 'react';
-import { BrowserRouter as Router, Route, Routes, Link } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 import { GoShieldCheck } from "react-icons/go";
 import { FaCheck, FaTruck } from "react-icons/fa6";
 import Slider from 'react-slick';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
-import CartPage from '../Pages/CartPage.jsx';
 
-const ProductCard3 = ({ nombre, precio, imagenes, onAddToCart }) => {
+const ProductCard3 = ({ nombre, precio, onAddToCart }) => {
 
   const images = {
     'main': 'https://imagenes.compragamer.com/productos/compragamer_Imganen_general_33401_Placa_de_Video_XFX_Radeon_RX_6650_XT_8GB_GDDR6_Speedster_SWFT_210_589f396b-grn.jpg',
@@ -118,15 +117,11 @@ const ProductCard3 = ({ nombre, precio, imagenes, onAddToCart }) => {
         <div className="border border-black p-4 flex flex-col md:flex-row">
 
           <button className="p-4 m-2 bg-blue-950 text-white rounded-lg hover:bg-blue-800">Comprar</button>
-          <Link to="/carrito" onClick={onAddToCart} className="p-4 m-2 bg-gray-100 rounded-lg font-semibold hover:bg-gray-200 text-center md:text-left">Agregar al carrito</Link>
+          <Link to="/carrito" className="p-4 m-2 bg-gray-100 rounded-lg font-semibold hover:bg-gray-200 text-center md:text-left">Agregar al carrito</Link>
 
         </div>
 
       </div>
-
-      <Routes>
-        <Route path="/carrito" element={<CartPage />} />
-      </Routes>
 
     </div>
   );
