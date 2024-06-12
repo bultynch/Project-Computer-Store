@@ -13,6 +13,9 @@ import BuildPcPageProcessor1 from './Pages/BuildPcPageProcessor1';
 import BuildPcPageProcessor2 from './Pages/BuildPcPageProcessor2';
 import BuildPcPageMother1 from './Pages/BuildPcPageMother1';
 import BuildPcPageMother2 from './Pages/BuildPcPageMother2';
+import BuildPcPageRam from './Pages/BuildPcPageRam';
+import BuildPcPageFont from './Pages/BuildPcPageFont';
+import BuildPcPageCase from './Pages/BuildPcPageCase';
 
 function App() {
   return (
@@ -25,12 +28,15 @@ function App() {
         <Route path="/login" element={<LogInPage />} />
         <Route path="/signup" element={<SignUpPage />} />
         <Route path='/ProductIndividualPage' element={<ProductIndividualPage />} />
-        <Route path='/carrito' element={<CartPage />}/>
-        <Route path='/buildPc' element={<BuildPcPage />}/>
+        <Route path='/carrito' element={<CartPage />} />
+        <Route path='/buildPc' element={<BuildPcPage />} />
         <Route path='/processor1' element={<BuildPcPageProcessor1 />} />
         <Route path='/processor2' element={<BuildPcPageProcessor2 />} />
         <Route path='/mother1' element={<BuildPcPageMother1 />} />
         <Route path='/mother2' element={<BuildPcPageMother2 />} />
+        <Route path='/ram' element={<BuildPcPageRam />} />
+        <Route path='/font' element={<BuildPcPageFont />} />
+        <Route path='/case' element={<BuildPcPageCase />}/>
 
       </Routes>
     </Router>

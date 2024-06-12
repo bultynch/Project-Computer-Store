@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
-const ProductCard4 = ({ nombre, precio, imagen }) => {
+const ProductCard4 = ({ nombre, precio, imagen, productPage }) => {
   return (
     <div className="p-4 w-176 flex items-center rounded-lg overflow-hidden shadow-sm bg-white">
 
@@ -17,7 +17,7 @@ const ProductCard4 = ({ nombre, precio, imagen }) => {
         <div className='flex items-center space-x-4'>
 
           <Link to="/productIndividualPage" className="p-2 bg-gray-100 rounded-lg text-center font-semibold hover:bg-gray-200 w-full">Seleccionar</Link>
-          <Link to="/productIndividualPage" className="p-2 bg-gray-100 rounded-lg text-center font-semibold hover:bg-gray-200 w-full">Ver producto</Link>
+          <Link to={productPage} className="p-2 bg-gray-100 rounded-lg text-center font-semibold hover:bg-gray-200 w-full">Ver producto</Link>
 
         </div>
 
