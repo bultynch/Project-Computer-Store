@@ -1,31 +1,28 @@
 import React from 'react';
-import { BrowserRouter as Router, Route, Routes, Link } from 'react-router-dom';
-import ProductIndividualPage from '../Pages/ProductIndividualPage.jsx';
-import CartPage from '../Pages/CartPage.jsx'
+import { Link } from 'react-router-dom';
 
-
-const ProductCard = ({nombre, precio, imagen, onAddToCart}) => {
+const ProductCard = ({ nombre, precio, imagen, onAddToCart }) => {
   return (
-    <Link to="/productIndividualPage" className="p-4 w-176 flex items-center rounded-lg overflow-hidden shadow-md">
+    <div className="p-2 w-208 flex items-center bg-white border rounded-lg shadow-sm">
 
-      <img src={imagen} alt='pimage' className="m-2 w-40 h-40"></img>
+      <Link to='/productindividualepage'>
+        <img src={imagen} alt='pimage' className="m-2 w-48 h-48"></img>
+      </Link>
 
-      <div className='px-2 h-40 flex flex-col justify-between'>
+      <div className='px-2 flex flex-col justify-between h-full'>
 
-        <h1 className="flex justify-start text-2xl">{nombre}</h1>
+        <h1 className='mb-2 flex justify-start text-lg'>{nombre}</h1>
 
-        <h2 className='text-xl text-blue-900 font-medium'>${precio}</h2>
+        <h2 className='my-4 text-2xl font-semibold text-blue-500'>${precio}</h2>
   
-        <Link to="/carrito" onClick={onAddToCart} className="p-4 w-60 bg-gray-100 rounded-lg text-center font-semibold hover:bg-gray-200 md:text-center">Agregar al carrito</Link>
+        <div className='mt-2 flex items-center justify-start'>
+          <Link to="/carrito" onClick={onAddToCart} className="p-4 w-60 bg-violet-800 rounded-lg text-center text-white font-semibold hover:bg-violet-900 md:text-center">Agregar al carrito</Link>
+          <Link to="/carrito" onClick={onAddToCart} className="mx-2 p-4 w-60 bg-violet-200 rounded-lg text-center text-violet-800 font-semibold hover:bg-violet-300 md:text-center">Ver producto</Link>
+        </div>
 
       </div>
-
-      <Routes>
-        <Route path="/productIndividualPage" element={<ProductIndividualPage />} />
-        <Route path="/carrito" element={<CartPage />} />
-      </Routes>
   
-    </Link>
+    </div>
   );
 };
 

@@ -6,6 +6,7 @@ import Sponsors from '../Components/Sponsors'
 import Contact from '../Components/Contact'
 import Footer from '../Components/Footer'
 import ProductOfferSection from '../Components/ProductOfferSection'
+import SecondNavBar from '../Components/SecondNavBar'
 
 function HomePage() {
 
@@ -13,6 +14,8 @@ function HomePage() {
     <div className='flex flex-col justify-center'>
 
       <NavBar />
+
+      <SecondNavBar />
 
       <BuildPcMain />
 

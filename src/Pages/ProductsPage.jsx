@@ -3,26 +3,54 @@ import NavBar from '../Components/NavBar';
 import Product from '../Components/ProductCard';
 import ProductCategory from '../Components/ProductCategory'
 import Footer from '../Components/Footer'
-import ProductCard2 from '../Components/ProductCard2';
+import ProductFilter from '../Components/ProductFilter';
+import SecondNavBar from '../Components/SecondNavBar';
 
 function ProductsPage() {
   return (
     <div className='bg-gray-50'>
       <NavBar />
+      <SecondNavBar />
 
-      <div className='mt-20 mx-40 flex items-center justify-between'>
+      <div className='my-20 mx-80 flex items-start justify-between'>
 
-        <div className='mr-5 bg-white'>
-          <ProductCategory />
+        <div className='mr-2 w-full'>
+          
+          <div className='mb-4'>
+            <ProductCategory />
+          </div>
+
+          <div>
+            <ProductFilter />
+          </div>
+
         </div>
 
-        <div className='bg-white'>
-          <Product nombre='Placa de video ASUS GeForce RTX 4080 16GB GDDR6X ROG STRIX OC' precio='1.800.000'/>
+        <div className='ml-2 flex flex-col'>
+
+          <div className='bg-white mb-2'>
+            <Product nombre='Placa de video ASUS GeForce RTX 4080 16GB GDDR6X ROG STRIX OC' precio={479000}imagen='https://imagenes.compragamer.com/productos/compragamer_Imganen_general_38987_Placa_de_Video_ASUS_GeForce_RTX_4060_8GB_GDDR6_Dual_White_OC_4e9dd699-grn.jpg'/>
+          </div>
+
+          <div className='bg-white my-2'>
+            <Product nombre='Placa de video ASUS GeForce RTX 4080 16GB GDDR6X ROG STRIX OC' precio={479000}imagen='https://imagenes.compragamer.com/productos/compragamer_Imganen_general_38987_Placa_de_Video_ASUS_GeForce_RTX_4060_8GB_GDDR6_Dual_White_OC_4e9dd699-grn.jpg'/>
+          </div>
+
+          <div className='bg-white my-2'>
+            <Product nombre='Placa de video ASUS GeForce RTX 4080 16GB GDDR6X ROG STRIX OC' precio={479000}imagen='https://imagenes.compragamer.com/productos/compragamer_Imganen_general_38987_Placa_de_Video_ASUS_GeForce_RTX_4060_8GB_GDDR6_Dual_White_OC_4e9dd699-grn.jpg'/>
+          </div>
+
+          <div className='bg-white my-2'>
+            <Product nombre='Placa de video ASUS GeForce RTX 4080 16GB GDDR6X ROG STRIX OC' precio={479000}imagen='https://imagenes.compragamer.com/productos/compragamer_Imganen_general_38987_Placa_de_Video_ASUS_GeForce_RTX_4060_8GB_GDDR6_Dual_White_OC_4e9dd699-grn.jpg'/>
+          </div>
+
+          <div className='bg-white mb-2'>
+            <Product nombre='Placa de video ASUS GeForce RTX 4080 16GB GDDR6X ROG STRIX OC' precio={479000}imagen='https://imagenes.compragamer.com/productos/compragamer_Imganen_general_38987_Placa_de_Video_ASUS_GeForce_RTX_4060_8GB_GDDR6_Dual_White_OC_4e9dd699-grn.jpg'/>
+          </div>
+
         </div>
 
       </div>
-
-      <ProductCard2 />
 
       <Footer />
 

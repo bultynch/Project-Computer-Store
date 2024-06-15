@@ -1,18 +1,31 @@
 import React from 'react';
 import { Accordion, AccordionItem } from "@nextui-org/accordion";
 
-function ProductCategory() {
+function ProductFilter() {
   return (
     <div className="flex flex-col justify-center bg-white border rounded-lg shadow-sm">
 
       <Accordion className=''>
 
-        <AccordionItem key="10" aria-label="Accordion 10" title="Categorías">
+        <AccordionItem key="10" aria-label="Accordion 10" title="Filtros">
 
           <Accordion>
-            <AccordionItem key="10.1" aria-label="Accordion 10.1" title="Procesadores">
-              <h1 className='mb-2'>- Procesadores AMD</h1>
-              <h1 className='mt-2'>- Procesadores Intel</h1>
+            <AccordionItem key="10.1" aria-label="Accordion 10.1" title="Marca">
+                <h1 className='my-2'>- Adata</h1>
+                <h1 className='my-2'>- AMD</h1>
+                <h1 className='my-2'>- Antec</h1>
+                <h1 className='my-2'>- Asus</h1>
+                <h1 className='mt-2'>- Cougar</h1>
+                <h1 className='my-2'>- Hikvision</h1>
+                <h1 className='my-2'>- HyperX</h1>
+                <h1 className='my-2'>- Intel</h1>
+                <h1 className='my-2'>- kingston</h1>
+                <h1 className='my-2'>- LG</h1>
+                <h1 className='my-2'>- Logitech</h1>
+                <h1 className='my-2'>- Nvidia</h1>
+                <h1 className='my-2'>- Samsung</h1>
+                <h1 className='my-2'>- Team Group</h1>
+                <h1 className='my-2'>- Western Digital</h1>
             </AccordionItem>
           </Accordion>
 
@@ -78,5 +91,5 @@ function ProductCategory() {
   );
 }
 
-export default ProductCategory;
+export default ProductFilter;
 
