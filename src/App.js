@@ -6,16 +6,16 @@ import SignUpPage from './Pages/SignUpPage';
 import LogInPage from './Pages/LogInPage';
 import HelpPage from './Pages/HelpPage'
 import SponsorsPage from './Pages/SponsorsPage'
-import BuildPcPage from './Pages/BuildPcPage'
 import ProductIndividualPage from './Pages/ProductIndividualPage';
 import CartPage from './Pages/CartPage'
-import BuildPcPageProcessor1 from './Pages/BuildPcPageProcessor1';
-import BuildPcPageProcessor2 from './Pages/BuildPcPageProcessor2';
-import BuildPcPageMother1 from './Pages/BuildPcPageMother1';
-import BuildPcPageMother2 from './Pages/BuildPcPageMother2';
-import BuildPcPageRam from './Pages/BuildPcPageRam';
-import BuildPcPageFont from './Pages/BuildPcPageFont';
-import BuildPcPageCase from './Pages/BuildPcPageCase';
+import BuildPcPage from './Pages/BuildPC/BuildPcPage'
+import BuildPcPageProcessor1 from './Pages/BuildPC/BuildPcPageProcessor1';
+import BuildPcPageProcessor2 from './Pages/BuildPC/BuildPcPageProcessor2';
+import BuildPcPageMother1 from './Pages/BuildPC/BuildPcPageMother1';
+import BuildPcPageMother2 from './Pages/BuildPC/BuildPcPageMother2';
+import BuildPcPageRam from './Pages/BuildPC/BuildPcPageRam';
+import BuildPcPageFont from './Pages/BuildPC/BuildPcPageFont';
+import BuildPcPageCase from './Pages/BuildPC/BuildPcPageCase';
 
 function App() {
   return (

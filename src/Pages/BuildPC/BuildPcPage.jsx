@@ -1,7 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-import NavBar from '../Components/NavBar'
-import Footer from '../Components/Footer'
+import NavBar from '../../Components/NavBar'
+import Footer from '../../Components/Footer'
 import 'animate.css'
 
 
@@ -15,9 +15,9 @@ function BuildPcPage() {
       </div>
       
 
-      <div className="flex flex-grow items-center justify-center">
+      <div className="flex flex-grow items-center justify-center bg-violet-50">
 
-        <div className='p-5 rounded-2xl shadow-md'>
+        <div className='p-5 rounded-xl shadow-sm border bg-white'>
 
           <h1 className='my-5 text-center font-normal text-2xl'>Selecciona la marca de tu procesador:</h1>
           

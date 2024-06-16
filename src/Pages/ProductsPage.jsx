@@ -1,9 +1,9 @@
 import React from 'react';
 import NavBar from '../Components/NavBar';
-import Product from '../Components/ProductCard';
-import ProductCategory from '../Components/ProductCategory'
+import Product from '../Components/Product/ProductCard';
+import ProductCategory from '../Components/Product/ProductCategory'
 import Footer from '../Components/Footer'
-import ProductFilter from '../Components/ProductFilter';
+import ProductFilter from '../Components/Product/ProductFilter';
 import SecondNavBar from '../Components/SecondNavBar';
 
 function ProductsPage() {
@@ -12,7 +12,7 @@ function ProductsPage() {
       <NavBar />
       <SecondNavBar />
 
-      <div className='my-20 mx-80 flex items-start justify-between'>
+      <div className='my-4 mx-80 flex items-start justify-between'>
 
         <div className='mr-2 w-full'>
           

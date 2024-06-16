@@ -1,7 +1,7 @@
 import React from 'react';
 import NavBar from '../Components/NavBar';
 import Footer from '../Components/Footer';
-import ProductCard3 from '../Components/ProductCard3';
+import ProductCard3 from '../Components/Product/ProductCard3';
 import Especifications from '../Components/Especifications';
 
 function ProductIndividualPage() {

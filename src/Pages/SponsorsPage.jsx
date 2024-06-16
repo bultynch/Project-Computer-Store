@@ -5,27 +5,28 @@ import SponsorsCard from '../Components/SponsorsCard';
 
 function SponsorsPage() {
   const imageUrls = {
-    lenovo: 'https://1000logos.net/wp-content/uploads/2017/03/Lenovo-Logo-1.png',
-    logitech: 'https://1000logos.net/wp-content/uploads/2020/05/Logitech-Logo.png',
+    adata: 'https://1000logos.net/wp-content/uploads/2020/04/ADATA-Logo.png',
     amd: 'https://1000logos.net/wp-content/uploads/2020/05/Amd-logo.jpg',
+    asus: 'https://1000logos.net/wp-content/uploads/2016/10/Asus-Logo-1995.png',
     hyperx: 'https://1000logos.net/wp-content/uploads/2021/04/HyperX-logo.png',
-    corsair: 'https://1000logos.net/wp-content/uploads/2020/10/Corsair-logo.png',
-    nvidia: 'https://1000logos.net/wp-content/uploads/2017/05/Nvidia-logo.jpg',
-    asrock: 'https://1000logos.net/wp-content/uploads/2021/05/ASRock-logo.png',
-    wd: 'https://1000logos.net/wp-content/uploads/2022/07/Western-Digital-Logo-2017.png',
     intel: 'https://1000logos.net/wp-content/uploads/2021/05/Intel-logo.png',
-    gigabyte: 'https://1000logos.net/wp-content/uploads/2020/05/Gigabyte-logo.jpg',
-    thermaltake: 'https://1000logos.net/wp-content/uploads/2023/07/Thermaltake-logo.jpg',
+    kingstone: 'https://1000logos.net/wp-content/uploads/2021/05/Kingston-logo.png',
+    lenovo: 'https://1000logos.net/wp-content/uploads/2017/03/Lenovo-Logo-1.png',
+    lg: 'https://1000logos.net/wp-content/uploads/2017/03/LG-Logo-2014.png',
+    logitech: 'https://1000logos.net/wp-content/uploads/2020/05/Logitech-Logo.png',
+    nvidia: 'https://1000logos.net/wp-content/uploads/2017/05/Nvidia-logo.jpg',
+    samsung: 'https://1000logos.net/wp-content/uploads/2017/06/Samsung-Logo-2.png',
+    wd: 'https://1000logos.net/wp-content/uploads/2022/07/Western-Digital-Logo-2017.png',    
   };
 
   return (
-    <div className='bg-gray-100 min-h-screen'>
+    <div className='bg-violet-50 min-h-screen'>
 
       <NavBar />
 
-      <div className='mx-4 md:mx-20 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-4 justify-items-center'>
+      <div className='mx-80 md:mx-10 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-4 justify-items-center '>
         {Object.keys(imageUrls).map((key, index) => (
-          <SponsorsCard key={index} imagen={imageUrls[key]} />
+          <SponsorsCard key={index} imagen={imageUrls[key]}/>
         ))}
       </div>
 

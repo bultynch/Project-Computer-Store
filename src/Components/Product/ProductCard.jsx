@@ -16,8 +16,8 @@ const ProductCard = ({ nombre, precio, imagen, onAddToCart }) => {
         <h2 className='my-4 text-2xl font-semibold text-blue-500'>${precio}</h2>
   
         <div className='mt-2 flex items-center justify-start'>
-          <Link to="/carrito" onClick={onAddToCart} className="p-4 w-60 bg-violet-800 rounded-lg text-center text-white font-semibold hover:bg-violet-900 md:text-center">Agregar al carrito</Link>
-          <Link to="/carrito" onClick={onAddToCart} className="mx-2 p-4 w-60 bg-violet-200 rounded-lg text-center text-violet-800 font-semibold hover:bg-violet-300 md:text-center">Ver producto</Link>
+          <Link to="/carrito" onClick={onAddToCart} className="p-3 w-60 bg-violet-800 rounded-lg text-center text-white font-semibold hover:bg-violet-900 md:text-center">Agregar al carrito</Link>
+          <Link to="/carrito" onClick={onAddToCart} className="mx-2 p-3 w-60 bg-violet-200 rounded-lg text-center text-violet-800 font-semibold hover:bg-violet-300 md:text-center">Ver producto</Link>
         </div>
 
       </div>

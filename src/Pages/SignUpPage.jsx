@@ -12,7 +12,7 @@ function SignUpPage() {
       </Link>
 
       <div className='flex items-center justify-center flex-1'>
-        <div className='p-6 w-full max-w-sm flex flex-col justify-center rounded-2xl shadow-lg bg-white'>
+        <div className='p-6 w-full max-w-sm flex flex-col justify-center rounded-2xl border shadow-sm bg-white'>
 
           <h1 className='flex items-center justify-center text-xl'>Registro de usuario</h1>
 

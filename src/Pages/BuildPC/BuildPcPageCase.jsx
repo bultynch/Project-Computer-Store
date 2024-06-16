@@ -1,10 +1,10 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-import NavBar from '../Components/NavBar'
-import Footer from '../Components/Footer'
+import NavBar from '../../Components/NavBar'
+import Footer from '../../Components/Footer'
 import { FaArrowLeft, FaArrowRight } from "react-icons/fa6";
-import BuildPcSelection from '../Components/BuildPcSelection';
-import ProductCard4 from '../Components/ProductCard4';
+import BuildPcSelection from '../../Components/BuildPcSelection';
+import ProductCard4 from '../../Components/Product/ProductCard4';
 
 function BuildPcPageMother2() {
   return (
@@ -14,20 +14,20 @@ function BuildPcPageMother2() {
         <NavBar />
       </div>
 
-      <div className='px-80 py-10 flex flex-col bg-gray-50'>
+      <div className='px-80 py-4 flex flex-col bg-gray-50'>
 
         <div className='flex items-center justify-between'>
-
-          <Link to='/font' className="w-44 h-14 mb-5 px-4 py-2 flex items-center bg-white border rounded-lg text-lg shadow-sm hover:bg-gray-100 hover:shadow-none"><FaArrowLeft className='w-5 h-5 mr-2'/>Paso anterior</Link>
-          <Link to='/mother1' className="w-44 h-14 mb-5 px-2.5 py-2 flex items-center bg-white border rounded-lg text-lg shadow-sm hover:bg-gray-100 hover:shadow-none">Siguiente paso<FaArrowRight className='w-5 h-5 ml-1'/></Link>
-
+          <Link to='/ram' className="w-44 h-14 mb-2 px-4 py-2 flex items-center bg-white border rounded-lg text-lg shadow-sm hover:bg-gray-100 hover:shadow-none"><FaArrowLeft className='w-5 h-5 mr-2'/>Paso anterior</Link>
+          <Link to='/buildpc' className="w-44 h-14 mb-2 px-2.5 py-2 flex items-center bg-white border rounded-lg text-lg shadow-sm hover:bg-gray-100 hover:shadow-none">Siguiente paso<FaArrowRight className='w-5 h-5 ml-1'/></Link>
         </div>
 
-        <div className='h-160 flex items-start justify-between '>
+        <div className='h-160 flex items-start justify-between py-2'>
           
-          <div className='p-4 shadow-sm rounded-lg bg-white'>
+          <div className='w-128 p-4 rounded-lg border shadow-sm bg-white'>
             <BuildPcSelection />
           </div>
+
+
 
           <div className='flex flex-col items-center'>
 
