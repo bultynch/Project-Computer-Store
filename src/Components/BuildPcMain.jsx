@@ -5,7 +5,7 @@ function BuildPcMain() {
   return (
     <div className='relative w-full h-96 flex items-center justify-start bg-cover bg-no-repeat font-bold sm:h-160' style={{backgroundImage: `url(${process.env.PUBLIC_URL + '/bg-nintendo2.jpg'})`}}>
       
-      <div className='absolute inset-0 bg-black opacity-40'></div>
+      <div className='absolute inset-0 bg-black opacity-40 dark:opacity-85'></div>
 
       <div className='mb-20 mx-4 flex flex-col relative sm:mx-10 md:mx-20 lg:mx-40'>
 

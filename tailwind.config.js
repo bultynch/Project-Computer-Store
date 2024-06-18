@@ -3,6 +3,9 @@ module.exports = {
   content: [
     "./src/**/*.{js,jsx,ts,tsx}",
   ],
+
+  darkMode: 'class',
+
   theme: {
     extend: {
       backgroundImage: {
@@ -26,6 +29,12 @@ module.exports = {
         '850px': '850px',
         '1000px': '1000px',
       },
+      colors: {
+        'dark-blue': '#0C2D48',
+        'dark-blue2': '#274472',
+        'midnight-blue': '#41729F',
+        'midnight-blue2': '#5885AF',
+      }
     },
     fontFamily: {
       'sans': ['Plus Jakarta Sans', 'sans-serif'],

@@ -17,3 +17,7 @@
 .slick-prev:before, .slick-next:before {
   color: white; /* Ajusta el color según el fondo */
 }
+
+*{
+  @apply transition-colors duration-200;
+}
