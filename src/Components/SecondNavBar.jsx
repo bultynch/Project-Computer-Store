@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 
 function SecondNavBar() {
   return (
-    <div className='w-full h-14 bg-violet-900 flex items-center justify-center'>
+    <div className='w-full h-14 bg-violet-900 flex items-center justify-center dark:bg-violet-950'>
         <div className='text-white text-md'>
 
             <Link to='/products' className='mx-20'>PRODUCTOS</Link>

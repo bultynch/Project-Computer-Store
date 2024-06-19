@@ -21,9 +21,7 @@ function HomePage() {
 
       <Sponsors />
 
-      <div>
-        <ProductOfferSection />
-      </div>
+      <ProductOfferSection />
 
       <ServicesMain />
 

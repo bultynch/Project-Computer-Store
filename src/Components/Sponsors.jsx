@@ -4,18 +4,18 @@ function Sponsors() {
   const imageUrls = {
     lenovo: 'https://1000logos.net/wp-content/uploads/2017/03/Lenovo-Logo-1.png',
     logitech: 'https://1000logos.net/wp-content/uploads/2020/05/Logitech-Logo.png',
-    amd: 'https://1000logos.net/wp-content/uploads/2020/05/Amd-logo.jpg',
+    amd: 'https://1000logos.net/wp-content/uploads/2020/05/AMD-Logo.png',
     hyperx: 'https://1000logos.net/wp-content/uploads/2021/04/HyperX-logo.png',
     corsair: 'https://1000logos.net/wp-content/uploads/2020/10/Corsair-logo.png',
-    nvidia: 'https://1000logos.net/wp-content/uploads/2017/05/Nvidia-logo.jpg',
+    nvidia: 'https://1000logos.net/wp-content/uploads/2022/02/NVIDIA_logo.png',
     asrock: 'https://1000logos.net/wp-content/uploads/2021/05/ASRock-logo.png',
     wd: 'https://1000logos.net/wp-content/uploads/2022/07/Western-Digital-Logo-2017.png',
     intel: 'https://1000logos.net/wp-content/uploads/2021/05/Intel-logo.png',
-    gigabyte: 'https://1000logos.net/wp-content/uploads/2020/05/Gigabyte-logo.jpg',
-    thermaltake: 'https://1000logos.net/wp-content/uploads/2023/07/Thermaltake-logo.jpg',
+    gigabyte: 'https://1000logos.net/wp-content/uploads/2020/05/Gigabyte-Logo.png',
+    thermaltake: 'https://1000logos.net/wp-content/uploads/2023/07/Thermaltake-Logo.png',
   };
   return (
-    <div className='mx-10 carousel carousel-center'>
+    <div className=' carousel carousel-center dark:bg-neutral-700'>
       
       <div className='carousel-item mx-10'>
         <img src={imageUrls.lenovo} alt='lenovo-logo' className='w-80 h-48' />

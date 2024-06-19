@@ -45,9 +45,9 @@ function ProductOfferSection() {
   };
 
   return (
-    <div className="px-4 sm:px-10 py-8 bg-violet-50">
+    <div className="px-4 sm:px-10 py-8 bg-violet-50 dark:bg-neutral-800">
       <div>
-        <h2 className="text-3xl font-semibold  text-center sm:text-left">Ofertas semanales</h2>
+        <h2 className="text-3xl font-semibold text-center sm:text-left dark:text-white">Ofertas semanales</h2>
         <div className="divider"></div>
       </div>
       <Slider {...settings}>
