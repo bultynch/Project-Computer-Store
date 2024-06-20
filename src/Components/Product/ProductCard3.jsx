@@ -17,23 +17,30 @@ const ProductCard3 = ({ nombre, precio, onAddToCart }) => {
 
   const settings = {
     dots: true,
-    infinite: false,
+    infinite: true,
     speed: 500,
     slidesToShow: 4,
-    slidesToScroll: 4,
+    slidesToScroll: 1,
     responsive: [
+      {
+        breakpoint: 1200,
+        settings: {
+          slidesToShow: 3,
+          slidesToScroll: 1,
+        },
+      },
       {
         breakpoint: 1024,
         settings: {
           slidesToShow: 3,
-          slidesToScroll: 3,
+          slidesToScroll: 1,
         },
       },
       {
         breakpoint: 768,
         settings: {
           slidesToShow: 2,
-          slidesToScroll: 2,
+          slidesToScroll: 1,
         },
       },
       {
@@ -49,25 +56,22 @@ const ProductCard3 = ({ nombre, precio, onAddToCart }) => {
   return (
     <div className="p-4 flex flex-col md:flex-row items-center justify-center rounded-2xl shadow-sm bg-white">
 
-      <div className="w-full md:w-1/2 p-4 flex flex-col justify-start">
+      <div className="w-full md:w-1/2 p-4">
 
-        <img src={images['main']} alt="prod-pic" className="mb-5 w-160 h-auto border border-black" />
+        <img src={images['main']} alt="prod-pic" className="w-160 h-auto" />
 
         <div className='w-full h-32 border border-black flex items-center justify-center'>
 
           <Slider {...settings}>
-            <div>
-              <img src={images['main']} alt='prod-pic-1' className='w-full h-28 object-contain' />
-            </div>
-            <div>
-              <img src={images['img-2']} alt='prod-pic-2' className='w-full h-28 object-contain' />
-            </div>
-            <div>
-              <img src={images['img-3']} alt='prod-pic-3' className='w-full h-28 object-contain' />
-            </div>
-            <div>
-              <img src={images['img-4']} alt='prod-pic-4' className='w-full h-28 object-contain' />
-            </div>
+ 
+            <img src={images['main']} alt='prod-pic-1' className='w-20 h-20 object-contain' />
+
+            <img src={images['img-2']} alt='prod-pic-2' className='w-20 h-20 object-contain' />
+
+            <img src={images['img-3']} alt='prod-pic-3' className='w-20 h-20 object-contain' />
+
+            <img src={images['img-4']} alt='prod-pic-4' className='w-full h-20 object-contain' />
+
           </Slider>
 
         </div>

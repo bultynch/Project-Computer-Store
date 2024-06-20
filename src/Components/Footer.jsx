@@ -10,7 +10,7 @@ function Footer() {
         <p>Copyright © 2024 - Todos los derechos reservados</p>
       </aside> 
 
-      <nav className="flex gap-4">
+      <nav className="flex gap-4 sm:{flex flex-items center justify-center}">
         <FaInstagram className='w-6 h-6' />
         <FaXTwitter className='w-6 h-6' />
         <FaFacebook className='w-6 h-6' />
