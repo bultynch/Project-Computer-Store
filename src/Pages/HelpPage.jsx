@@ -16,7 +16,7 @@ function HelpPage() {
 
       <SecondNavBar />
 
-      <div className='px-4 md:px-20 lg:px-40 py-10 flex flex-col justify-center bg-gray-50'>
+      <div className='px-4 md:px-20 lg:px-40 py-10 flex flex-col justify-center bg-gray-50 dark:bg-neutral-700 dark:text-white'>
 
         <div className='flex flex-col justify-start'>
 
@@ -33,7 +33,7 @@ function HelpPage() {
 
             <div className='flex items-center justify-between flex-1 min-w-[250px] m-2'>
 
-              <div className='relative p-10 w-full flex items-center rounded-lg shadow-sm border bg-white'>
+              <div className='relative p-10 w-full flex items-center rounded-lg shadow-sm border bg-white dark:bg-neutral-800 dark:border-neutral-700'>
 
                 <div className="absolute w-20 h-20 flex items-center justify-center bg-gray-200 rounded-full z-10" />
 
@@ -52,7 +52,7 @@ function HelpPage() {
 
             <div className='flex items-center justify-between flex-1 min-w-[250px] m-2'>
 
-              <div className='relative p-10 w-full flex items-center rounded-lg shadow-sm border bg-white'>
+              <div className='relative p-10 w-full flex items-center rounded-lg shadow-sm border bg-white dark:bg-neutral-800 dark:border-neutral-700'>
 
                 <div className="absolute w-20 h-20 flex items-center justify-center bg-gray-200 rounded-full z-10" />
 
@@ -70,7 +70,7 @@ function HelpPage() {
 
             <div className='flex items-center justify-between flex-1 min-w-[250px] m-2'>
 
-              <div className='relative p-10 w-full flex items-center rounded-lg shadow-sm border bg-white'>
+              <div className='relative p-10 w-full flex items-center rounded-lg shadow-sm border bg-white dark:bg-neutral-800 dark:border-neutral-700'>
 
                 <div className="absolute w-20 h-20 flex items-center justify-center bg-gray-200 rounded-full z-10" />
 
@@ -91,11 +91,11 @@ function HelpPage() {
 
           <h2 className='text-lg font-medium text-start'>Recibí, retirá o seguí tu compra:</h2>
 
-          <div className='my-5 flex flex-wrap justify-between'>
+          <div className='mt-5 flex flex-wrap justify-between'>
 
             <div className='flex items-center justify-between flex-1 min-w-[300px] m-2'>
 
-              <div className='relative p-10 w-full flex items-center rounded-lg shadow-sm border bg-white'>
+              <div className='relative p-10 w-full flex items-center rounded-lg shadow-sm border bg-white dark:bg-neutral-800 dark:border-neutral-700'>
 
                 <div className="absolute w-20 h-20 flex items-center justify-center bg-gray-200 rounded-full z-10" />
 
@@ -113,7 +113,7 @@ function HelpPage() {
 
             <div className='flex items-center justify-between flex-1 min-w-[300px] m-2'>
 
-              <div className='relative p-10 w-full flex items-center rounded-lg sshadow-sm border bg-white'>
+              <div className='relative p-10 w-full flex items-center rounded-lg sshadow-sm border bg-white dark:bg-neutral-800 dark:border-neutral-700'>
 
                 <div className="absolute w-20 h-20 flex items-center justify-center bg-gray-200 rounded-full z-10" />
 
@@ -135,7 +135,7 @@ function HelpPage() {
 
         <div className='my-10 flex flex-col justify-start'>
 
-          <h2 className='mb-5 py-5 pr-5 pl-2 text-xl font-semibold text-start bg-gray-200'>Horarios de atención:</h2>
+          <h2 className='mb-5 py-5 pr-5 pl-2 text-xl font-semibold text-start bg-gray-200 dark:bg-neutral-800'>Horarios de atención:</h2>
 
           <div className='p-1 flex flex-wrap justify-between'>
 
@@ -166,7 +166,7 @@ function HelpPage() {
 
         <div className='my-10 flex flex-col justify-center'>
 
-          <h2 className='mb-5 py-5 pr-5 pl-2 text-xl font-semibold text-start bg-gray-200'>Pregunas frecuentes</h2>
+          <h2 className='mb-5 py-5 pr-5 pl-2 text-xl font-semibold text-start bg-gray-200 dark:bg-neutral-800'>Pregunas frecuentes</h2>
 
           <div>
 
@@ -286,9 +286,9 @@ function HelpPage() {
 
       </div>
 
-      <div className='px-4 md:px-20 lg:px-40 bg-violet-50'>
+      <div className='px-4 md:px-20 lg:px-40 bg-violet-50 dark:bg-neutral-800'>
 
-        <h2 className='pt-4 text-2xl font-semibold text-start'>¿No encontraste la respuesta a tu consulta?</h2>
+        <h2 className='pt-4 text-2xl font-semibold text-start dark:text-white'>¿No encontraste la respuesta a tu consulta?</h2>
         <div className="divider"></div>
         <Contacto />
 

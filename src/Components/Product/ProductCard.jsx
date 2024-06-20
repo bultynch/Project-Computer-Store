@@ -3,10 +3,10 @@ import { Link } from 'react-router-dom';
 
 const ProductCard = ({ nombre, precio, imagen, onAddToCart }) => {
   return (
-    <div className="p-2 w-208 flex items-center bg-white border rounded-lg shadow-sm">
+    <div className="p-2 w-208 flex items-center bg-white border rounded-lg shadow-sm dark:bg-neutral-800 dark:border-neutral-800 dark:text-white">
 
       <Link to='/productindividualepage'>
-        <img src={imagen} alt='pimage' className="m-2 w-48 h-48"></img>
+        <img src={imagen} alt='pimage' className="m-2 w-48 h-48 rounded-lg"></img>
       </Link>
 
       <div className='px-2 flex flex-col justify-between h-full'>

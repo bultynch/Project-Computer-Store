@@ -58,20 +58,20 @@ function Contacto() {
 
         <div className='pb-2 flex flex-col'>
           
-          <input type="text" name="nombre" placeholder='Nombre' value={formData.nombre} onChange={handleChange} className='px-2 my-2 w-full h-11 flex items-start justify-center text-sm text-gray-400 border-b-2 outline-none rounded-md'/>
+          <input type="text" name="nombre" placeholder='Nombre' value={formData.nombre} onChange={handleChange} className='px-2 my-2 w-full h-11 flex items-start justify-center text-md text-black border-b-2 outline-none rounded-lg shadow-sm'/>
 
         </div>
 
         <div className='pb-2 flex flex-col'>
-          <input type="email" name="correo" placeholder='Correo electrónico' value={formData.correo} onChange={handleChange} className='px-1 my-2 w-full h-11 flex items-start justify-center text-sm text-black border-b-2 outline-none rounded-md'/>
+          <input type="email" name="correo" placeholder='Correo electrónico' value={formData.correo} onChange={handleChange} className='px-2 my-2 w-full h-11 flex items-start justify-center text-md text-black border-b-2 outline-none rounded-lg shadow-sm'/>
         </div>
 
         <div className='pb-2 flex flex-col'>
-          <textarea name="mensaje" placeholder='Mensaje' value={formData.mensaje} onChange={handleChange} className='h-32 px-1 my-2 w-full flex items-start justify-center text-sm text-black border-b-2 outline-none rounded-md'></textarea>
+          <textarea name="mensaje" placeholder='Mensaje' value={formData.mensaje} onChange={handleChange} className='h-32 p-2 my-2 w-full flex items-start justify-center text-md text-black border-b-2 outline-none rounded-lg shadow-sm'></textarea>
         </div>
 
         <div className='text-center text-md text-gray-500'>
-          <button type="submit" className='w-full mt-2 p-1 px-4 border border-gray-500 bg-white rounded-lg outline-gray-200 hover:border-black hover:text-black'>Enviar</button>
+          <button type="submit" className='w-full mt-2 p-4 bg-violet-700 text-white rounded-lg shadow-sm'>Enviar</button>
         </div>
 
       </form>

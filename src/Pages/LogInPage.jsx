@@ -4,10 +4,10 @@ import { FaArrowLeft } from "react-icons/fa6";
 
 function LogInPage() {
   return (
-    <div className='flex flex-col justify-center min-h-screen p-4 bg-gray-50'>
+    <div className='flex flex-col justify-center min-h-screen p-4 bg-gray-50 dark:bg-neutral-700'>
 
       <Link to="/" className='inline-block self-start'>
-        <FaArrowLeft className='m-4 w-6 h-6 text-gray-700 hover:text-black'/>
+        <FaArrowLeft className='m-4 w-6 h-6 text-gray-700 hover:text-black dark:text-white dark:hover:text-neutral-300'/>
       </Link>
 
       <div className='flex items-center justify-center flex-1'>

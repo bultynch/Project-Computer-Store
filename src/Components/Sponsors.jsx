@@ -15,9 +15,9 @@ function Sponsors() {
     thermaltake: 'https://1000logos.net/wp-content/uploads/2023/07/Thermaltake-Logo.png',
   };
   return (
-    <div className=' carousel carousel-center dark:bg-neutral-700'>
+    <div className='carousel carousel-center dark:bg-neutral-700'>
       
-      <div className='carousel-item mx-10'>
+      <div className='carousel-item mr-10'>
         <img src={imageUrls.lenovo} alt='lenovo-logo' className='w-80 h-48' />
       </div> 
       <div className='carousel-item mx-10'>

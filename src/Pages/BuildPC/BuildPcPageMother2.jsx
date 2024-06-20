@@ -14,16 +14,16 @@ function BuildPcPageMother2() {
         <NavBar />
       </div>
 
-      <div className='px-80 py-4 flex flex-col bg-gray-50'>
+      <div className='flex-grow px-80 py-4 flex flex-col bg-gray-50 dark:bg-neutral-700'>
 
         <div className='flex items-center justify-between'>
-          <Link to='/processor2' className="w-44 h-14 mb-2 px-4 py-2 flex items-center bg-white border rounded-lg text-lg shadow-sm hover:bg-gray-100 hover:shadow-none"><FaArrowLeft className='w-5 h-5 mr-2'/>Paso anterior</Link>
-          <Link to='/ram' className="w-44 h-14 mb-2 px-2.5 py-2 flex items-center bg-white border rounded-lg text-lg shadow-sm hover:bg-gray-100 hover:shadow-none">Siguiente paso<FaArrowRight className='w-5 h-5 ml-1'/></Link>
+          <Link to='/processor2' className="w-44 h-14 mb-2 px-4 py-2 flex items-center bg-white border rounded-lg text-lg shadow-sm hover:bg-gray-100 hover:shadow-none dark:bg-neutral-800 dark:border-neutral-700 dark:text-white"><FaArrowLeft className='w-5 h-5 mr-2'/>Paso anterior</Link>
+          <Link to='/ram' className="w-44 h-14 mb-2 px-2.5 py-2 flex items-center bg-white border rounded-lg text-lg shadow-sm hover:bg-gray-100 hover:shadow-none dark:bg-neutral-800 dark:border-neutral-700 dark:text-white">Siguiente paso<FaArrowRight className='w-5 h-5 ml-1'/></Link>
         </div>
 
         <div className='h-160 flex items-start justify-between py-2'>
           
-          <div className='w-128 p-4 rounded-lg border shadow-sm bg-white'>
+          <div className=''>
             <BuildPcSelection />
           </div>
 
@@ -31,7 +31,7 @@ function BuildPcPageMother2() {
 
           <div className='flex flex-col items-center'>
 
-            <div className='mt-5 bg-white'>
+            <div className='mt-5'>
               <ProductCard4 nombre='Mother ASUS PRIME H610M-K DDR4 S1700' precio={113000} imagen='https://imagenes.compragamer.com/productos/compragamer_Imganen_general_32527_Mother_ASUS_PRIME_H610M-K_DDR4_S1700_ae2a81ba-grn.jpg'/>
             </div>
 

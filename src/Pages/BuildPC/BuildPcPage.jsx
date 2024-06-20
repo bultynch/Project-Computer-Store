@@ -1,6 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 import NavBar from '../../Components/NavBar'
+import SecondNavBar from '../../Components/SecondNavBar'
 import Footer from '../../Components/Footer'
 import 'animate.css'
 
@@ -13,11 +14,13 @@ function BuildPcPage() {
       <div className='shadow-sm'>
         <NavBar />
       </div>
+
+      <SecondNavBar />
       
 
-      <div className="flex flex-grow items-center justify-center bg-violet-50">
+      <div className="flex flex-grow items-center justify-center bg-violet-50 dark:bg-neutral-700">
 
-        <div className='p-5 rounded-xl shadow-sm border bg-white'>
+        <div className='p-5 rounded-xl shadow-sm border bg-white dark:bg-neutral-800 dark:border-neutral-700 dark:text-white'>
 
           <h1 className='my-5 text-center font-normal text-2xl'>Selecciona la marca de tu procesador:</h1>
           

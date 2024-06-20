@@ -3,14 +3,14 @@ import { Accordion, AccordionItem } from "@nextui-org/accordion";
 
 function ProductCategory() {
   return (
-    <div className="flex flex-col justify-center bg-white border rounded-lg shadow-sm">
+    <div className="flex flex-col justify-center bg-white border rounded-lg shadow-sm dark:bg-neutral-800  dark:border-neutral-700">
 
       <Accordion className=''>
 
-        <AccordionItem key="10" aria-label="Accordion 10" title="Categorías">
+        <AccordionItem key="10" aria-label="Accordion 10" title="Categorías" className='dark:text-white'>
 
           <Accordion>
-            <AccordionItem key="10.1" aria-label="Accordion 10.1" title="Procesadores">
+            <AccordionItem key="10.1" aria-label="Accordion 10.1" title="Procesadores" className=''>
               <h1 className='mb-2'>- Procesadores AMD</h1>
               <h1 className='mt-2'>- Procesadores Intel</h1>
             </AccordionItem>

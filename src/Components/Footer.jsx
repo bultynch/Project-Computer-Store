@@ -7,7 +7,7 @@ function Footer() {
 
       <aside className="flex items-center mb-4 md:mb-0">
         <img src='/iconopag.ico' className='w-6 h-6 mr-2' alt='logo-footer' />
-        <p>Copyright © 2024 - All rights reserved</p>
+        <p>Copyright © 2024 - Todos los derechos reservados</p>
       </aside> 
 
       <nav className="flex gap-4">
