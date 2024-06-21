@@ -16,7 +16,7 @@ function HelpPage() {
 
       <SecondNavBar />
 
-      <div className='px-4 md:px-20 lg:px-40 py-10 flex flex-col justify-center bg-gray-50 dark:bg-neutral-700 dark:text-white'>
+      <div className='px-4 md:px-20 lg:px-80 py-10 flex flex-col justify-center bg-violet-50 dark:bg-neutral-700 dark:text-white'>
 
         <div className='flex flex-col justify-start'>
 
@@ -286,7 +286,7 @@ function HelpPage() {
 
       </div>
 
-      <div className='px-4 md:px-20 lg:px-40 bg-violet-50 dark:bg-neutral-800'>
+      <div className='px-4 md:px-20 lg:px-80 bg-violet-50 dark:bg-neutral-800 '>
 
         <h2 className='pt-4 text-2xl font-semibold text-start dark:text-white'>¿No encontraste la respuesta a tu consulta?</h2>
         <div className="divider"></div>

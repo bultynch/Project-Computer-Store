@@ -15,7 +15,7 @@ function BuildPcPageMother1() {
           <NavBar />
         </div>
 
-        <div className='flex-grow px-80 py-4 flex flex-col dark:bg-neutral-700'>
+        <div className='flex-grow px-80 py-4 flex flex-col bg-violet-50 dark:bg-neutral-700'>
 
           <div className='flex items-center justify-between'>
 

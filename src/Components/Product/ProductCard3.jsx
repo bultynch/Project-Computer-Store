@@ -54,11 +54,13 @@ const ProductCard3 = ({ nombre, precio, onAddToCart }) => {
   };
 
   return (
-    <div className="p-4 flex flex-col md:flex-row items-center justify-center rounded-2xl shadow-sm bg-white">
+    <div className="p-4 flex flex-col md:flex-row items-center justify-center rounded-2xl border shadow-sm bg-white">
 
       <div className="w-full md:w-1/2 p-4">
 
-        <img src={images['main']} alt="prod-pic" className="w-160 h-auto" />
+        <img src={images['main']} alt="prod-pic" className="w-144 h-auto" />
+
+        <div className="my-4 border-t"></div>
 
         <div className='w-full h-32 border border-black flex items-center justify-center'>
 

@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 
 const ProductCard2 = ({ nombre, precio, imagen }) => {
   return (
-    <div className="p-4 w-full sm:w-80 h-auto flex flex-col items-center justify-center text-center bg-base-100 shadow-sm border rounded-2xl dark:bg-neutral-700 dark:border-neutral-600">
+    <div className="p-4 w-full sm:w-80 h-auto flex flex-col items-center justify-center text-center bg-base-100 shadow-sm border rounded-2xl hover:bg-gray-50 dark:bg-neutral-700 dark:border-neutral-600">
 
       <Link to='/productIndividualPage' className="w-full h-full flex flex-col items-center justify-center text-center">
 
@@ -22,7 +22,7 @@ const ProductCard2 = ({ nombre, precio, imagen }) => {
       </Link>
 
       <div className="py-4 w-full">
-        <Link to="/" className="py-2 px-6 bg-violet-800 rounded-lg font-normal hover:bg-violet-900 text-center text-white dark:bg-violet-900 dark:hover:bg-violet-950 block">Ver oferta</Link>
+        <Link to="/" className="py-2 px-6 text-center text-white border border-violet-900 bg-violet-900 rounded-lg font-normal hover:bg-white hover:text-violet-900 hover:border-violet-900 block">Ver oferta</Link>
       </div>
 
     </div>

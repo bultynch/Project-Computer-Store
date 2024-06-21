@@ -71,7 +71,7 @@ function Contacto() {
         </div>
 
         <div className='text-center text-md text-gray-500'>
-          <button type="submit" className='w-full mt-2 p-4 bg-violet-700 text-white rounded-lg shadow-sm'>Enviar</button>
+          <button type="submit" className='w-full mt-2 p-4 bg-violet-900 border border-violet-900 text-white rounded-lg shadow-sm hover:bg-white hover:text-violet-900 hover:border-violet-900'>Enviar</button>
         </div>
 
       </form>

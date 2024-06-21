@@ -2,7 +2,7 @@ import React from 'react';
 
 function BuildPcSelection() {
   return (
-    <div className="w-128 p-4 rounded-lg border shadow-sm flex flex-col gap-4 dark:bg-neutral-800 dark:border-neutral-700 dark:text-white">
+    <div className="w-128 p-4 rounded-lg border shadow-sm flex flex-col gap-4 bg-white dark:bg-neutral-800 dark:border-neutral-700 dark:text-white">
 
       <div className="flex items-center gap-4">
         <div className="w-10 h-10 rounded-md bg-gray-200 flex items-center justify-center">

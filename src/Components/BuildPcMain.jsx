@@ -11,7 +11,18 @@ function BuildPcMain() {
 
         <h1 className='text-white text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-montserrat'>Armá Tu PC Ahora</h1>
         <p className='text-white text-base sm:text-lg md:text-xl font-montserrat'>Encontrá los últimos componentes al mejor precio.</p>
-        <Link to="/buildPC" className='mt-5 p-5 text-white text-base sm:text-lg md:text-xl text-center font-montserrat rounded-xl border border-white bg-white bg-opacity-30 hover:bg-opacity-50'>Comenzar</Link>
+        <Link to="/buildPC" className='mt-5 p-6 text-white text-base sm:text-lg md:text-xl text-center font-montserrat rounded-xl border 
+            bg-violet-900 
+            hover:bg-white 
+            hover:border-white
+              hover:bg-opacity-50 
+
+            dark:bg-violet-950
+            dark:hover:bg-white
+            dark:hover:border-white
+              dark:hover:bg-opacity-50'
+            
+            >Comenzar</Link>
 
       </div>       
     </div>

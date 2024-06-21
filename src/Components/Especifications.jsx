@@ -2,7 +2,7 @@ import React from 'react';
 
 function Especifications() {
   return (
-    <div className=" overflow-x-auto rounded-xl shadow-sm">
+    <div className=" overflow-x-auto rounded-xl shadow-sm border">
 
       <table className="min-w-full border-collapse block md:table">
 
