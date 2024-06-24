@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 
 const ProductCard4 = ({ nombre, precio, imagen, productPage }) => {
   return (
-    <div className="p-4 w-176 flex items-center rounded-lg overflow-hidden shadow-sm border bg-white dark:bg-neutral-800 dark:border-neutral-700">
+    <div className="p-4 w-176 flex items-center rounded-lg overflow-hidden shadow-sm border bg-white dark:bg-neutral-800 dark:border-neutral-700 dark:hover:bg-neutral-600">
 
       <Link to="/productIndividualPage" className="m-2 w-40 h-40 flex-shrink-0">
         <img src={imagen} alt='pimage' className="w-full h-full object-cover rounded-md" />
@@ -16,8 +16,8 @@ const ProductCard4 = ({ nombre, precio, imagen, productPage }) => {
         
         <div className='flex items-center space-x-4'>
 
-          <Link to="/productIndividualPage" className="p-2 bg-violet-800 rounded-lg text-center font-semibold text-white hover:bg-violet-900 w-full">Seleccionar</Link>
-          <Link to={productPage} className="p-2 bg-violet-200 rounded-lg text-center font-semibold text-violet-900 hover:bg-gray-200 w-full">Ver producto</Link>
+          <Link to="/productIndividualPage" className="p-3 w-60 rounded-lg text-center font-semibold md:text-center text-white bg-violet-900 border border-violet-900 hover:bg-white hover:text-violet-900 hover:border-violet-900">Seleccionar</Link>
+          <Link to={productPage} className="p-3 w-52 bg-violet-200 rounded-lg text-center font-semibold text-violet-900 hover:bg-gray-200">Ver producto</Link>
 
         </div>
 

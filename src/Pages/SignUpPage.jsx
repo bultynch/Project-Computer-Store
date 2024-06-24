@@ -16,30 +16,30 @@ function SignUpPage() {
 
           <h1 className='mb-2 flex items-center justify-center text-xl'>Registro de usuario</h1>
 
-          <input type='text' placeholder='Email' className='px-1 my-2 w-full h-11 flex items-start justify-center text-sm text-black border-b-2 outline-none'/>
+          <input type='text' placeholder='Email' className='px-1 my-2 w-full h-11 flex items-start justify-center text-sm text-black border-b-2 outline-none dark:bg-neutral-800 dark:text-white dark:hover:bg-neutral-700'/>
 
-          <input type='password' placeholder='Contraseña' className='px-1 my-2 w-full h-11 flex items-start justify-center text-sm text-black border-b-2 outline-none'/>
+          <input type='password' placeholder='Contraseña' className='px-1 my-2 w-full h-11 flex items-start justify-center text-sm text-black border-b-2 outline-none dark:bg-neutral-800 dark:text-white dark:hover:bg-neutral-700'/>
 
-          <input type='password' placeholder='Repetir contraseña' className='px-1 my-2 w-full h-11 flex items-start justify-center text-sm text-black border-b-2 outline-none'/>
+          <input type='password' placeholder='Repetir contraseña' className='px-1 my-2 w-full h-11 flex items-start justify-center text-sm text-black border-b-2 outline-none dark:bg-neutral-800 dark:text-white dark:hover:bg-neutral-700'/>
 
           <h1 className='mb-2  mt-4 flex items-start justify-center text-lg'>Información personal</h1>
 
-          <input type='text' placeholder='Nombre' className='px-1 my-2 w-full h-11 flex items-start justify-center text-sm text-black border-b-2 outline-none'/>
+          <input type='text' placeholder='Nombre' className='px-1 my-2 w-full h-11 flex items-start justify-center text-sm text-black border-b-2 outline-none dark:bg-neutral-800 dark:text-white dark:hover:bg-neutral-700'/>
 
-          <input type='text' placeholder='Apellido' className='px-1 my-2 w-full h-11 flex items-start justify-center text-sm text-black border-b-2 outline-none'/>
+          <input type='text' placeholder='Apellido' className='px-1 my-2 w-full h-11 flex items-start justify-center text-sm text-black border-b-2 outline-none dark:bg-neutral-800 dark:text-white dark:hover:bg-neutral-700'/>
 
-          <input type='text' placeholder='DNI o CUIT' className='px-1 my-2 w-full h-11 flex items-start justify-center text-sm text-black border-b-2 outline-none'/>
+          <input type='text' placeholder='DNI o CUIT' className='px-1 my-2 w-full h-11 flex items-start justify-center text-sm text-black border-b-2 outline-none dark:bg-neutral-800 dark:text-white dark:hover:bg-neutral-700'/>
 
           <div className='my-2 flex items-start justify-center text-sm'>
 
-            <input type='text' placeholder='Código de área' className='px-1 mr-2 w-28 h-11 text-black border-b-2 outline-none'/>
-            <input type='text' placeholder='Número de teléfono' className='px-1 w-full h-11 text-black border-b-2 outline-none'/>
+            <input type='text' placeholder='Código de área' className='px-1 mr-2 w-28 h-11 text-black border-b-2 outline-none dark:bg-neutral-800 dark:text-white dark:hover:bg-neutral-700'/>
+            <input type='text' placeholder='Número de teléfono' className='px-1 w-full h-11 text-black border-b-2 outline-none dark:bg-neutral-800 dark:text-white dark:hover:bg-neutral-700'/>
 
           </div>
 
           <button className='my-6 w-full h-16 flex items-center justify-center bg-blue-600 text-white text-xl hover:bg-blue-400 rounded-2xl'>Crear cuenta</button>
 
-          <Link to="/login" className='flex items-center justify-center text-blue-400 hover:text-blue-300 underline'>Ya tengo una cuenta</Link>
+          <Link to="/login" className='flex items-center justify-center text-blue-400 hover:text-blue-300 underline '>Ya tengo una cuenta</Link>
 
         </div>
 

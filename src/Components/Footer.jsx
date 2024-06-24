@@ -3,7 +3,7 @@ import { FaInstagram, FaXTwitter, FaFacebook } from "react-icons/fa6";
 
 function Footer() {
   return (
-    <footer className="footer flex flex-col md:flex-row items-center justify-between p-4  text-white bg-violet-900">
+    <footer className="footer flex flex-col md:flex-row items-center justify-between p-4  text-white bg-violet-900 dark:bg-violet-950">
 
       <aside className="flex items-center mb-4 md:mb-0">
         <img src='/iconopag.ico' className='w-6 h-6 mr-2' alt='logo-footer' />

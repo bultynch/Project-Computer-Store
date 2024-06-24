@@ -16,13 +16,13 @@ function LogInPage() {
 
           <h1 className='mb-2 flex items-center justify-center text-xl'>Ingresar</h1>
 
-          <input type='text' placeholder='Email' className='px-1 my-2 w-full h-11 flex items-start justify-center text-sm text-black border-b-2 outline-none'/>
+          <input type='text' placeholder='Email' className='px-1 my-2 w-full h-11 flex items-start justify-center text-sm text-black border-b-2 outline-none dark:bg-neutral-800 dark:text-white dark:hover:bg-neutral-700'/>
 
-          <input type='password' placeholder='Contraseña' className='px-1 my-2 w-full h-11 flex items-start justify-center text-sm text-black border-b-2 outline-none'/>
+          <input type='password' placeholder='Contraseña' className='px-1 my-2 w-full h-11 flex items-start justify-center text-sm text-black border-b-2 outline-none dark:bg-neutral-800 dark:text-white dark:hover:bg-neutral-700'/>
 
           <button className='my-6 w-full h-16 flex items-center justify-center text-white text-lg bg-blue-600 hover:bg-blue-400 rounded-2xl'>Iniciar sesión</button>
 
-          <h1 className='flex items-center justify-center text-md'>¿No tenés cuenta?<Link to="/signup" className='ml-1 flex items-center justify-center text-blue-400 underline'>Crear cuenta</Link></h1>
+          <h1 className='flex items-center justify-center text-md'>¿No tenés cuenta?<Link to="/signup" className='ml-1 flex items-center justify-center text-blue-400 hover:text-blue-300 underline'>Crear cuenta</Link></h1>
 
 
 
