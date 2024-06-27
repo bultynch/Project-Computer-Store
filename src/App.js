@@ -16,6 +16,7 @@ import BuildPcPageMother2 from './Pages/BuildPC/BuildPcPageMother2';
 import BuildPcPageRam from './Pages/BuildPC/BuildPcPageRam';
 import BuildPcPageFont from './Pages/BuildPC/BuildPcPageFont';
 import BuildPcPageCase from './Pages/BuildPC/BuildPcPageCase';
+import UserProfilePage from './Pages/UserProfilePage';
 
 function App() {
   return (
@@ -37,6 +38,7 @@ function App() {
         <Route path='/ram' element={<BuildPcPageRam />} />
         <Route path='/font' element={<BuildPcPageFont />} />
         <Route path='/case' element={<BuildPcPageCase />}/>
+        <Route path='/userProfile' element={<UserProfilePage />}/>
 
       </Routes>
     </Router>
