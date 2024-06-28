@@ -17,19 +17,27 @@ function NavigationBar() {
       </div>
 
       <div className="navbar-center">
+
         <Link to='/' className="btn btn-ghost text-xl hover:rounded-lg dark:text-white dark:hover:bg-neutral-700">Project Computer Store</Link>
+
       </div>
 
       <div className="navbar-end flex items-center space-x-2">
 
         <button className="btn btn-ghost btn-circle dark:hover:bg-neutral-700">
+
           <IoSearch className='w-5 h-5 dark:text-white' />
+
         </button>
 
         <Link to='/login' className="btn btn-ghost btn-circle dark:hover:bg-neutral-700">
+
           <div className="indicator">
+
             <MdOutlinePersonOutline className='w-6 h-6 dark:text-white' />  
+
           </div>
+          
         </Link>
 
         {/*<div className="dropdown mr-20">

@@ -5,6 +5,7 @@ import Footer from '../../Components/Footer'
 import BuildPcSelection from '../../Components/BuildPcSelection';
 import { FaArrowLeft, FaArrowRight } from "react-icons/fa6";
 import ProductCard4 from '../../Components/Product/ProductCard4';
+import SecondNavBar from '../../Components/SecondNavBar';
 
 function BuildPcPageProcessor21() {
   return (
@@ -12,6 +13,7 @@ function BuildPcPageProcessor21() {
 
       <div className=''>
         <NavBar />
+        <SecondNavBar />
       </div>
 
       <div className='flex-grow px-80 py-4 flex flex-col bg-violet-50 dark:bg-neutral-700'>

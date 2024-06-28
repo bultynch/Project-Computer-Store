@@ -5,6 +5,7 @@ import Footer from '../../Components/Footer'
 import { FaArrowLeft, FaArrowRight } from "react-icons/fa6";
 import BuildPcSelection from '../../Components/BuildPcSelection';
 import ProductCard4 from '../../Components/Product/ProductCard4';
+import SecondNavBar from '../../Components/SecondNavBar';
 
 function BuildPcPageMother1() {
   return (
@@ -13,6 +14,7 @@ function BuildPcPageMother1() {
 
         <div className=''>
           <NavBar />
+          <SecondNavBar />
         </div>
 
         <div className='flex-grow px-80 py-4 flex flex-col bg-violet-50 dark:bg-neutral-700'>
