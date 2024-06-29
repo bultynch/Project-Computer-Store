@@ -47,9 +47,9 @@ function Contacto() {
   };
 
   return (
-    <div className='md:px-10 sm:px-2 py-20 flex flex-col md:flex-row items-center justify-between bg-violet-50 dark:bg-neutral-800'>
+    <div className='px-2 py-20 sm:px-2 md:px-10 flex flex-col items-center justify-between md:flex-row bg-violet-50 dark:bg-neutral-800'>
 
-      <div className='mb-8 md:mb-0 md:mr-8 flex flex-col justify-center '>
+      <div className='mb-8 md:mb-0 md:mr-8 flex flex-col justify-center max-w-lg'>
         <h1 className='mb-4 text-3xl md:text-4xl dark:text-white'><strong>Contactanos.</strong></h1>
         <p className='text-xl text-gray-500 dark:text-white'>Envianos un mail y nos pondremos en contacto a la brevedad.</p>
       </div>
@@ -71,7 +71,7 @@ function Contacto() {
         </div>
 
         <div className='text-center text-md text-gray-500'>
-          <button type="submit" className='w-full mt-2 p-4 bg-violet-900 border border-violet-900 text-white rounded-lg shadow-sm hover:bg-white hover:text-violet-900 hover:border-violet-900'>Enviar</button>
+          <button type="submit" className='mt-2 p-4 w-full bg-violet-900 border border-violet-900 text-white rounded-lg shadow-sm hover:bg-white hover:text-violet-900 hover:border-violet-900'>Enviar</button>
         </div>
 
       </form>
