@@ -20,19 +20,23 @@ function BuildPcPage() {
 
       <div className="flex flex-grow items-center justify-center bg-violet-50 dark:bg-neutral-700">
 
-        <div className='p-5 rounded-xl shadow-sm border bg-white dark:bg-neutral-800 dark:border-neutral-700 dark:text-white'>
+        <div className='m-2 p-5 rounded-xl shadow-sm border bg-white dark:bg-neutral-800 dark:border-neutral-700 dark:text-white'>
 
-          <h1 className='my-5 text-center font-normal text-2xl'>Selecciona la marca de tu procesador:</h1>
+          <h1 className='text-center font-normal text-2xl'>Selecciona la marca de tu procesador:</h1>
           
-          <div className='flex items-center justify-center'>
+          <div className='flex flex-col sm:flex-row sm:items-center sm:justify-center'>
 
-            <Link to='/processor1'>
-              <img src="https://www.venex.com.ar/images/configurador_pc/amd.png" alt="amd-logo" className='m-5 hover:bg-black hover:opacity-80 rounded-xl'/>
-            </Link>
+            <div className='my-5 sm:m-5'>
+              <Link to='/processor1'>
+                <img src="https://www.venex.com.ar/images/configurador_pc/amd.png" alt="amd-logo" className=' hover:bg-black hover:opacity-80 rounded-xl'/>
+              </Link>
+            </div>
 
-            <Link to='/processor2'>
-              <img src="https://www.venex.com.ar/images/configurador_pc/intel.png" alt="intel-logo" className='m-5 hover:bg-black hover:opacity-80 rounded-xl'/>
-            </Link>
+            <div className='sm:m-5'>
+              <Link to='/processor2'>
+                <img src="https://www.venex.com.ar/images/configurador_pc/intel.png" alt="intel-logo" className=' hover:bg-black hover:opacity-80 rounded-xl'/>
+              </Link>
+            </div>
 
           </div>
 
