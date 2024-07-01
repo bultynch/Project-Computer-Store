@@ -16,24 +16,24 @@ function HelpPage() {
 
       <SecondNavBar />
 
-      <div className='px-4 md:px-20 lg:px-80 py-10 flex flex-col justify-center bg-violet-50 dark:bg-neutral-700 dark:text-white'>
+      <div className='px-2 md:px-10 lg:px-20 xl:px-80 py-10 flex flex-col justify-center bg-violet-50 dark:bg-neutral-700 dark:text-white'>
 
-        <div className='flex flex-col justify-start'>
+        <div className='flex flex-col justify-center'>
 
-          <h1 className='mb-2 text-3xl font-bold'>Centro de ayuda</h1>
-          <p className='text-md font-normal'>Encontrá la información que necesitás para comprar online, métodos de pago, garantías, envíos, seguimiento de compras y más.</p>
+          <h1 className='mb-2 text-center sm:text-start text-3xl font-bold'>Centro de ayuda</h1>
+          <p className='text-center sm:text-start text-md font-normal'>Encontrá la información que necesitás para comprar online, métodos de pago, garantías, envíos, seguimiento de compras y más.</p>
 
         </div>
 
         <div className='my-10 flex flex-col justify-center'>
 
-          <h2 className='text-lg font-medium text-start'>Contactate con nosotros mediante:</h2>
+          <h2 className='text-lg font-medium text-center sm:text-start'>Contactate con nosotros mediante:</h2>
 
-          <div className='my-5 flex flex-wrap justify-between'>
+          <div className='my-4 flex flex-col'>
 
-            <div className='flex items-center justify-between flex-1 min-w-[250px] m-2'>
+            <div className='mb-2 sm:my-2 flex items-center justify-between flex-1 min-w-[250px]'>
 
-              <div className='relative p-10 w-full flex items-center rounded-lg shadow-sm border bg-white dark:bg-neutral-800 dark:border-neutral-700'>
+              <div className='relative p-10 w-full flex items-center rounded-lg shadow-sm border bg-white dark:bg-neutral-800 dark:border-neutral-800'>
 
                 <div className="absolute w-20 h-20 flex items-center justify-center bg-gray-200 rounded-full z-10" />
 
@@ -50,9 +50,9 @@ function HelpPage() {
 
             </div>
 
-            <div className='flex items-center justify-between flex-1 min-w-[250px] m-2'>
+            <div className='mb-2 sm:my-2 flex items-center justify-between flex-1 min-w-[250px]'>
 
-              <div className='relative p-10 w-full flex items-center rounded-lg shadow-sm border bg-white dark:bg-neutral-800 dark:border-neutral-700'>
+              <div className='relative p-10 w-full flex items-center rounded-lg shadow-sm border bg-white dark:bg-neutral-800 dark:border-neutral-800'>
 
                 <div className="absolute w-20 h-20 flex items-center justify-center bg-gray-200 rounded-full z-10" />
 
@@ -68,9 +68,9 @@ function HelpPage() {
               </div>
             </div>
 
-            <div className='flex items-center justify-between flex-1 min-w-[250px] m-2'>
+            <div className='mb-2 sm:my-2 flex items-center justify-between flex-1 min-w-[250px]'>
 
-              <div className='relative p-10 w-full flex items-center rounded-lg shadow-sm border bg-white dark:bg-neutral-800 dark:border-neutral-700'>
+              <div className='relative p-10 w-full flex items-center rounded-lg shadow-sm border bg-white dark:bg-neutral-800 dark:border-neutral-800'>
 
                 <div className="absolute w-20 h-20 flex items-center justify-center bg-gray-200 rounded-full z-10" />
 
@@ -89,13 +89,13 @@ function HelpPage() {
 
           </div>
 
-          <h2 className='text-lg font-medium text-start'>Recibí, retirá o seguí tu compra:</h2>
+          <h2 className='my-2 text-lg font-medium text-center sm:text-start'>Recibí, retirá o seguí tu compra:</h2>
 
-          <div className='mt-5 flex flex-wrap justify-between'>
+          <div className='mt-4 flex flex-wrap flex-col sm:justify-between'>
 
-            <div className='flex items-center justify-between flex-1 min-w-[300px] m-2'>
+            <div className='mb-2 sm:my-2 flex items-center justify-between flex-1 min-w-[250px]'>
 
-              <div className='relative p-10 w-full flex items-center rounded-lg shadow-sm border bg-white dark:bg-neutral-800 dark:border-neutral-700'>
+              <div className='relative p-10 w-full flex items-center rounded-lg shadow-sm border bg-white dark:bg-neutral-800 dark:border-neutral-800'>
 
                 <div className="absolute w-20 h-20 flex items-center justify-center bg-gray-200 rounded-full z-10" />
 
@@ -111,9 +111,9 @@ function HelpPage() {
 
             </div>
 
-            <div className='flex items-center justify-between flex-1 min-w-[300px] m-2'>
+            <div className='mb-2 sm:my-2 flex items-center justify-between flex-1 min-w-[250px]'>
 
-              <div className='relative p-10 w-full flex items-center rounded-lg sshadow-sm border bg-white dark:bg-neutral-800 dark:border-neutral-700'>
+              <div className='relative p-10 w-full flex items-center rounded-lg sshadow-sm border bg-white dark:bg-neutral-800 dark:border-neutral-800'>
 
                 <div className="absolute w-20 h-20 flex items-center justify-center bg-gray-200 rounded-full z-10" />
 
@@ -135,25 +135,25 @@ function HelpPage() {
 
         <div className='my-10 flex flex-col justify-start'>
 
-          <h2 className='mb-5 py-5 pr-5 pl-2 text-xl font-semibold text-start bg-gray-200 dark:bg-neutral-800'>Horarios de atención:</h2>
+          <h2 className='mb-5 py-5 pr-5 pl-2 text-xl font-semibold text-center sm:text-start bg-gray-200 dark:bg-neutral-800'>Horarios de atención:</h2>
 
-          <div className='p-1 flex flex-wrap justify-between'>
+          <div className='flex flex-wrap justify-center items-center sm:justify-between'>
 
-            <div className='flex flex-col justify-center min-w-[300px] m-2'>
+            <div className='flex flex-col justify-center min-w-[300px] m-2 text-center sm:text-start'>
 
               <h1 className='mb-2 text-lg font-semibold'>TEL. / WhatsApp / Mail</h1>
               <h1 className='text-md'>Lunes a viernes de 8 a 18hs</h1>
 
             </div>
 
-            <div className='flex flex-col justify-center min-w-[300px] m-2'>
+            <div className='flex flex-col justify-center min-w-[300px] m-2 text-center sm:text-start'>
 
               <h1 className='mb-2 text-lg font-semibold'>Pickup Point Buenos Aires</h1>
               <h1 className='text-md'>Lunes a Viernes de 10 a 17h</h1>
 
             </div>
 
-            <div className='flex flex-col justify-center min-w-[300px] m-2'>
+            <div className='flex flex-col justify-center min-w-[300px] m-2 text-center sm:text-start'>
 
               <h1 className='mb-2 text-lg font-semibold'>Pickup Point Córdoba</h1>
               <h1 className='text-md'>Lunes a Viernes de 10 a 18h.</h1>
@@ -170,7 +170,7 @@ function HelpPage() {
 
           <div>
 
-            <Accordion>
+            <Accordion className='px-0'>
 
               <AccordionItem key="1" aria-label="Accordion 1" title="Presupuestos-Cómo comprar-Formas de Pago">
 
@@ -286,7 +286,7 @@ function HelpPage() {
 
       </div>
 
-      <div className='px-4 md:px-20 lg:px-80 bg-violet-50 dark:bg-neutral-800 '>
+      <div className='px-2 md:px-10 lg:px-20 xl:px-80 bg-violet-50 dark:bg-neutral-800 '>
 
         <h2 className='pt-4 text-2xl font-semibold text-start dark:text-white'>¿No encontraste la respuesta a tu consulta?</h2>
         <div className="divider"></div>

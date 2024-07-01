@@ -15,13 +15,7 @@ function BuildPcMain() {
             bg-violet-900
             hover:bg-white 
             hover:border-white
-              hover:bg-opacity-50 
-
-            dark:bg-violet-950
-            dark:hover:bg-white
-            dark:hover:border-white
-              dark:hover:bg-opacity-50'
-            
+              hover:bg-opacity-50 '
             >Comenzar</Link>
 
       </div>       

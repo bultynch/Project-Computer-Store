@@ -47,7 +47,7 @@ function Contacto() {
   };
 
   return (
-    <div className='px-2 py-20 sm:px-2 md:px-10 flex flex-col items-center justify-between md:flex-row bg-violet-50 dark:bg-neutral-800'>
+    <div className='py-10 px-2 lg:px-10 xl:px-20 flex flex-col items-center justify-between md:flex-row bg-violet-50 dark:bg-neutral-800'>
 
       <div className='mb-8 md:mb-0 md:mr-8 flex flex-col justify-center max-w-lg'>
         <h1 className='mb-4 text-3xl md:text-4xl dark:text-white'><strong>Contactanos.</strong></h1>
