@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 
 const ProductCard2 = ({ nombre, precio, imagen }) => {
   return (
-    <div className="p-4 w-full sm:h-96 md:h-128 flex flex-col items-center justify-center text-center shadow-sm border rounded-lg bg-white dark:bg-neutral-800 dark:border-neutral-900">
+    <div className="p-4 w-full sm:h-96 md:h-128 flex flex-col items-center justify-center text-center shadow-sm border rounded-lg bg-white dark:bg-neutral-700 dark:border-neutral-600">
 
       <Link to='/productIndividualPage' className="w-full h-full flex flex-col items-center justify-between text-center">
 

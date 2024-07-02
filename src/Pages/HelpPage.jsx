@@ -16,7 +16,7 @@ function HelpPage() {
 
       <SecondNavBar />
 
-      <div className='px-2 md:px-10 lg:px-20 xl:px-80 py-10 flex flex-col justify-center bg-violet-50 dark:bg-neutral-700 dark:text-white'>
+      <div className='py-10 px-2 md:px-10 lg:px-20 xl:px-80 flex flex-col justify-center bg-violet-50 dark:bg-neutral-700 dark:text-white'>
 
         <div className='flex flex-col justify-center'>
 

@@ -3,11 +3,11 @@ import { FaInstagram, FaXTwitter, FaFacebook } from "react-icons/fa6";
 
 function Footer() {
   return (
-    <footer className="footer p-4 flex flex-col items-center justify-between sm:flex-row text-white bg-violet-900">
+    <footer className="footer p-4 flex flex-col items-center justify-center sm:justify-between sm:flex-row text-white bg-violet-900">
 
-      <aside className="flex items-center mb-4 md:mb-0">
-        <img src='/iconopag.ico' className='w-6 h-6 mr-2' alt='logo-footer' />
-        <p>Copyright © 2024 - Todos los derechos reservados</p>
+      <aside className="flex items-center justify-center">
+        
+        <p className='text-center'>Project Components Store © 2024 - Todos los derechos reservados</p>
       </aside> 
 
       <nav className="flex gap-4 ">
