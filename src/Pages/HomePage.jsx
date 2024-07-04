@@ -25,7 +25,9 @@ function HomePage() {
 
       <ServicesMain />
 
-      <Contact />
+      <div className='py-10 px-2 md:px-10 lg:px-20 xl:px-10 bg-violet-50 dark:bg-neutral-800'>
+        <Contact />
+      </div>
 
       <Footer />
         

@@ -2,7 +2,7 @@ import React from 'react';
 
 function Servicios() {
   return (
-    <div className='py-10 px-2 lg:px-10 xl:px-20 dark:bg-neutral-800'>
+    <div className='py-10 px-2 md:px-10 lg:px-20 xl:px-10 dark:bg-neutral-800'>
 
       <h1 className='flex items-center justify-center md:justify-start text-3xl md:text-4xl dark:text-white '><strong>Nuestros servicios</strong></h1>    
       <div className='divider'></div> 

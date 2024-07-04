@@ -7,7 +7,7 @@ import { FaWhatsapp } from "react-icons/fa";
 import { FiPhone } from "react-icons/fi";
 import { FaLocationDot, FaTruck } from "react-icons/fa6";
 import { Accordion, AccordionItem } from "@nextui-org/accordion";
-import Contacto from '../Components/Contact'
+import Contact from '../Components/Contact'
 
 function HelpPage() {
   return (
@@ -36,7 +36,6 @@ function HelpPage() {
               <div className='relative p-10 w-full flex items-center rounded-lg shadow-sm border bg-white dark:bg-neutral-800 dark:border-neutral-800'>
 
                 <div className="absolute w-20 h-20 flex items-center justify-center bg-gray-200 rounded-full z-10" />
-
                 <IoMdMail className="absolute m-5 w-10 h-10 text-blue z-20 text-violet-900" />
 
                 <div className='flex flex-col items-start justify-center w-full h-full pl-24'>
@@ -55,7 +54,6 @@ function HelpPage() {
               <div className='relative p-10 w-full flex items-center rounded-lg shadow-sm border bg-white dark:bg-neutral-800 dark:border-neutral-800'>
 
                 <div className="absolute w-20 h-20 flex items-center justify-center bg-gray-200 rounded-full z-10" />
-
                 <FaWhatsapp className="absolute m-5 w-10 h-10 text-blue z-20 text-violet-900" />
 
                 <div className='flex flex-col items-start justify-center w-full h-full pl-24'>
@@ -66,6 +64,7 @@ function HelpPage() {
                 </div>
 
               </div>
+
             </div>
 
             <div className='mb-2 sm:my-2 flex items-center justify-between flex-1 min-w-[250px]'>
@@ -73,7 +72,6 @@ function HelpPage() {
               <div className='relative p-10 w-full flex items-center rounded-lg shadow-sm border bg-white dark:bg-neutral-800 dark:border-neutral-800'>
 
                 <div className="absolute w-20 h-20 flex items-center justify-center bg-gray-200 rounded-full z-10" />
-
                 <FiPhone className="absolute m-5 w-10 h-10 text-blue z-20 text-violet-900" />
 
                 <div className='flex flex-col items-start justify-center w-full h-full pl-24'>
@@ -98,7 +96,6 @@ function HelpPage() {
               <div className='relative p-10 w-full flex items-center rounded-lg shadow-sm border bg-white dark:bg-neutral-800 dark:border-neutral-800'>
 
                 <div className="absolute w-20 h-20 flex items-center justify-center bg-gray-200 rounded-full z-10" />
-
                 <FaLocationDot className="absolute m-5 w-10 h-10 text-blue z-20 text-violet-900" />
 
                 <div className='flex flex-col items-start justify-center w-full h-full pl-24'>
@@ -116,7 +113,6 @@ function HelpPage() {
               <div className='relative p-10 w-full flex items-center rounded-lg sshadow-sm border bg-white dark:bg-neutral-800 dark:border-neutral-800'>
 
                 <div className="absolute w-20 h-20 flex items-center justify-center bg-gray-200 rounded-full z-10" />
-
                 <FaTruck className="absolute m-5 w-10 h-10 text-blue z-20 text-violet-900" />
 
                 <div className='flex flex-col items-start justify-center w-full h-full pl-24'>
@@ -286,11 +282,15 @@ function HelpPage() {
 
       </div>
 
-      <div className='px-2 md:px-10 lg:px-20 xl:px-80 bg-violet-50 dark:bg-neutral-800 '>
+      <div className='px-2 md:px-10 lg:px-20 xl:px-80 bg-violet-50 dark:bg-neutral-800'>
 
         <h2 className='pt-4 text-2xl font-semibold text-start dark:text-white'>¿No encontraste la respuesta a tu consulta?</h2>
         <div className="divider"></div>
-        <Contacto />
+
+        <div className='py-10'>
+          <Contact />
+        </div>
+        
 
       </div>
 

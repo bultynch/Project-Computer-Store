@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import emailjs from 'emailjs-com';
 
-function Contacto() {
+function Contact() {
   const [formData, setFormData] = useState({
     nombre: '',
     correo: '',
@@ -47,11 +47,11 @@ function Contacto() {
   };
 
   return (
-    <div className='py-10 px-2 lg:px-10 xl:px-20 flex flex-col items-center justify-between md:flex-row bg-violet-50 dark:bg-neutral-800'>
+    <div className='flex flex-col items-center justify-between md:flex-row bg-violet-50 dark:bg-neutral-800'>
 
       <div className='mb-8 md:mb-0 md:mr-8 flex flex-col justify-center max-w-lg'>
-        <h1 className='mb-4 text-3xl md:text-4xl dark:text-white'><strong>Contactanos.</strong></h1>
-        <p className='text-xl text-gray-500 dark:text-white'>Envianos un mail y nos pondremos en contacto a la brevedad.</p>
+        <h1 className='text-center sm:text-start mb-4 text-3xl md:text-4xl dark:text-white'><strong>Contactanos.</strong></h1>
+        <p className='text-center sm:text-start text-xl text-gray-500 dark:text-white'>Envianos un mail y nos pondremos en contacto a la brevedad.</p>
       </div>
 
       <form onSubmit={handleSubmit} className='w-full max-w-lg flex flex-col justify-center '>
@@ -80,4 +80,4 @@ function Contacto() {
   );
 }
 
-export default Contacto;
+export default Contact;

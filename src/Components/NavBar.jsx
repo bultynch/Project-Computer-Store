@@ -17,10 +17,12 @@ function NavigationBar() {
       </div>
 
       <div className="navbar-center">
-
-        <Link to='/' className="btn btn-ghost text-xl hover:rounded-lg dark:text-white dark:hover:bg-neutral-700">Project Computer Store</Link>
-
+        <Link to="/" className="btn btn-ghost text-xl hover:rounded-lg dark:text-white dark:hover:bg-neutral-700">
+          <span className="sm:hidden">PC Store</span>
+          <span className="hidden sm:inline">Project Computer Store</span>
+        </Link>
       </div>
+
 
       <div className="navbar-end flex items-center space-x-2">
 

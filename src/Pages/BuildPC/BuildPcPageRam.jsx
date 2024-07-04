@@ -16,28 +16,31 @@ function BuildPcPageMother2() {
         <SecondNavBar />
       </div>
 
-      <div className='flex-grow px-80 py-4 flex flex-col bg-violet-50 dark:bg-neutral-700'>
+      <div className='p-2 gap-2 sm:px-10 lg:px-20 xl:px-40 2xl:px-0 flex-grow flex flex-col 2xl:items-center bg-violet-50 dark:bg-neutral-700'>
 
-        <div className='flex items-center justify-between'>
-          <Link to='/mother1' className="w-44 h-14 mb-2 px-4 py-2 flex items-center bg-white border rounded-lg text-lg shadow-sm hover:bg-gray-100 hover:shadow-none dark:bg-neutral-800 dark:border-neutral-700 dark:text-white dark:hover:bg-neutral-600"><FaArrowLeft className='w-5 h-5 mr-2'/>Paso anterior</Link>
-          <Link to='/font' className="w-44 h-14 mb-2 px-2.5 py-2 flex items-center bg-white border rounded-lg text-lg shadow-sm hover:bg-gray-100 hover:shadow-none dark:bg-neutral-800 dark:border-neutral-700 dark:text-white dark:hover:bg-neutral-600">Siguiente paso<FaArrowRight className='w-5 h-5 ml-1'/></Link>
+        <div className='2xl:gap-[960px] flex items-center justify-between 2xl:items-between'>
+
+          <Link to='/mother1' className="w-44 h-14 px-4 py-2 flex items-center bg-white border rounded-lg text-lg shadow-sm hover:bg-gray-100 hover:shadow-none dark:bg-neutral-800 dark:border-neutral-700 dark:text-white dark:hover:bg-neutral-600"><FaArrowLeft className='w-5 h-5 mr-2'/>Paso anterior</Link>
+
+          <Link to='/font' className="w-44 h-14 px-2.5 py-2 flex items-center bg-white border rounded-lg text-lg shadow-sm hover:bg-gray-100 hover:shadow-none dark:bg-neutral-800 dark:border-neutral-700 dark:text-white dark:hover:bg-neutral-600">Siguiente paso<FaArrowRight className='w-5 h-5 ml-1'/></Link>
+
         </div>
 
-        <div className='h-160 flex items-start justify-between py-2'>
+        <div className='md:flex justify-between gap-2 2xl:w-[1312px]'>
           
-          <div className=''>
+          <div className='mb-2 lg:m-0 w-full'>
             <BuildPcSelection />
           </div>
 
 
 
-          <div className='flex flex-col items-center'>
+          <div className='w-full'>
 
-            <div className='mb-5'>
+            <div className='mb-2'>
               <ProductCard4 nombre='Memoria Team DDR4 8GB 3200MHz' precio={27000} imagen='https://imagenes.compragamer.com/productos/compragamer_Imganen_general_24796_Memoria_Team_DDR4_8GB_3200MHz_Elite_Plus_Red_CL_22_f8b42869-grn.jpg'/>
             </div>
 
-            <div className='mt-5'>
+            <div className=''>
               <ProductCard4 nombre='Memoria Team DDr4 16GB 3200MHz' precio={50000} imagen='https://imagenes.compragamer.com/productos/compragamer_Imganen_general_38661_Memoria_Team_DDR4_16GB_3200Mhz_Vulcan_ASUS_TUF_Alliance_CL16_df660a5c-grn.jpg'/>
             </div>
 

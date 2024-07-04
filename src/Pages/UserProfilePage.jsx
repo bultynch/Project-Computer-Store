@@ -3,31 +3,58 @@ import NavBar from '../Components/NavBar'
 import SecondNavBar from '../Components/SecondNavBar'
 import Footer from '../Components/Footer'
 import { LuLogOut } from "react-icons/lu";
-import { MdPlace } from "react-icons/md";
-import { BsClipboardCheckFill } from "react-icons/bs";
+import { MdPlace, MdAccountBox, MdAssignment, MdLocalMall } from "react-icons/md";
 
 function UserProfilePage() {
   return (
-    <div className='flex-colflex-grow bg-violet-50'>
+    <div className='flex flex-col min-h-screen bg-violet-50'>
 
         <NavBar />
 
         <SecondNavBar />
 
-        <div className='mx-60 my-10 flex items-start justify-between bg-gray-50 shadow-sm rounded-lg border'>
-
-            <div className='flex flex-col w-2/3'>
-                <div className='m-5 p-5 h-160 bg-white shadow-sm rounded-lg border'>reservas</div>
-                <div className='m-5 p-5 h-40 bg-white shadow-sm rounded-lg border'>cuenta</div>
-            </div>
+        <div className=''>
             
-            <div className='flex flex-col w-1/3'>
-                <div className='m-5 p-5 h-72 flex items-start justify-start bg-white shadow-sm rounded-lg border text-lg'><BsClipboardCheckFill className='h-6 w-6 mr-2'/>Mis Facturas</div>
+            <div className='my-2 mx-2 sm:mx-10 md:mx-20 lg:mx-40 xl:mx-80 gap-2 flex flex-col'>
 
-                <div className='m-5 p-5 h-[312px] flex items-start justify-start bg-white shadow-sm rounded-lg border text-lg'><MdPlace className='h-6 w-6 mr-2'/>Mis direcciones</div>
+                <div className='gap-2 flex flex-col '>
 
-                <div className='m-5 p-2 h-12 flex items-center justify-between bg-violet-900 shadow-sm rounded-lg border text-white text-lg hover:text-violet-900 hover:bg-white hover:border-violet-900'>Cerrar sesion
-                    <LuLogOut className='h-6 w-6 text-end'/>
+                    <div className='p-2 h-40 flex items-start justify-start bg-white shadow-sm rounded-md border'>
+                        <MdLocalMall className='w-6 h-6 mt-0.5 mr-1'/>
+                        <h1 className='text-lg'>Mis reservas</h1>
+                    </div>
+
+                    <div className='p-2 h-40 flex items-start justify-start bg-white shadow-sm rounded-md border'>
+                        <MdAccountBox className='w-6 h-6 mt-0.5 mr-1'/>
+                        <h1 className='text-lg'>Mi cuenta</h1>
+                    </div>
+
+                </div>
+
+                <div className='gap-2 flex flex-col'>
+
+                    <div className='p-2 h-40 flex items-start justify-start bg-white shadow-sm rounded-md border'>
+                        <MdAssignment className='h-6 w-6 mt-0.5 mr-1'/>
+                        <h1 className='text-lg'>Mis Facturas</h1>
+                    </div>
+
+
+                    <div className='p-2 h-40 bg-white shadow-sm rounded-md border'>
+                        
+                        <div className='flex items-center justify-start'>
+                            <MdPlace className='h-6 w-6 mr-1'/>
+                            <h1>Mis direcciones</h1>
+                        </div>
+
+                    </div>
+
+                    
+
+                    <button className='p-2 h-14 flex items-center justify-between shadow-sm rounded-md border bg-red-600 text-white text-lg hover:bg-white hover:text-red-500 hover:border-red-500 '>
+                        <h1>Cerrar sesión</h1>
+                        <LuLogOut className='h-6 w-6 text-end'/>
+                    </button>
+
                 </div>
 
             </div>

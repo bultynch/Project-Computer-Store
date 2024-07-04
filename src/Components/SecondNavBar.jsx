@@ -11,7 +11,7 @@ function SecondNavBar() {
 
       <Link to='/help' className='text-center hover:text-gray-400'>AYUDA</Link>
 
-      <Link to='/sponsors' className='inline-block text-center hover:text-gray-400'>NUESTROS SPONSORS</Link>
+      <Link to='/sponsors' className='inline-block text-center hover:text-gray-400'>SPONSORS</Link>
 
     </div>
   )
