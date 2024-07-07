@@ -17,11 +17,11 @@ const ProductCard4 = ({ nombre, precio, imagen, productPage }) => {
 
         <div className='flex flex-col items-center justify-between gap-2'>
 
-          <div className='py-2 px-4 w-full rounded-lg text-center font-semibold md:text-center text-white bg-violet-900 border border-violet-900 hover:bg-white hover:text-violet-900 hover:border-violet-900'>
+          <div className='py-2 w-full rounded-lg text-center font-semibold md:text-center text-white bg-violet-900 border border-violet-900 hover:bg-white hover:text-violet-900 hover:border-violet-900'>
             <Link to="/productIndividualPage">Seleccionar</Link>
           </div>
 
-          <div className="py-2 px-4 w-full bg-violet-200 rounded-lg text-center font-semibold text-violet-900 hover:bg-violet-100">
+          <div className="py-2 w-full bg-violet-200 rounded-lg text-center font-semibold text-violet-900 hover:bg-violet-100">
             <Link to={productPage}>Ver producto</Link>
           </div>
 

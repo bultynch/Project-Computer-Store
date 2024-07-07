@@ -11,12 +11,12 @@ import Contact from '../Components/Contact'
 
 function HelpPage() {
   return (
-    <div>
+    <div className='bg-violet-50 dark:bg-neutral-700'>
       <NavBar />
 
       <SecondNavBar />
 
-      <div className='py-10 px-2 md:px-10 lg:px-20 xl:px-80 flex flex-col justify-center bg-violet-50 dark:bg-neutral-700 dark:text-white'>
+      <div className='my-10 mx-2 md:mx-10 lg:mx-20 xl:mx-80 2xl:max-w-[976px] 2xl:mx-auto flex flex-col justify-center dark:text-white'>
 
         <div className='flex flex-col justify-center'>
 
@@ -29,7 +29,7 @@ function HelpPage() {
 
           <h2 className='text-lg font-medium text-center sm:text-start'>Contactate con nosotros mediante:</h2>
 
-          <div className='my-4 flex flex-col'>
+          <div className='my-4 flex flex-col 2xl:w-[976px]'>
 
             <div className='mb-2 sm:my-2 flex items-center justify-between flex-1 min-w-[250px]'>
 
@@ -282,12 +282,12 @@ function HelpPage() {
 
       </div>
 
-      <div className='px-2 md:px-10 lg:px-20 xl:px-80 bg-violet-50 dark:bg-neutral-800'>
+      <div className='mx-2 md:mx-10 lg:mx-20 xl:mx-80 2xl:max-w-[976px] 2xl:mx-auto bg-violet-50 dark:bg-neutral-800'>
 
-        <h2 className='pt-4 text-2xl font-semibold text-start dark:text-white'>¿No encontraste la respuesta a tu consulta?</h2>
+        <h2 className='mt-4 text-2xl font-semibold text-start dark:text-white'>¿No encontraste la respuesta a tu consulta?</h2>
         <div className="divider"></div>
 
-        <div className='py-10'>
+        <div className='my-10 '>
           <Contact />
         </div>
         

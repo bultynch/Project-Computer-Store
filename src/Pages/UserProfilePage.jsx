@@ -50,7 +50,7 @@ function UserProfilePage() {
 
                     
 
-                    <button className='p-2 h-14 flex items-center justify-between shadow-sm rounded-md border bg-red-600 text-white text-lg hover:bg-white hover:text-red-500 hover:border-red-500 '>
+                    <button className='p-2 h-14 flex items-center justify-between shadow-sm rounded-md border bg-red-600 text-white text-lg hover:bg-white hover:text-red-500 hover:border-red-500'>
                         <h1>Cerrar sesión</h1>
                         <LuLogOut className='h-6 w-6 text-end'/>
                     </button>
