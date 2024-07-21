@@ -282,12 +282,12 @@ function HelpPage() {
 
       </div>
 
-      <div className='mx-2 md:mx-10 lg:mx-20 xl:mx-80 2xl:max-w-[976px] 2xl:mx-auto bg-violet-50 dark:bg-neutral-800'>
+      <div className='mx-2 md:mx-10 lg:mx-20 xl:mx-80 2xl:max-w-[976px] 2xl:mx-auto bg-violet-50 dark:bg-neutral-700'>
 
         <h2 className='mt-4 text-2xl font-semibold text-start dark:text-white'>¿No encontraste la respuesta a tu consulta?</h2>
         <div className="divider"></div>
 
-        <div className='my-10 '>
+        <div className='my-10 dark:bg-neutral-700'>
           <Contact />
         </div>
         

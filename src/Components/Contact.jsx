@@ -47,7 +47,7 @@ function Contact() {
   };
 
   return (
-    <div className='flex flex-col items-center justify-between md:flex-row bg-violet-50 dark:bg-neutral-800'>
+    <div className='flex flex-col items-center justify-between md:flex-row bg-violet-50 dark:bg-neutral-700'>
 
       <div className='mb-8 md:mb-0 md:mr-8 flex flex-col justify-center max-w-lg'>
         <h1 className='text-center sm:text-start mb-4 text-3xl md:text-4xl dark:text-white'><strong>Contactanos.</strong></h1>

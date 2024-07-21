@@ -34,7 +34,7 @@ function NavigationBar() {
             </li>
 
             <li>
-              <Link to='/login' className='p-1 rounded-lg hover:bg-gray-100'>
+              <Link to='/login' className='p-1 rounded-lg hover:bg-gray-100 '>
                 <LuLogOut className='w-6 h-6'/>
                 Cerrar sesión
               </Link>
