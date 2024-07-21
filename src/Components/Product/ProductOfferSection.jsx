@@ -45,7 +45,7 @@ function ProductOfferSection() {
   };
 
   return (
-    <div className="py-10 px-2 sm:px-10 bg-violet-50 dark:bg-neutral-800">
+    <div className="py-10 px-10 bg-violet-50 dark:bg-neutral-800">
       <div>
 
         <h2 className="text-3xl font-semibold text-center sm:text-left dark:text-white">Ofertas semanales</h2>

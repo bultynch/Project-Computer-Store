@@ -7,7 +7,7 @@ const ProductCard2 = ({ nombre, precio, imagen }) => {
 
       <Link to='/productIndividualPage' className="w-full h-full flex flex-col items-center justify-between text-center">
 
-        <figure className="w-full h-72 sm:h-auto xl:h-72">
+        <figure className="w-80 sm:w-full h-72 sm:h-auto xl:h-72">
           <img src={imagen} alt='pic-pc2' className="w-full h-full object-cover rounded-lg" />
         </figure>
 
