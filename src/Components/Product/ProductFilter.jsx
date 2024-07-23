@@ -3,7 +3,7 @@ import { Accordion, AccordionItem } from "@nextui-org/accordion";
 
 function ProductFilter() {
   return (
-    <div className="flex flex-col justify-center bg-white border rounded-lg shadow-sm dark:bg-neutral-800  dark:border-neutral-700">
+    <div className="w-full flex flex-col justify-center bg-white border rounded-lg shadow-sm dark:bg-neutral-800 dark:border-neutral-700">
 
       <Accordion className=''>
 
