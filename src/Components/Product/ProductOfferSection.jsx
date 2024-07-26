@@ -46,11 +46,10 @@ function ProductOfferSection() {
 
   return (
     <div className="py-10 px-10 bg-violet-50 dark:bg-neutral-800">
-      <div>
 
+      <div>
         <h2 className="text-3xl font-semibold text-center sm:text-left dark:text-white">Ofertas semanales</h2>
         <div className="divider"></div>
-
       </div>
 
       <Slider {...settings} className=''>

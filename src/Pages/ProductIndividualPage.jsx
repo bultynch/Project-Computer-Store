@@ -7,32 +7,29 @@ import SecondNavBar from '../Components/SecondNavBar';
 
 function ProductIndividualPage() {
   return (
-    <div className='bg-violet-50'>
+    <div className='bg-violet-50 dark:bg-neutral-700'>
 
       <NavBar />
 
       <SecondNavBar />
 
-      <div className='px-4 md:px-20 md:pt-10 lg:px-80 lg:pt-10 '>
+      <div className='m-2'>
 
         <ProductCard3 nombre='Placa de video ASUS GeForce RTX 4080 16GB GDDR6X ROG STRIX OC' precio={1800000} />
 
-      </div>
+        <div className='my-2 py-2 flex items-center justify-center bg-white rounded-lg border shadow-sm'>
+          <h1 className='mx-1 text-md '>Especificaciones</h1>
+          <h1 className='mx-1 text-md '>Preguntas</h1>
+          <h1 className='mx-1 text-md '>Rendimiento</h1>
+          <h1 className='mx-1 text-md '>Comportamiento</h1>
+        </div>
 
-      <div className='my-10 md:my-10 mx-4 md:mx-20 lg:mx-80 py-4 flex flex-wrap items-center justify-center bg-white border rounded-xl shadow-sm'>
-
-        <h1 className='mx-10 text-sm md:text-lg'>ESPECIFICACIONES</h1>
-        <h1 className='mx-10 text-sm md:text-lg'>PREGUNTAS</h1>
-        <h1 className='mx-10 text-sm md:text-lg'>RENDIMIENTO</h1>
-        <h1 className='mx-10 text-sm md:text-lg'>COMPORTAMIENTO</h1>
-
-      </div>
-
-      <div className='mb-10 md:mx-20 lg:mx-80'>
-
-        <Especifications />
+        <div className='my-2'>
+          <Especifications />
+        </div>
 
       </div>
+
 
       <Footer />
 

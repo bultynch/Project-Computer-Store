@@ -16,10 +16,10 @@ const ProductCard3 = ({ nombre, precio, onAddToCart }) => {
   };
 
   const settings = {
-    dots: true,
+    dots: false,
     infinite: true,
     speed: 500,
-    slidesToShow: 4,
+    slidesToShow: 3,
     slidesToScroll: 1,
     responsive: [
       {
@@ -46,7 +46,7 @@ const ProductCard3 = ({ nombre, precio, onAddToCart }) => {
       {
         breakpoint: 480,
         settings: {
-          slidesToShow: 1,
+          slidesToShow: 2,
           slidesToScroll: 1,
         },
       },
@@ -54,52 +54,41 @@ const ProductCard3 = ({ nombre, precio, onAddToCart }) => {
   };
 
   return (
-    <div className="p-4 flex flex-col md:flex-row items-center justify-center rounded-2xl border shadow-sm bg-white">
+    <div className="p-2 flex flex-col items-center justify-center bg-white rounded-lg border shadow-sm">
 
-      <div className="w-full md:w-1/2 p-4">
+      <div className="m-2 w-full flex flex-col items-center">
 
-        <img src={images['main']} alt="prod-pic" className="w-144 h-auto" />
+        <img src={images['main']} alt="prod-pic" className="w-80 h-auto" />
 
-        <div className="my-4 border-t"></div>
+        <div className='flex items-center justify-center border border-black'>
 
-        <div className='w-full h-32 border border-black flex items-center justify-center'>
-
-          <Slider {...settings}>
- 
-            <img src={images['main']} alt='prod-pic-1' className='w-20 h-20 object-contain' />
-
-            <img src={images['img-2']} alt='prod-pic-2' className='w-20 h-20 object-contain' />
-
-            <img src={images['img-3']} alt='prod-pic-3' className='w-20 h-20 object-contain' />
-
-            <img src={images['img-4']} alt='prod-pic-4' className='w-full h-20 object-contain' />
-
-          </Slider>
+          {/*<Slider {...settings}>
+            <img src={images['main']} alt='prod-pic-1' className='w-60 h-60'/>
+            <img src={images['img-2']} alt='prod-pic-2' className='w-60 h-60'/>
+            <img src={images['img-3']} alt='prod-pic-3' className='w-60 h-60'/>
+            <img src={images['img-4']} alt='prod-pic-4' className='w-60 h-60'/>
+          </Slider>*/}
 
         </div>
-
       </div>
 
-      <div className="h-full p-4 md:w-1/2 flex flex-col justify-between">
+      <div className="p-2 h-full md:w-1/2 flex flex-col justify-between">
 
-        <div className="border border-black p-4">
+        <div className="mt-4">
           <h1 className="text-2xl md:text-3xl font-normal">{nombre}</h1>
         </div>
 
-        <div className="my-4 border-t"></div>
+        <div className='divider'></div>
 
-        <div className="border border-black p-4">
-
+        <div className="">
           <h1 className=" text-blue-500 text-3xl md:text-5xl font-semibold">${precio}</h1>
           <h1 className="my-2 text-xl">12 cuotas sin interés de ${(precio / 12)}</h1>
-
           <h1 className='text-xl'>Precio de lista $ {(precio + 100000)}</h1>
-
         </div>
 
-        <div className="my-4 border-t"></div>
+        <div className='divider'></div>
 
-        <div className='p-4 border border-black'>
+        <div className=''>
 
           <div className='flex items-center justify-start'>
             <GoShieldCheck className='pr-1 text-green-500 text-2xl'/>
@@ -118,12 +107,12 @@ const ProductCard3 = ({ nombre, precio, onAddToCart }) => {
           
         </div>
 
-        <div className="my-4 border-t"></div>
+        <div className='divider'></div>
 
-        <div className="border border-black p-4 flex flex-col md:flex-row">
+        <div className="gap-2 flex flex-col">
 
-          <button className="p-4 m-2 bg-blue-950 text-white rounded-lg hover:bg-blue-800">Comprar</button>
-          <Link to="/carrito" className="p-4 m-2 bg-gray-100 rounded-lg font-semibold hover:bg-gray-200 text-center md:text-left">Agregar al carrito</Link>
+          <button className="p-4 bg-violet-900 text-white rounded-lg shadow-sm border hover:bg-white hover:text-violet-900 hover:border-violet-900">Comprar</button>
+          <Link to="/carrito" className="p-4 bg-gray-100 text-center md:text-left rounded-lg shadow-sm border font-semibold hover:bg-gray-200 ">Agregar al carrito</Link>
 
         </div>
 
