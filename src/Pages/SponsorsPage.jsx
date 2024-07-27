@@ -25,7 +25,7 @@ function SponsorsPage() {
       <NavBar />
       <SecondNavBar />
 
-      <div className='my-10 mx-2 gap-4 lg:mx-20 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 justify-items-center 2xl:max-w-[1296px] 2xl:mx-auto'>
+      <div className='m-2 gap-2 lg:mx-20 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 justify-items-center 2xl:max-w-[1296px] 2xl:mx-auto'>
         {Object.keys(imageUrls).map((key, index) => (
           <SponsorsCard key={index} imagen={imageUrls[key]} />
         ))}
