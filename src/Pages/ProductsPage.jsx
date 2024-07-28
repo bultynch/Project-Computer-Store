@@ -22,7 +22,7 @@ function ProductsPage() {
         </div>
         
 
-        <div className=''>
+        <div className='md:w-144'>
 
           <div className='mb-2'>
             <ProductCard4 nombre='Placa de video ASUS GeForce RTX ' precio={479000} imagen='https://imagenes.compragamer.com/productos/compragamer_Imganen_general_38987_Placa_de_Video_ASUS_GeForce_RTX_4060_8GB_GDDR6_Dual_White_OC_4e9dd699-grn.jpg'/>
@@ -39,7 +39,7 @@ function ProductsPage() {
           <div className='my-2'>
             <ProductCard4 nombre='Placa de video ASUS GeForce RTX 4080 16GB GDDR6X ROG STRIX OC' precio={479000} imagen='https://imagenes.compragamer.com/productos/compragamer_Imganen_general_38987_Placa_de_Video_ASUS_GeForce_RTX_4060_8GB_GDDR6_Dual_White_OC_4e9dd699-grn.jpg'/>
           </div>
-
+          min-h-screen
           <div className='my-2'>
             <ProductCard4 nombre='Placa de video ASUS GeForce RTX 4080 16GB GDDR6X ROG STRIX OC' precio={479000} imagen='https://imagenes.compragamer.com/productos/compragamer_Imganen_general_38987_Placa_de_Video_ASUS_GeForce_RTX_4060_8GB_GDDR6_Dual_White_OC_4e9dd699-grn.jpg'/>
           </div>

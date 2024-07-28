@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 
 const ProductCard4 = ({ nombre, precio, imagen, productPage }) => {
   return (
-    <div className="md:w-144 p-4 gap-4 flex flex-row items-center rounded-lg shadow-sm border bg-white dark:bg-neutral-800 dark:border-neutral-700">
+    <div className="w-full p-4 gap-4 flex flex-row items-center rounded-lg shadow-sm border bg-white dark:bg-neutral-800 dark:border-neutral-700">
 
       <Link to="/productIndividualPage" className="w-40 h-40">
         <img src={imagen} alt='pimage' className="w-full rounded-lg" />
