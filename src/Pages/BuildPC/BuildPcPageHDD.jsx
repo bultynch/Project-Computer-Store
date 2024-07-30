@@ -20,9 +20,9 @@ function BuildPcPageMother2() {
 
         <div className='xl:gap-x-[743px] w-full flex justify-between xl:justify-center'>
 
-          <Link to='/graphic' className="w-44 h-14 px-4 py-2 flex items-center bg-white border rounded-lg text-lg shadow-sm hover:bg-gray-100 hover:shadow-none dark:bg-neutral-800 dark:border-neutral-700 dark:text-white dark:hover:bg-neutral-600"><FaArrowLeft className='w-5 h-5 mr-2'/>Paso anterior</Link>
+          <Link to='/ram' className="w-44 h-14 px-4 py-2 flex items-center bg-white border rounded-lg text-lg shadow-sm hover:bg-gray-100 hover:shadow-none dark:bg-neutral-800 dark:border-neutral-700 dark:text-white dark:hover:bg-neutral-600"><FaArrowLeft className='w-5 h-5 mr-2'/>Paso anterior</Link>
 
-          <Link to='/case' className="w-44 h-14 px-2.5 py-2 flex items-center bg-white border rounded-lg text-lg shadow-sm hover:bg-gray-100 hover:shadow-none dark:bg-neutral-800 dark:border-neutral-700 dark:text-white dark:hover:bg-neutral-600">Siguiente paso<FaArrowRight className='w-5 h-5 ml-1'/></Link>
+          <Link to='/ssd' className="w-44 h-14 px-2.5 py-2 flex items-center bg-white border rounded-lg text-lg shadow-sm hover:bg-gray-100 hover:shadow-none dark:bg-neutral-800 dark:border-neutral-700 dark:text-white dark:hover:bg-neutral-600">Siguiente paso<FaArrowRight className='w-5 h-5 ml-1'/></Link>
 
         </div>
 
@@ -32,10 +32,16 @@ function BuildPcPageMother2() {
             <BuildPcSelection />
           </div>
 
+
+
           <div className='w-full xl:w-144'>
 
             <div className='mb-2'>
-              <ProductCard4 nombre='Fuente Cougar 750W 80 Plus Gold GEC750' precio={123000} imagen='https://imagenes.compragamer.com/productos/compragamer_Imganen_general_39112_Fuente_Cougar_750W_80_Plus_Gold_GEC750_1d2f2d18-grn.jpg'/>
+              <ProductCard4 nombre='Memoria Team DDR4 8GB 3200MHz' precio={27000} imagen='https://imagenes.compragamer.com/productos/compragamer_Imganen_general_24796_Memoria_Team_DDR4_8GB_3200MHz_Elite_Plus_Red_CL_22_f8b42869-grn.jpg'/>
+            </div>
+
+            <div className=''>
+              <ProductCard4 nombre='Memoria Team DDr4 16GB 3200MHz' precio={50000} imagen='https://imagenes.compragamer.com/productos/compragamer_Imganen_general_38661_Memoria_Team_DDR4_16GB_3200Mhz_Vulcan_ASUS_TUF_Alliance_CL16_df660a5c-grn.jpg'/>
             </div>
 
           </div>

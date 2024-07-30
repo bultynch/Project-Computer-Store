@@ -11,11 +11,12 @@ function BuildPcPage() {
   return (
     <div className="flex flex-col min-h-screen">
       
-      <div className='shadow-sm'>
+      <div>
         <NavBar />
+        <SecondNavBar />
       </div>
 
-      <SecondNavBar />
+      
       
 
       <div className="flex flex-grow items-center justify-center bg-violet-50 dark:bg-neutral-700">

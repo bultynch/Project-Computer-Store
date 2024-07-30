@@ -14,8 +14,12 @@ import BuildPcPageProcessor2 from './Pages/BuildPC/BuildPcPageProcessor2';
 import BuildPcPageMother1 from './Pages/BuildPC/BuildPcPageMother1';
 import BuildPcPageMother2 from './Pages/BuildPC/BuildPcPageMother2';
 import BuildPcPageRam from './Pages/BuildPC/BuildPcPageRam';
+import BuildPcPageHDD from './Pages/BuildPC/BuildPcPageHDD';
+import BuildPcPageSSD from './Pages/BuildPC/BuildPcPageSSD';
+import BuildPcPageGraphicCard from './Pages/BuildPC/BuildPcPageGraphicCard';
 import BuildPcPageFont from './Pages/BuildPC/BuildPcPageFont';
 import BuildPcPageCase from './Pages/BuildPC/BuildPcPageCase';
+import BuildPcPageAccessories from './Pages/BuildPC/BuildPcPageAccessories';
 import UserProfilePage from './Pages/UserProfilePage';
 
 function App() {
@@ -36,9 +40,14 @@ function App() {
         <Route path='/mother1' element={<BuildPcPageMother1 />} />
         <Route path='/mother2' element={<BuildPcPageMother2 />} />
         <Route path='/ram' element={<BuildPcPageRam />} />
+        <Route path='/hdd' element={<BuildPcPageHDD />} />
+        <Route path='/ssd' element={<BuildPcPageSSD />} />
+        <Route path='/graphic' element={<BuildPcPageGraphicCard />} />
         <Route path='/font' element={<BuildPcPageFont />} />
-        <Route path='/case' element={<BuildPcPageCase />}/>
-        <Route path='/userProfile' element={<UserProfilePage />}/>
+        <Route path='/case' element={<BuildPcPageCase />} />
+        <Route path='/accessories' element={<BuildPcPageAccessories />} />
+        <Route path='/userProfile' element={<UserProfilePage />} />
+        
 
       </Routes>
     </Router>
