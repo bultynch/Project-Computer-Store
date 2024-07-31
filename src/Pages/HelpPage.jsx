@@ -8,6 +8,7 @@ import { FiPhone } from "react-icons/fi";
 import { FaLocationDot, FaTruck } from "react-icons/fa6";
 import { Accordion, AccordionItem } from "@nextui-org/accordion";
 import Contact from '../Components/Contact'
+import ScrollTopButton from '../Components/ScrollTopButton';
 
 function HelpPage() {
   return (
@@ -293,6 +294,8 @@ function HelpPage() {
         
 
       </div>
+
+      <ScrollTopButton />
 
       <Footer />
 

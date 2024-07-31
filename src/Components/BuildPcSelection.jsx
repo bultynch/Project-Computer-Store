@@ -2,9 +2,9 @@ import React from 'react';
 
 function BuildPcSelection() {
   return (
-    <div className="w-full p-4 rounded-lg border shadow-sm flex flex-col gap-4 bg-white dark:bg-neutral-800 dark:border-neutral-700 dark:text-white">
+    <div className="w-full p-4 rounded-lg border shadow-sm flex flex-col gap-2 bg-white dark:bg-neutral-800 dark:border-neutral-700 dark:text-white">
 
-      <div className="flex items-center gap-4">
+      <div className="flex items-center gap-2">
         <div className="w-10 h-10 rounded-md bg-gray-200 flex items-center justify-center">
           <svg className="w-6 h-6 text-gray-500" viewBox="0 0 24 24">
             <path d="M12 2L2 7l8 5 8-5-10-5zM12 9L2 14l8 5 8-5-10-5zM12 16L2 21l8 5 8-5-10-5z" />
@@ -16,7 +16,7 @@ function BuildPcSelection() {
         </div>
       </div>
 
-      <div className="flex items-center gap-4">
+      <div className="flex items-center gap-2">
         <div className="w-10 h-10 rounded-md bg-gray-200 flex items-center justify-center">
           <svg className="w-6 h-6 text-gray-500" viewBox="0 0 24 24">
             <path d="M12 2L2 7l8 5 8-5-10-5zM12 9L2 14l8 5 8-5-10-5zM12 16L2 21l8 5 8-5-10-5z" />
@@ -28,7 +28,7 @@ function BuildPcSelection() {
         </div>
       </div>
 
-      <div className="flex items-center gap-4">
+      <div className="flex items-center gap-2">
         <div className="w-10 h-10 rounded-md bg-gray-200 flex items-center justify-center">
           <svg className="w-6 h-6 text-gray-500" viewBox="0 0 24 24">
             <path d="M12 2L2 7l8 5 8-5-10-5zM12 9L2 14l8 5 8-5-10-5zM12 16L2 21l8 5 8-5-10-5z" />
@@ -40,7 +40,7 @@ function BuildPcSelection() {
         </div>
       </div>
 
-      <div className="flex items-center gap-4">
+      <div className="flex items-center gap-2">
         <div className="w-10 h-10 rounded-md bg-gray-200 flex items-center justify-center">
           <svg className="w-6 h-6 text-gray-500" viewBox="0 0 24 24">
             <path d="M12 2L2 7l8 5 8-5-10-5zM12 9L2 14l8 5 8-5-10-5zM12 16L2 21l8 5 8-5-10-5z" />
@@ -52,7 +52,7 @@ function BuildPcSelection() {
         </div>
       </div>
 
-      <div className="flex items-center gap-4">
+      <div className="flex items-center gap-2">
         <div className="w-10 h-10 rounded-md bg-gray-200 flex items-center justify-center">
           <svg className="w-6 h-6 text-gray-500" viewBox="0 0 24 24">
             <path d="M12 2L2 7l8 5 8-5-10-5zM12 9L2 14l8 5 8-5-10-5zM12 16L2 21l8 5 8-5-10-5z" />
@@ -64,7 +64,7 @@ function BuildPcSelection() {
         </div>
       </div>
 
-      <div className="flex items-center gap-4">
+      <div className="flex items-center gap-2">
         <div className="w-10 h-10 rounded-md bg-gray-200 flex items-center justify-center">
           <svg className="w-6 h-6 text-gray-500" viewBox="0 0 24 24">
             <path d="M12 2L2 7l8 5 8-5-10-5zM12 9L2 14l8 5 8-5-10-5zM12 16L2 21l8 5 8-5-10-5z" />
@@ -76,7 +76,7 @@ function BuildPcSelection() {
         </div>
       </div>
 
-      <div className="flex items-center gap-4">
+      <div className="flex items-center gap-2">
         <div className="w-10 h-10 rounded-md bg-gray-200 flex items-center justify-center">
           <svg className="w-6 h-6 text-gray-500" viewBox="0 0 24 24">
             <path d="M12 2L2 7l8 5 8-5-10-5zM12 9L2 14l8 5 8-5-10-5zM12 16L2 21l8 5 8-5-10-5z" />
@@ -88,7 +88,7 @@ function BuildPcSelection() {
         </div>
       </div>
 
-      <div className="flex items-center gap-4">
+      <div className="flex items-center gap-2">
         <div className="w-10 h-10 rounded-md bg-gray-200 flex items-center justify-center">
           <svg className="w-6 h-6 text-gray-500" viewBox="0 0 24 24">
             <path d="M12 2L2 7l8 5 8-5-10-5zM12 9L2 14l8 5 8-5-10-5zM12 16L2 21l8 5 8-5-10-5z" />
@@ -98,6 +98,23 @@ function BuildPcSelection() {
           <h3 className="font-bold text-lg">Gabinete</h3>
           <p className="text-gray-500">Todavia no seleccionaste Gabinete</p>
         </div>
+      </div>
+
+      <div className="flex items-center gap-2">
+        <div className="w-10 h-10 rounded-md bg-gray-200 flex items-center justify-center">
+          <svg className="w-6 h-6 text-gray-500" viewBox="0 0 24 24">
+            <path d="M12 2L2 7l8 5 8-5-10-5zM12 9L2 14l8 5 8-5-10-5zM12 16L2 21l8 5 8-5-10-5z" />
+          </svg>
+        </div>
+        <div>
+          <h3 className="font-bold text-lg">Accesorios</h3>
+          <p className="text-gray-500">Todavia no seleccionaste Accesorios</p>
+        </div>
+      </div>
+
+      <div className='mt-4 p-2 bg-violet-900 rounded-lg shadow-sm border text-white text-lg flex items-start dark:bg-violet-200 dark:text-violet-900'>
+        <h1 className='font-bold'>Total:</h1>
+        <h1>$precio$</h1>
       </div>
 
     </div>

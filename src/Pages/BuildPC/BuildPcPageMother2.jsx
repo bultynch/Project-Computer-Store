@@ -6,6 +6,7 @@ import { FaArrowLeft, FaArrowRight } from "react-icons/fa6";
 import BuildPcSelection from '../../Components/BuildPcSelection';
 import ProductCard4 from '../../Components/Product/ProductCard4';
 import SecondNavBar from '../../Components/SecondNavBar';
+import ScrollTopButton from '../../Components/ScrollTopButton';
 
 function BuildPcPageMother2() {
   return (
@@ -43,6 +44,8 @@ function BuildPcPageMother2() {
         </div>
 
       </div>
+
+      <ScrollTopButton />
 
       <Footer />
 

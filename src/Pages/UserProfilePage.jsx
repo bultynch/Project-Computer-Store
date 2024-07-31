@@ -4,6 +4,7 @@ import SecondNavBar from '../Components/SecondNavBar'
 import Footer from '../Components/Footer'
 import { LuLogOut, LuPencil } from "react-icons/lu";
 import { MdPlace, MdAccountBox, MdAssignment, MdLocalMall, MdFileDownload } from "react-icons/md";
+import ScrollTopButton from '../Components/ScrollTopButton';
 
 function UserProfilePage() {
   return (
@@ -184,6 +185,8 @@ function UserProfilePage() {
         </div>
         
       </div>
+
+      <ScrollTopButton />
       
       <Footer />
       

@@ -6,6 +6,7 @@ import { FaArrowLeft } from "react-icons/fa6";
 import BuildPcSelection from '../../Components/BuildPcSelection';
 import ProductCard4 from '../../Components/Product/ProductCard4';
 import SecondNavBar from '../../Components/SecondNavBar';
+import ScrollTopButton from '../../Components/ScrollTopButton';
 
 function BuildPcPageMother2() {
   return (
@@ -20,6 +21,7 @@ function BuildPcPageMother2() {
 
         <div className='xl:gap-x-[743px] w-full flex justify-between xl:justify-center'>
           <Link to='/case' className="w-44 h-14 px-4 py-2 flex items-center bg-white border rounded-lg text-lg shadow-sm hover:bg-gray-100 hover:shadow-none dark:bg-neutral-800 dark:border-neutral-700 dark:text-white dark:hover:bg-neutral-600"><FaArrowLeft className='w-5 h-5 mr-2'/>Paso anterior</Link>
+          <Link to='/cart' className="w-44 h-14 px-2.5 py-2 flex items-center justify-center bg-white border rounded-lg text-lg shadow-sm hover:bg-gray-100 hover:shadow-none dark:bg-neutral-800 dark:border-neutral-700 dark:text-white dark:hover:bg-neutral-600">Ir al carrito</Link>
         </div>
 
         <div className='w-full gap-2 xl:flex items-start xl:justify-center'>
@@ -44,6 +46,8 @@ function BuildPcPageMother2() {
         </div>
 
       </div>
+      
+      <ScrollTopButton />
 
       <Footer />
 

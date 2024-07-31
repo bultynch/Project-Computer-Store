@@ -7,7 +7,7 @@ function Footer() {
 
       <aside className="flex items-center justify-center">
         
-        <p className='text-center'>Project Components Store © 2024 - Todos los derechos reservados</p>
+        <p className='text-center'>Project Component Store © 2024 - Todos los derechos reservados</p>
       </aside> 
 
       <nav className="flex gap-4 ">

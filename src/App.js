@@ -33,7 +33,7 @@ function App() {
         <Route path="/login" element={<LogInPage />} />
         <Route path="/signup" element={<SignUpPage />} />
         <Route path='/ProductIndividualPage' element={<ProductIndividualPage />} />
-        <Route path='/carrito' element={<CartPage />} />
+        <Route path='/cart' element={<CartPage />} />
         <Route path='/buildPc' element={<BuildPcPage />} />
         <Route path='/processor1' element={<BuildPcPageProcessor1 />} />
         <Route path='/processor2' element={<BuildPcPageProcessor2 />} />

@@ -5,6 +5,7 @@ import ProductCategory from '../Components/Product/ProductCategory'
 import Footer from '../Components/Footer'
 import ProductFilter from '../Components/Product/ProductFilter';
 import SecondNavBar from '../Components/SecondNavBar';
+import ScrollTopButton from '../Components/ScrollTopButton';
 
 function ProductsPage() {
   return (
@@ -47,6 +48,8 @@ function ProductsPage() {
         </div>
 
       </div>
+
+      <ScrollTopButton />
 
       <Footer />
 

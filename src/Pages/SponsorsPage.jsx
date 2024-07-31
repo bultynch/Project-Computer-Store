@@ -3,6 +3,7 @@ import NavBar from '../Components/NavBar';
 import Footer from '../Components/Footer';
 import SponsorsCard from '../Components/SponsorsCard';
 import SecondNavBar from '../Components/SecondNavBar';
+import ScrollTopButton from '../Components/ScrollTopButton';
 
 function SponsorsPage() {
   const imageUrls = {
@@ -30,6 +31,8 @@ function SponsorsPage() {
           <SponsorsCard key={index} imagen={imageUrls[key]} />
         ))}
       </div>
+
+      <ScrollTopButton />
 
       <Footer />
     </div>

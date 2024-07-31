@@ -4,6 +4,7 @@ import Footer from '../Components/Footer';
 import ProductCard3 from '../Components/Product/ProductCard3';
 import Especifications from '../Components/Especifications';
 import SecondNavBar from '../Components/SecondNavBar';
+import ScrollTopButton from '../Components/ScrollTopButton';
 
 function ProductIndividualPage() {
   return (
@@ -30,6 +31,7 @@ function ProductIndividualPage() {
 
       </div>
 
+      <ScrollTopButton />
 
       <Footer />
 

@@ -6,6 +6,7 @@ import BuildPcSelection from '../../Components/BuildPcSelection';
 import { FaArrowLeft, FaArrowRight } from "react-icons/fa6";
 import ProductCard4 from '../../Components/Product/ProductCard4';
 import SecondNavBar from '../../Components/SecondNavBar';
+import ScrollTopButton from '../../Components/ScrollTopButton';
 
 function BuildPcPageProcessor21() {
   return (
@@ -43,6 +44,8 @@ function BuildPcPageProcessor21() {
         </div>
 
       </div>
+
+      <ScrollTopButton />
 
       <Footer />
 
