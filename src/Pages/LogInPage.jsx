@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { FaArrowLeft } from "react-icons/fa6";
+import { FaArrowLeft, FaKey } from "react-icons/fa6";
 
 function LogInPage() {
   return (
