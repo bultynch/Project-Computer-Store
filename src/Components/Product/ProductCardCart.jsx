@@ -1,10 +1,11 @@
 import React from 'react';
+import Contador from '../Contandor'
 
 function ProductCard() {
   return (
-    <div className="w-full p-2 bg-white border flex flex-row">
+    <div className="w-full p-2 bg-white border flex flex-row justify-between">
 
-      <div className='w-1/2 flex items-center'>
+      <div className='w-3/4 flex items-center'>
 
         <img src='https://imagenes.compragamer.com/productos/compragamer_Imganen_general_35714_Gabinete_Antec_NX292_MESH_RGB_Vidrio_Templado_a017a79f-grn.jpg' alt='pimage'
         className="w-20 h-20"></img>
@@ -13,11 +14,8 @@ function ProductCard() {
       </div>
       
     
-      <div className='w-1/2 flex flex-row items-center justify-between'>
-        
-        <input type="radio" />
-        <h1>Total</h1>
-    
+      <div className='flex items-center justify-center'>
+        <Contador />
       </div>
   
     </div>
