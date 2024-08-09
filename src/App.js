@@ -21,6 +21,7 @@ import BuildPcPageFont from './Pages/BuildPC/BuildPcPageFont';
 import BuildPcPageCase from './Pages/BuildPC/BuildPcPageCase';
 import BuildPcPageAccessories from './Pages/BuildPC/BuildPcPageAccessories';
 import UserProfilePage from './Pages/UserProfilePage';
+import SuccesfulBuyPage from './Pages/SuccesfulBuyPage'
 
 function App() {
   return (
@@ -47,7 +48,7 @@ function App() {
         <Route path='/case' element={<BuildPcPageCase />} />
         <Route path='/accessories' element={<BuildPcPageAccessories />} />
         <Route path='/userProfile' element={<UserProfilePage />} />
-        
+        <Route path='/succesfulBuy' element={<SuccesfulBuyPage />} />
 
       </Routes>
     </Router>

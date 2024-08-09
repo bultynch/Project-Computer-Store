@@ -3,6 +3,8 @@ import Footer from '../Components/Footer'
 import NavBar from '../Components/NavBar'
 import SecondNavBar from '../Components/SecondNavBar';
 import ProductCardCart from '../Components/Product/ProductCardCart'
+import { Link } from 'react-router-dom';
+
 
 function Cart() {
 
@@ -55,7 +57,7 @@ function Cart() {
           </div>
         </div>
 
-        <div className='w-full p-6 border rounded-md shadow-sm bg-white'>
+        <div className='w-full my-4 p-6 border rounded-md shadow-sm bg-white'>
           <h1 className='font-semibold text-lg'>Pago</h1>
 
           <div className=''>
@@ -70,11 +72,11 @@ function Cart() {
           </div>
         </div>
         
-        <div className='mt-6 mb-4 w-full flex items-center justify-center'>
+        <Link to='/succesfulBuy' className='mt-6 mb-4 w-full flex items-center justify-center'>
           <button className='w-full py-4 rounded-lg border-2 shadow-sm border-green-600 bg-green-600 text-white hover:bg-white hover:text-green-600 hover:border-green-600'>
             <h1 className='font-semibold'>Finalizar compra</h1>
           </button>
-        </div>
+        </Link>
       </div>
 
       <Footer />
