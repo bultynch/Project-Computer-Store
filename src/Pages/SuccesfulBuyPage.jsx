@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import Footer from '../Components/Footer'
 import NavBar from '../Components/NavBar'
 import SecondNavBar from '../Components/SecondNavBar';
@@ -11,17 +12,23 @@ function Cart() {
       <NavBar />
       <SecondNavBar />
 
-      <div className='gap-2 m-2 sm:mx-10 md:mx-20 lg:mx-auto lg:max-w-3xl flex flex-grow flex-col lg:items-center'>
+      <div className='gap-4 mt-20 mx-2 flex flex-grow flex-col items-center'>
 
-        <div className='w-96 text-center dark:text-white'>
-          <h1 className='text-2xl font-bold'>Detalle de la compra</h1>
-          <h2 className='mt-2 text-md'>Asegúrate de controlar los items de la lista antes de continuar</h2>
+        <div className='w-full dark:text-white'>
+          <h1 className='text-center text-2xl font-bold'>Compra realizada con éxito.</h1>
+          <h2 className='mt-2 text-center text-md'>Te enviamos un email con los detalles de la compra.</h2>
         </div>
         
-        <div className='mt-6 mb-4 w-full flex items-center justify-center'>
-          <button className='w-96 py-4 rounded-lg border-2 shadow-sm border-green-600 bg-green-600 text-white hover:bg-white hover:text-green-600 hover:border-green-600'>
-            <h1 className='font-semibold'>Finalizar compra</h1>
+        <div className='gap-4 w-full flex flex-col items-center justify-center'>
+
+          <button className='w-80 py-4 text-center rounded-lg border-2 shadow-sm border-violet-900 bg-violet-900 text-white hover:bg-white hover:text-violet-900 hover:border-violet-900'>
+            <Link to='/' className='font-semibold'>Volver a comprar</Link>
           </button>
+
+          <button className='w-64 py-4 text-center rounded-lg border-2 shadow-sm border-violet-300 bg-violet-300 text-white hover:bg-white hover:text-violet-900'>
+            <Link to='/pfdPage' className='font-semibold'>Imprimir PDF</Link>
+          </button>
+
         </div>
       </div>
 
