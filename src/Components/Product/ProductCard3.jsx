@@ -63,10 +63,18 @@ const ProductCard3 = ({ nombre, precio, onAddToCart }) => {
         <div className='flex items-center justify-center border border-black'>
 
           {/*<Slider {...settings}>
-            <img src={images['main']} alt='prod-pic-1' className='w-60 h-60'/>
-            <img src={images['img-2']} alt='prod-pic-2' className='w-60 h-60'/>
-            <img src={images['img-3']} alt='prod-pic-3' className='w-60 h-60'/>
-            <img src={images['img-4']} alt='prod-pic-4' className='w-60 h-60'/>
+            <div className='w-80 h-auto'>
+              <img src={images['main']} alt='prod-pic-1' />
+            </div>
+            <div className='w-80 h-auto'>
+              <img src={images['img-2']} alt='prod-pic-2'/>
+            </div>
+            <div className='w-80 h-auto'>
+              <img src={images['img-3']} alt='prod-pic-3'/>
+            </div>
+            <div className='w-80 h-auto'>
+              <img src={images['img-4']} alt='prod-pic-4'/>
+            </div>
           </Slider>*/}
 
         </div>
@@ -111,8 +119,8 @@ const ProductCard3 = ({ nombre, precio, onAddToCart }) => {
 
         <div className="gap-2 flex flex-col">
 
-          <button className="p-4 bg-violet-900 text-white rounded-lg shadow-sm border hover:bg-white hover:text-violet-900 hover:border-violet-900">Comprar</button>
-          <Link to="/carrito" className="p-4 bg-gray-100 text-center md:text-left rounded-lg shadow-sm border font-semibold hover:bg-gray-200 ">Agregar al carrito</Link>
+          <button className="p-4 bg-cc1 text-white rounded-lg shadow-sm border hover:bg-white hover:text-cc1 hover:border-cc1">Comprar</button>
+          <Link to="/carrito" className="p-4 bg-gray-200 text-center md:text-left rounded-lg shadow-sm border font-semibold hover:bg-gray-300 ">Agregar al carrito</Link>
 
         </div>
 

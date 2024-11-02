@@ -3,7 +3,7 @@ import { FaInstagram, FaXTwitter, FaFacebook } from "react-icons/fa6";
 
 function Footer() {
   return (
-    <footer className="footer p-4 flex flex-col items-center justify-center sm:justify-between sm:flex-row text-white bg-violet-900">
+    <footer className="footer p-4 flex flex-col items-center justify-center sm:justify-between sm:flex-row text-white bg-cc1">
 
       <aside className="flex items-center justify-center">
         

@@ -21,11 +21,11 @@ function Cart() {
         
         <div className='gap-4 w-full flex flex-col items-center justify-center'>
 
-          <button className='w-80 py-4 text-center rounded-lg border-2 shadow-sm border-violet-900 bg-violet-900 text-white hover:bg-white hover:text-violet-900 hover:border-violet-900'>
+          <button className='w-80 py-4 text-center rounded-lg border-2 shadow-sm border-cc1 bg-cc1 text-white hover:bg-white hover:text-cc1 hover:border-cc1'>
             <Link to='/' className='font-semibold'>Volver a comprar</Link>
           </button>
 
-          <button className='w-64 py-4 text-center rounded-lg border-2 shadow-sm border-violet-300 bg-violet-300 text-white hover:bg-white hover:text-violet-900'>
+          <button className='w-64 py-4 text-center rounded-lg border-2 shadow-sm border-violet-300 bg-violet-300 text-white hover:bg-white hover:text-cc1'>
             <Link to='/pfdPage' className='font-semibold'>Imprimir PDF</Link>
           </button>
 

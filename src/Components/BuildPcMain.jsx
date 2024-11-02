@@ -12,7 +12,7 @@ function BuildPcMain() {
         <h1 className='text-center text-5xl md:text-6xl lg:text-7xl'>Armá Tu PC Ahora</h1>
         <p className='text-center md:text-lg lg:text-xl'>Encontrá los últimos componentes al mejor precio.</p>
         <Link to="/buildPC" className='mt-4 p-6 text-center text-2xl rounded-xl border
-            bg-violet-900
+            bg-cc1
             hover:bg-white
             hover:border-white
               hover:bg-opacity-50'

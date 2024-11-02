@@ -112,7 +112,7 @@ function BuildPcSelection() {
         </div>
       </div>
 
-      <div className='mt-4 p-2 bg-violet-900 rounded-lg shadow-sm border text-white text-lg flex items-start dark:bg-violet-200 dark:text-violet-900'>
+      <div className='mt-4 p-2 bg-cc1 rounded-lg shadow-sm border text-white text-lg flex items-start dark:bg-violet-200 dark:text-cc1'>
         <h1 className='font-bold'>Total:</h1>
         <h1>$precio$</h1>
       </div>

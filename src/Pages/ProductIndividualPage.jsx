@@ -18,14 +18,7 @@ function ProductIndividualPage() {
 
         <ProductCard3 nombre='Placa de video ASUS GeForce RTX 4080 16GB GDDR6X ROG STRIX OC' precio={1800000} />
 
-        <div className='my-2 py-2 flex items-center justify-center bg-white rounded-lg border shadow-sm'>
-          <h1 className='mx-1 text-md '>Especificaciones</h1>
-          <h1 className='mx-1 text-md '>Preguntas</h1>
-          <h1 className='mx-1 text-md '>Rendimiento</h1>
-          <h1 className='mx-1 text-md '>Comportamiento</h1>
-        </div>
-
-        <div className='my-2'>
+        <div className='mt-2'>
           <Especifications />
         </div>
 

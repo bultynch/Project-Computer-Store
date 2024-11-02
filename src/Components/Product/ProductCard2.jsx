@@ -21,7 +21,7 @@ const ProductCard2 = ({ nombre, precio, imagen }) => {
 
         <div className="mt-2 w-full">
 
-          <Link to="/" className="py-2 px-6 block text-center text-white rounded-lg font-normal border border-violet-900 bg-violet-900 hover:bg-white hover:text-violet-900 hover:border-violet-900">Ver oferta</Link>
+          <Link to="/" className="py-2 px-6 block text-center text-white rounded-lg font-normal border border-cc1 bg-cc1 hover:bg-white hover:text-cc1 hover:border-cc1">Ver oferta</Link>
 
         </div>
 

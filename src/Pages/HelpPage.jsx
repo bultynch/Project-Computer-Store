@@ -37,7 +37,7 @@ function HelpPage() {
               <div className='relative p-10 w-full flex items-center rounded-lg shadow-sm border bg-white dark:bg-neutral-800 dark:border-neutral-800'>
 
                 <div className="absolute w-20 h-20 flex items-center justify-center bg-gray-200 rounded-full z-10" />
-                <IoMdMail className="absolute m-5 w-10 h-10 text-blue z-20 text-violet-900" />
+                <IoMdMail className="absolute m-5 w-10 h-10 text-blue z-20 text-cc1" />
 
                 <div className='flex flex-col items-start justify-center w-full h-full pl-24'>
 
@@ -55,7 +55,7 @@ function HelpPage() {
               <div className='relative p-10 w-full flex items-center rounded-lg shadow-sm border bg-white dark:bg-neutral-800 dark:border-neutral-800'>
 
                 <div className="absolute w-20 h-20 flex items-center justify-center bg-gray-200 rounded-full z-10" />
-                <FaWhatsapp className="absolute m-5 w-10 h-10 text-blue z-20 text-violet-900" />
+                <FaWhatsapp className="absolute m-5 w-10 h-10 text-blue z-20 text-cc1" />
 
                 <div className='flex flex-col items-start justify-center w-full h-full pl-24'>
 
@@ -73,7 +73,7 @@ function HelpPage() {
               <div className='relative p-10 w-full flex items-center rounded-lg shadow-sm border bg-white dark:bg-neutral-800 dark:border-neutral-800'>
 
                 <div className="absolute w-20 h-20 flex items-center justify-center bg-gray-200 rounded-full z-10" />
-                <FiPhone className="absolute m-5 w-10 h-10 text-blue z-20 text-violet-900" />
+                <FiPhone className="absolute m-5 w-10 h-10 text-blue z-20 text-cc1" />
 
                 <div className='flex flex-col items-start justify-center w-full h-full pl-24'>
 
@@ -97,7 +97,7 @@ function HelpPage() {
               <div className='relative p-10 w-full flex items-center rounded-lg shadow-sm border bg-white dark:bg-neutral-800 dark:border-neutral-800'>
 
                 <div className="absolute w-20 h-20 flex items-center justify-center bg-gray-200 rounded-full z-10" />
-                <FaLocationDot className="absolute m-5 w-10 h-10 text-blue z-20 text-violet-900" />
+                <FaLocationDot className="absolute m-5 w-10 h-10 text-blue z-20 text-cc1" />
 
                 <div className='flex flex-col items-start justify-center w-full h-full pl-24'>
 
@@ -114,7 +114,7 @@ function HelpPage() {
               <div className='relative p-10 w-full flex items-center rounded-lg sshadow-sm border bg-white dark:bg-neutral-800 dark:border-neutral-800'>
 
                 <div className="absolute w-20 h-20 flex items-center justify-center bg-gray-200 rounded-full z-10" />
-                <FaTruck className="absolute m-5 w-10 h-10 text-blue z-20 text-violet-900" />
+                <FaTruck className="absolute m-5 w-10 h-10 text-blue z-20 text-cc1" />
 
                 <div className='flex flex-col items-start justify-center w-full h-full pl-24'>
 

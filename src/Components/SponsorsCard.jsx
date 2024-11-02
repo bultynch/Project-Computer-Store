@@ -9,7 +9,7 @@ const SponsorsCard = ({imagen}) => {
       </div>
 
       <div className='flex items-center justify-center  rounded-b-lg'>
-        <button className="py-4 w-full text-white font-normal rounded-lg shadow-sm border bg-violet-900 hover:bg-white hover:text-violet-900 hover:border-violet-900">Ver productos</button>
+        <button className="py-4 w-full text-white font-normal rounded-lg shadow-sm border bg-cc1 hover:bg-white hover:text-cc1 hover:border-cc1">Ver productos</button>
       </div>
           
     </div>

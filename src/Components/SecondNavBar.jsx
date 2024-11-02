@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 
 function SecondNavBar() {
   return (
-    <div className='gap-4 sm:gap-6 md:gap-10 w-full h-14 flex items-center justify-center text-sm text-white bg-violet-900'>
+    <div className='gap-4 sm:gap-6 md:gap-10 w-full h-14 flex items-center justify-center text-sm text-white bg-cc1'>
 
       <Link to='/products' className='text-center hover:text-gray-400'>PRODUCTOS</Link>
 

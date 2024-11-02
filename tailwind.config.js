@@ -34,6 +34,7 @@ module.exports = {
         'dark-blue2': '#274472',
         'midnight-blue': '#41729F',
         'midnight-blue2': '#5885AF',
+        'cc1': '#624E88'
       }
     },
     fontFamily: {

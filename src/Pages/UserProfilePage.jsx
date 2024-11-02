@@ -37,7 +37,7 @@ function UserProfilePage() {
                 <h1 className='text-sm'>Monto: 'montoReserva'</h1>
 
                 <div className='flex items-center justify-center'>
-                  <button className='mt-4 py-2 w-full rounded-md shadow-sm border bg-violet-900 text-white hover:bg-white hover:text-violet-900 hover:border-violet-900 dark:hover:bg-neutral-800 dark:hover:text-white dark:hover:border-white dark:border-none'>Ver detalle</button>
+                  <button className='mt-4 py-2 w-full rounded-md shadow-sm border bg-cc1 text-white hover:bg-white hover:text-cc1 hover:border-cc1 dark:hover:bg-neutral-800 dark:hover:text-white dark:hover:border-white dark:border-none'>Ver detalle</button>
                 </div>
 
               </div>
@@ -49,7 +49,7 @@ function UserProfilePage() {
                 <h1 className='text-sm'>Monto: 'montoReserva'</h1>
 
                 <div className='flex items-center justify-center'>
-                  <button className='mt-4 py-2 w-full rounded-md shadow-sm border bg-violet-900 text-white hover:bg-white hover:text-violet-900 hover:border-violet-900 dark:hover:bg-neutral-800 dark:hover:text-white dark:hover:border-white dark:border-none'>Ver detalle</button>
+                  <button className='mt-4 py-2 w-full rounded-md shadow-sm border bg-cc1 text-white hover:bg-white hover:text-cc1 hover:border-cc1 dark:hover:bg-neutral-800 dark:hover:text-white dark:hover:border-white dark:border-none'>Ver detalle</button>
                 </div>
 
               </div>
@@ -61,7 +61,7 @@ function UserProfilePage() {
                 <h1 className='text-sm'>Monto: 'montoReserva'</h1>
 
                 <div className='flex items-center justify-center'>
-                  <button className='mt-4 py-2 w-full rounded-md shadow-sm border bg-violet-900 text-white hover:bg-white hover:text-violet-900 hover:border-violet-900 dark:hover:bg-neutral-800 dark:hover:text-white dark:hover:border-white dark:border-none'>Ver detalle</button>
+                  <button className='mt-4 py-2 w-full rounded-md shadow-sm border bg-cc1 text-white hover:bg-white hover:text-cc1 hover:border-cc1 dark:hover:bg-neutral-800 dark:hover:text-white dark:hover:border-white dark:border-none'>Ver detalle</button>
                 </div>
 
               </div>

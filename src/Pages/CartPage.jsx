@@ -34,7 +34,7 @@ function Cart() {
             <ProductCardCart />
           </div>
 
-          <div className='p-6 flex flex-row justify-end rounded-b-md text-lg text-white bg-violet-900'>
+          <div className='p-6 flex flex-row justify-end rounded-b-md text-lg text-white bg-cc1'>
             <h1 className='mr-2'>Total:</h1>
             <h1 className='font-semibold'>$12,048.20</h1>
           </div>
