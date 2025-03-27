@@ -1,4 +1,5 @@
 import React from 'react';
+import { FaShoppingCart } from "react-icons/fa";
 import { Link } from 'react-router-dom';
 import { LuLogOut } from "react-icons/lu";
 import { IoSearch } from "react-icons/io5";
@@ -30,6 +31,13 @@ function NavigationBar() {
               <Link to='/userProfile' className='p-1 rounded-lg hover:bg-gray-100'>
                 <MdAccountBox className='w-6 h-6'/>
                 Mi cuenta
+              </Link>
+            </li>
+
+            <li className='my-1'>
+              <Link to='/userProfile' className='p-1 rounded-lg hover:bg-gray-100'>
+                <FaShoppingCart className='w-6 h-6'/>
+                Mi carrito
               </Link>
             </li>
 

@@ -8,7 +8,7 @@ import ScrollTopButton from '../Components/ScrollTopButton';
 
 function UserProfilePage() {
   return (
-    <div className='flex flex-col min-h-screen bg-violet-50 dark:bg-neutral-700'>
+    <div className='flex flex-col min-h-screen bg-violet-50 dark:bg-neutral-700 text-black'>
       
       <NavBar />
       
@@ -167,7 +167,7 @@ function UserProfilePage() {
             <div className='mt-4 w-full flex items-center justify-center'>
 
               <LuPencil className='mr-1 text-blue-400'/>
-              <button className='text-blue-400 hover:underline'>Agregar o cambiar cuenta</button>
+              <button className='text-blue-400 hover:underline'>Agregar o cambiar direcciones</button>
 
             </div>
 
